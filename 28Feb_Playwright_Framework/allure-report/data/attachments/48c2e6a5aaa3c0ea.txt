@@ -1,0 +1,16 @@
+[2026-05-13 00:06:16] [INFO] ====================================
+[2026-05-13 00:06:16] [INFO] TEST SUITE STARTED
+[2026-05-13 00:06:16] [INFO] Environment: qa
+[2026-05-13 00:06:16] [INFO] Timestamp: 2026-05-12T18:36:16.166Z
+[2026-05-13 00:06:16] [INFO] ====================================
+[2026-05-13 00:06:18] [INFO] ========== TEST START: TC016 - Validate no broken links on homepage @regression @e2e ==========
+[2026-05-13 00:06:18] [INFO] Browser: chromium
+[2026-05-13 00:06:19] [INFO] STEP 1: Get all links on the page
+[2026-05-13 00:06:20] [INFO] Found 15 links on homepage
+[2026-05-13 00:06:20] [INFO] STEP 2: Verify key navigation links exist
+[2026-05-13 00:06:20] [INFO] ✅ TEST PASSED: TC016 - Validate no broken links on homepage @regression @e2e
+[2026-05-13 00:06:20] [INFO] ========== TEST END: TC016 - Validate no broken links on homepage @regression @e2e ==========
+[2026-05-13 00:06:20] [INFO] ====================================
+[2026-05-13 00:06:20] [INFO] TEST SUITE COMPLETED
+[2026-05-13 00:06:20] [INFO] Timestamp: 2026-05-12T18:36:20.523Z
+[2026-05-13 00:06:20] [INFO] ====================================

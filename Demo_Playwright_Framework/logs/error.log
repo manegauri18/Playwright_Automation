@@ -1,0 +1,76 @@
+[2026-05-12 18:58:43] [ERROR] ❌ TEST FAILED: TC009 - Verify cart total price @regression @cart | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 18:58:43] [ERROR] ❌ TEST FAILED: TC008 - Remove product from cart @regression @cart | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 18:58:43] [ERROR] ❌ TEST FAILED: TC009a - Verify cart displays correct product names @regression @cart | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:01:44] [ERROR] ❌ TEST FAILED: TC009a - Verify cart displays correct product names @regression @cart | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:01:45] [ERROR] ❌ TEST FAILED: TC008 - Remove product from cart @regression @cart | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:01:45] [ERROR] ❌ TEST FAILED: TC009 - Verify cart total price @regression @cart | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:03:03] [ERROR] ❌ TEST FAILED: TC005 - Logout after successful login @smoke @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:03:03] [ERROR] ❌ TEST FAILED: TC001 - Valid Login with correct credentials @smoke @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:03:03] [ERROR] ❌ TEST FAILED: TC003 - Login with blank username @regression @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:03:36] [ERROR] ❌ TEST FAILED: TC003 - Login with blank username @regression @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:03:36] [ERROR] ❌ TEST FAILED: TC005 - Logout after successful login @smoke @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:03:56] [ERROR] ❌ TEST FAILED: TC001 - Valid Login with correct credentials @smoke @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:04:08] [ERROR] ❌ TEST FAILED: TC004 - Login with blank password @regression @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:04:29] [ERROR] ❌ TEST FAILED: TC002 - Invalid Login with wrong credentials @regression @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:04:51] [ERROR] ❌ TEST FAILED: TC004 - Login with blank password @regression @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:05:08] [ERROR] ❌ TEST FAILED: TC002 - Invalid Login with wrong credentials @regression @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:05:26] [ERROR] ❌ TEST FAILED: TC003 - Login with blank username @regression @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:05:26] [ERROR] ❌ TEST FAILED: TC001 - Valid Login with correct credentials @smoke @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:05:57] [ERROR] ❌ TEST FAILED: TC005 - Logout after successful login @smoke @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:05:58] [ERROR] ❌ TEST FAILED: TC003 - Login with blank username @regression @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:05:58] [ERROR] ❌ TEST FAILED: TC001 - Valid Login with correct credentials @smoke @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:06:29] [ERROR] ❌ TEST FAILED: TC005 - Logout after successful login @smoke @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:06:30] [ERROR] ❌ TEST FAILED: TC002 - Invalid Login with wrong credentials @regression @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:06:30] [ERROR] ❌ TEST FAILED: TC004 - Login with blank password @regression @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:07:02] [ERROR] ❌ TEST FAILED: TC001 - Valid Login with correct credentials @smoke @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:07:02] [ERROR] ❌ TEST FAILED: TC002 - Invalid Login with wrong credentials @regression @login | Error: [31mTest timeout of 30000ms exceeded.[39m
+[2026-05-12 19:07:02] [ERROR] ❌ TEST FAILED: TC004 - Login with blank password @regression @login | Error: [31mTest timeout of 30000ms exceeded.[39m
+[2026-05-12 19:07:34] [ERROR] ❌ TEST FAILED: TC003 - Login with blank username @regression @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:07:34] [ERROR] ❌ TEST FAILED: TC001 - Valid Login with correct credentials @smoke @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:07:34] [ERROR] ❌ TEST FAILED: TC005 - Logout after successful login @smoke @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:08:06] [ERROR] ❌ TEST FAILED: TC002 - Invalid Login with wrong credentials @regression @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:08:06] [ERROR] ❌ TEST FAILED: TC005 - Logout after successful login @smoke @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:08:06] [ERROR] ❌ TEST FAILED: TC003 - Login with blank username @regression @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:08:39] [ERROR] ❌ TEST FAILED: TC004 - Login with blank password @regression @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:08:39] [ERROR] ❌ TEST FAILED: TC002 - Invalid Login with wrong credentials @regression @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:09:11] [ERROR] ❌ TEST FAILED: TC003 - Login with blank username @regression @login | Error: [31mTest timeout of 30000ms exceeded.[39m
+[2026-05-12 19:09:11] [ERROR] ❌ TEST FAILED: TC004 - Login with blank password @regression @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:10:10] [ERROR] ❌ TEST FAILED: TC004 - Login with blank password @regression @login | Error: [31mTest timeout of 30000ms exceeded.[39m
+[2026-05-12 19:15:23] [ERROR] ❌ TEST FAILED: TC001 - Valid Login with correct credentials @smoke @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:15:29] [ERROR] ❌ TEST FAILED: TC001 - Valid Login with correct credentials @smoke @login | Error: Unknown error
+[2026-05-12 19:15:29] [ERROR] ❌ TEST FAILED: TC001 - Valid Login with correct credentials @smoke @login | Error: Unknown error
+[2026-05-12 19:16:07] [ERROR] ❌ TEST FAILED: TC001 - Valid Login with correct credentials @smoke @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:16:17] [ERROR] ❌ TEST FAILED: TC001 - Valid Login with correct credentials @smoke @login | Error: Unknown error
+[2026-05-12 19:16:17] [ERROR] ❌ TEST FAILED: TC001 - Valid Login with correct credentials @smoke @login | Error: Unknown error
+[2026-05-12 19:16:53] [ERROR] ❌ TEST FAILED: TC001 - Valid Login with correct credentials @smoke @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:17:39] [ERROR] ❌ TEST FAILED: TC001 - Valid Login with correct credentials @smoke @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:18:26] [ERROR] ❌ TEST FAILED: TC001 - Valid Login with correct credentials @smoke @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 20:49:11] [ERROR] ❌ TEST FAILED: TC001 - Valid Login with correct credentials @smoke @login | Error: TimeoutError: locator.click: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for locator('button[onclick=\'logIn1()\']')[22m
+
+[2026-05-12 20:49:58] [ERROR] ❌ TEST FAILED: TC001 - Valid Login with correct credentials @smoke @login | Error: TimeoutError: locator.click: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for locator('button[onclick=\'logIn1()\']')[22m
+
+[2026-05-12 20:54:02] [ERROR] ❌ TEST FAILED: TC001 - Valid Login with correct credentials @smoke @login | Error: Unknown error
+[2026-05-12 20:54:02] [ERROR] ❌ TEST FAILED: TC005 - Logout after successful login @smoke @login | Error: Unknown error
+[2026-05-12 20:54:02] [ERROR] ❌ TEST FAILED: TC003 - Login with blank username @regression @login | Error: Unknown error
+[2026-05-12 20:54:54] [ERROR] ❌ TEST FAILED: TC005 - Logout after successful login @smoke @login | Error: Unknown error
+[2026-05-12 20:54:54] [ERROR] ❌ TEST FAILED: TC002 - Invalid Login with wrong credentials @regression @login | Error: Unknown error
+[2026-05-12 20:54:54] [ERROR] ❌ TEST FAILED: TC004 - Login with blank password @regression @login | Error: Unknown error
+[2026-05-12 20:54:56] [ERROR] ❌ TEST FAILED: TC001 - Valid Login with correct credentials @smoke @login | Error: Unknown error
+[2026-05-12 20:54:58] [ERROR] ❌ TEST FAILED: TC003 - Login with blank username @regression @login | Error: Error: write EPIPE
+[2026-05-12 20:56:40] [ERROR] ❌ TEST FAILED: TC0011 - Logout after successful login @smoke @login | Error: [31mTest timeout of 30000ms exceeded.[39m
+[2026-05-12 20:56:40] [ERROR] ❌ TEST FAILED: TC001 - Valid Login with correct credentials @smoke @login | Error: [31mTest timeout of 30000ms exceeded.[39m
+[2026-05-12 20:56:41] [ERROR] ❌ TEST FAILED: TC0010 - Logout after successful login @smoke @login | Error: [31mTest timeout of 30000ms exceeded.[39m
+[2026-05-12 20:56:41] [ERROR] ❌ TEST FAILED: TC007 - Logout after successful login @smoke @login | Error: [31mTest timeout of 30000ms exceeded.[39m
+[2026-05-12 20:56:41] [ERROR] ❌ TEST FAILED: TC004 - Login with blank password @regression @login | Error: [31mTest timeout of 30000ms exceeded.[39m
+[2026-05-12 20:56:41] [ERROR] ❌ TEST FAILED: TC003 - Login with blank username @regression @login | Error: [31mTest timeout of 30000ms exceeded.[39m
+[2026-05-12 20:56:41] [ERROR] ❌ TEST FAILED: TC006 - Logout after successful login @smoke @login | Error: [31mTest timeout of 30000ms exceeded.[39m
+[2026-05-12 20:56:41] [ERROR] ❌ TEST FAILED: TC005 - Logout after successful login @smoke @login | Error: [31mTest timeout of 30000ms exceeded.[39m
+[2026-05-12 20:56:42] [ERROR] ❌ TEST FAILED: TC002 - Invalid Login with wrong credentials @regression @login | Error: [31mTest timeout of 30000ms exceeded.[39m
+[2026-05-12 20:56:44] [ERROR] ❌ TEST FAILED: TC009 - Logout after successful login @smoke @login | Error: [31mTest timeout of 30000ms exceeded.[39m
+[2026-05-12 20:58:58] [ERROR] ❌ TEST FAILED: TC006 - Logout after successful login @smoke @login | Error: Unknown error
+[2026-05-12 20:58:58] [ERROR] ❌ TEST FAILED: TC001 - Valid Login with correct credentials @smoke @login | Error: Unknown error
+[2026-05-12 20:58:58] [ERROR] ❌ TEST FAILED: TC0010 - Logout after successful login @smoke @login | Error: Unknown error

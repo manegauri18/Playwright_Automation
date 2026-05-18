@@ -1,0 +1,195 @@
+[2026-05-12 23:17:37] [INFO] ====================================
+[2026-05-12 23:17:37] [INFO] TEST SUITE STARTED
+[2026-05-12 23:17:37] [INFO] Environment: qa
+[2026-05-12 23:17:37] [INFO] Timestamp: 2026-05-12T17:47:37.906Z
+[2026-05-12 23:17:37] [INFO] ====================================
+[2026-05-12 23:17:40] [INFO] ========== TEST START: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 23:17:40] [INFO] Browser: chromium
+[2026-05-12 23:17:41] [INFO] Initialized LoginPage fixture
+[2026-05-12 23:17:41] [INFO] STEP 1: Login with valid credentials
+[2026-05-12 23:17:41] [INFO] Performing login with user: pavanol
+[2026-05-12 23:17:41] [INFO] Clicking Login navigation link
+[2026-05-12 23:17:41] [INFO] Waiting for element: #login2
+[2026-05-12 23:17:41] [INFO] Clicking element: #login2
+[2026-05-12 23:17:42] [INFO] Entering username: pavanol
+[2026-05-12 23:17:42] [INFO] Waiting for element: #loginusername
+[2026-05-12 23:17:42] [INFO] Entering text in: #loginusername
+[2026-05-12 23:17:42] [INFO] Entering password
+[2026-05-12 23:17:42] [INFO] Entering text in: #loginpassword
+[2026-05-12 23:17:43] [INFO] Clicking Login button
+[2026-05-12 23:17:43] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 23:17:45] [INFO] STEP 2: Verify user is logged in
+[2026-05-12 23:17:45] [INFO] Waiting for element: #nameofuser
+[2026-05-12 23:17:45] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-12 23:17:45] [INFO] Welcome text: Welcome pavanol
+[2026-05-12 23:17:45] [INFO] STEP 3: Verify welcome text contains username
+[2026-05-12 23:17:45] [INFO] Waiting for element: #nameofuser
+[2026-05-12 23:17:45] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-12 23:17:45] [INFO] ✅ TEST PASSED: TC001 - Valid Login with correct credentials @smoke @login
+[2026-05-12 23:17:45] [INFO] ========== TEST END: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 23:17:45] [INFO] ====================================
+[2026-05-12 23:17:45] [INFO] TEST SUITE COMPLETED
+[2026-05-12 23:17:45] [INFO] Timestamp: 2026-05-12T17:47:45.502Z
+[2026-05-12 23:17:45] [INFO] ====================================
+[2026-05-12 23:27:10] [INFO] ====================================
+[2026-05-12 23:27:10] [INFO] TEST SUITE STARTED
+[2026-05-12 23:27:10] [INFO] Environment: qa
+[2026-05-12 23:27:10] [INFO] Timestamp: 2026-05-12T17:57:10.856Z
+[2026-05-12 23:27:10] [INFO] ====================================
+[2026-05-12 23:27:13] [INFO] ========== TEST START: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 23:27:13] [INFO] Browser: chromium
+[2026-05-12 23:27:14] [INFO] Initialized LoginPage fixture
+[2026-05-12 23:27:14] [INFO] STEP 1: Login with valid credentials
+[2026-05-12 23:27:14] [INFO] Performing login with user: pavanol
+[2026-05-12 23:27:14] [INFO] Clicking Login navigation link
+[2026-05-12 23:27:14] [INFO] Waiting for element: #login2
+[2026-05-12 23:27:14] [INFO] Clicking element: #login2
+[2026-05-12 23:27:15] [INFO] Entering username: pavanol
+[2026-05-12 23:27:15] [INFO] Waiting for element: #loginusername
+[2026-05-12 23:27:15] [INFO] Entering text in: #loginusername
+[2026-05-12 23:27:15] [INFO] Entering password
+[2026-05-12 23:27:15] [INFO] Entering text in: #loginpassword
+[2026-05-12 23:27:15] [INFO] Clicking Login button
+[2026-05-12 23:27:15] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 23:27:17] [INFO] STEP 2: Verify user is logged in
+[2026-05-12 23:27:17] [INFO] Waiting for element: #nameofuser
+[2026-05-12 23:27:17] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-12 23:27:17] [INFO] Welcome text: Welcome pavanol
+[2026-05-12 23:27:17] [INFO] STEP 3: Verify welcome text contains username
+[2026-05-12 23:27:17] [INFO] Waiting for element: #nameofuser
+[2026-05-12 23:27:17] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-12 23:27:17] [INFO] ✅ TEST PASSED: TC001 - Valid Login with correct credentials @smoke @login
+[2026-05-12 23:27:18] [INFO] ========== TEST END: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 23:27:18] [INFO] ====================================
+[2026-05-12 23:27:18] [INFO] TEST SUITE COMPLETED
+[2026-05-12 23:27:18] [INFO] Timestamp: 2026-05-12T17:57:18.099Z
+[2026-05-12 23:27:18] [INFO] ====================================
+[2026-05-12 23:27:31] [INFO] ====================================
+[2026-05-12 23:27:31] [INFO] TEST SUITE STARTED
+[2026-05-12 23:27:31] [INFO] Environment: qa
+[2026-05-12 23:27:31] [INFO] Timestamp: 2026-05-12T17:57:31.128Z
+[2026-05-12 23:27:31] [INFO] ====================================
+[2026-05-12 23:27:33] [INFO] ========== TEST START: TC008 - Remove product from cart @regression @cart ==========
+[2026-05-12 23:27:33] [INFO] Browser: chromium
+[2026-05-12 23:27:34] [INFO] Initialized HomePage fixture
+[2026-05-12 23:27:34] [INFO] Initialized ProductPage fixture
+[2026-05-12 23:27:34] [INFO] Initialized CartPage fixture
+[2026-05-12 23:27:34] [INFO] STEP 1: Add a product to cart
+[2026-05-12 23:27:34] [INFO] Selecting product: Samsung galaxy s6
+[2026-05-12 23:27:37] [INFO] Adding product to cart
+[2026-05-12 23:27:37] [INFO] Clicking element: a[onclick='addToCart()']
+[2026-05-12 23:27:52] [ERROR] ❌ TEST FAILED: TC008 - Remove product from cart @regression @cart | Error: TimeoutError: locator.click: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for locator('a[onclick=\'addToCart()\']')[22m
+
+[2026-05-12 23:27:52] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Playwright_Framework/screenshots/FAIL_TC008___Remove_product_from_cart__regression__cart_2026-05-12T17-57-52-507Z.png
+[2026-05-12 23:27:52] [INFO] Allure: Screenshot attached to report
+[2026-05-12 23:27:52] [INFO] Allure: Page source attached to report
+[2026-05-12 23:27:52] [INFO] Allure: Execution logs attached to report
+[2026-05-12 23:27:52] [INFO] ========== TEST END: TC008 - Remove product from cart @regression @cart ==========
+[2026-05-12 23:27:52] [INFO] ====================================
+[2026-05-12 23:27:52] [INFO] TEST SUITE COMPLETED
+[2026-05-12 23:27:52] [INFO] Timestamp: 2026-05-12T17:57:52.661Z
+[2026-05-12 23:27:52] [INFO] ====================================
+[2026-05-12 23:28:19] [INFO] ====================================
+[2026-05-12 23:28:19] [INFO] TEST SUITE STARTED
+[2026-05-12 23:28:19] [INFO] Environment: qa
+[2026-05-12 23:28:19] [INFO] Timestamp: 2026-05-12T17:58:19.264Z
+[2026-05-12 23:28:19] [INFO] ====================================
+[2026-05-12 23:28:21] [INFO] ========== TEST START: TC008 - Remove product from cart @regression @cart ==========
+[2026-05-12 23:28:21] [INFO] Browser: chromium
+[2026-05-12 23:28:22] [INFO] Initialized HomePage fixture
+[2026-05-12 23:28:22] [INFO] Initialized ProductPage fixture
+[2026-05-12 23:28:22] [INFO] Initialized CartPage fixture
+[2026-05-12 23:28:22] [INFO] STEP 1: Add a product to cart
+[2026-05-12 23:28:22] [INFO] Selecting product: Samsung galaxy s6
+[2026-05-12 23:28:25] [INFO] Adding product to cart
+[2026-05-12 23:28:25] [INFO] Clicking element: a[onclick='addToCart()']
+[2026-05-12 23:28:41] [ERROR] ❌ TEST FAILED: TC008 - Remove product from cart @regression @cart | Error: TimeoutError: locator.click: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for locator('a[onclick=\'addToCart()\']')[22m
+
+[2026-05-12 23:28:41] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Playwright_Framework/screenshots/FAIL_TC008___Remove_product_from_cart__regression__cart_2026-05-12T17-58-41-024Z.png
+[2026-05-12 23:28:41] [INFO] Allure: Screenshot attached to report
+[2026-05-12 23:28:41] [INFO] Allure: Page source attached to report
+[2026-05-12 23:28:41] [INFO] Allure: Execution logs attached to report
+[2026-05-12 23:28:41] [INFO] ========== TEST END: TC008 - Remove product from cart @regression @cart ==========
+[2026-05-12 23:28:41] [INFO] ====================================
+[2026-05-12 23:28:41] [INFO] TEST SUITE COMPLETED
+[2026-05-12 23:28:41] [INFO] Timestamp: 2026-05-12T17:58:41.223Z
+[2026-05-12 23:28:41] [INFO] ====================================
+[2026-05-12 23:29:07] [INFO] ====================================
+[2026-05-12 23:29:07] [INFO] TEST SUITE STARTED
+[2026-05-12 23:29:07] [INFO] Environment: qa
+[2026-05-12 23:29:07] [INFO] Timestamp: 2026-05-12T17:59:07.148Z
+[2026-05-12 23:29:07] [INFO] ====================================
+[2026-05-12 23:29:09] [INFO] ========== TEST START: TC009 - Verify cart total price @regression @cart ==========
+[2026-05-12 23:29:09] [INFO] Browser: chromium
+[2026-05-12 23:29:10] [INFO] Initialized HomePage fixture
+[2026-05-12 23:29:10] [INFO] Initialized ProductPage fixture
+[2026-05-12 23:29:10] [INFO] Initialized CartPage fixture
+[2026-05-12 23:29:10] [INFO] STEP 1: Add multiple products to cart
+[2026-05-12 23:29:12] [INFO] Selecting product: Samsung galaxy s6
+[2026-05-12 23:29:14] [INFO] Adding product to cart
+[2026-05-12 23:29:14] [INFO] Clicking element: a[onclick='addToCart()']
+[2026-05-12 23:29:29] [ERROR] ❌ TEST FAILED: TC009 - Verify cart total price @regression @cart | Error: TimeoutError: locator.click: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for locator('a[onclick=\'addToCart()\']')[22m
+
+[2026-05-12 23:29:29] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Playwright_Framework/screenshots/FAIL_TC009___Verify_cart_total_price__regression__cart_2026-05-12T17-59-29-550Z.png
+[2026-05-12 23:29:29] [INFO] Allure: Screenshot attached to report
+[2026-05-12 23:29:29] [INFO] Allure: Page source attached to report
+[2026-05-12 23:29:29] [INFO] Allure: Execution logs attached to report
+[2026-05-12 23:29:29] [INFO] ========== TEST END: TC009 - Verify cart total price @regression @cart ==========
+[2026-05-12 23:29:29] [INFO] ====================================
+[2026-05-12 23:29:29] [INFO] TEST SUITE COMPLETED
+[2026-05-12 23:29:29] [INFO] Timestamp: 2026-05-12T17:59:29.794Z
+[2026-05-12 23:29:29] [INFO] ====================================
+[2026-05-12 23:29:55] [INFO] ====================================
+[2026-05-12 23:29:55] [INFO] TEST SUITE STARTED
+[2026-05-12 23:29:55] [INFO] Environment: qa
+[2026-05-12 23:29:55] [INFO] Timestamp: 2026-05-12T17:59:55.733Z
+[2026-05-12 23:29:55] [INFO] ====================================
+[2026-05-12 23:29:58] [INFO] ========== TEST START: TC009 - Verify cart total price @regression @cart ==========
+[2026-05-12 23:29:58] [INFO] Browser: chromium
+[2026-05-12 23:29:59] [INFO] Initialized HomePage fixture
+[2026-05-12 23:29:59] [INFO] Initialized ProductPage fixture
+[2026-05-12 23:29:59] [INFO] Initialized CartPage fixture
+[2026-05-12 23:29:59] [INFO] STEP 1: Add multiple products to cart
+[2026-05-12 23:30:01] [INFO] Selecting product: Samsung galaxy s6
+[2026-05-12 23:30:03] [INFO] Adding product to cart
+[2026-05-12 23:30:03] [INFO] Clicking element: a[onclick='addToCart()']
+[2026-05-12 23:30:18] [ERROR] ❌ TEST FAILED: TC009 - Verify cart total price @regression @cart | Error: TimeoutError: locator.click: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for locator('a[onclick=\'addToCart()\']')[22m
+
+[2026-05-12 23:30:18] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Playwright_Framework/screenshots/FAIL_TC009___Verify_cart_total_price__regression__cart_2026-05-12T18-00-18-835Z.png
+[2026-05-12 23:30:18] [INFO] Allure: Screenshot attached to report
+[2026-05-12 23:30:18] [INFO] Allure: Page source attached to report
+[2026-05-12 23:30:18] [INFO] Allure: Execution logs attached to report
+[2026-05-12 23:30:18] [INFO] ========== TEST END: TC009 - Verify cart total price @regression @cart ==========
+[2026-05-12 23:30:19] [INFO] ====================================
+[2026-05-12 23:30:19] [INFO] TEST SUITE COMPLETED
+[2026-05-12 23:30:19] [INFO] Timestamp: 2026-05-12T18:00:19.061Z
+[2026-05-12 23:30:19] [INFO] ====================================
+[2026-05-12 23:30:42] [INFO] ====================================
+[2026-05-12 23:30:42] [INFO] TEST SUITE STARTED
+[2026-05-12 23:30:42] [INFO] Environment: qa
+[2026-05-12 23:30:42] [INFO] Timestamp: 2026-05-12T18:00:42.692Z
+[2026-05-12 23:30:42] [INFO] ====================================
+[2026-05-12 23:30:44] [INFO] ========== TEST START: TC009a - Verify cart displays correct product names @regression @cart ==========
+[2026-05-12 23:30:44] [INFO] Browser: chromium
+[2026-05-12 23:30:45] [INFO] Initialized HomePage fixture
+[2026-05-12 23:30:45] [INFO] Initialized ProductPage fixture
+[2026-05-12 23:30:45] [INFO] Initialized CartPage fixture
+[2026-05-12 23:30:45] [INFO] STEP 1: Add product: Samsung galaxy s6
+[2026-05-12 23:30:45] [INFO] Selecting product: Samsung galaxy s6
+[2026-05-12 23:30:48] [INFO] Adding product to cart
+[2026-05-12 23:30:48] [INFO] Clicking element: a[onclick='addToCart()']
+[2026-05-12 23:31:03] [ERROR] ❌ TEST FAILED: TC009a - Verify cart displays correct product names @regression @cart | Error: TimeoutError: locator.click: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for locator('a[onclick=\'addToCart()\']')[22m
+
+[2026-05-12 23:31:04] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Playwright_Framework/screenshots/FAIL_TC009a___Verify_cart_displays_correct_product_names__regression__cart_2026-05-12T18-01-03-925Z.png
+[2026-05-12 23:31:04] [INFO] Allure: Screenshot attached to report
+[2026-05-12 23:31:04] [INFO] Allure: Page source attached to report

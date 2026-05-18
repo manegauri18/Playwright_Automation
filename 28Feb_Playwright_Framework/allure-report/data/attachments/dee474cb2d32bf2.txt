@@ -1,0 +1,23 @@
+[2026-05-14 19:28:26] [INFO] ====================================
+[2026-05-14 19:28:26] [INFO] TEST SUITE STARTED
+[2026-05-14 19:28:26] [INFO] Environment: qa
+[2026-05-14 19:28:26] [INFO] Timestamp: 2026-05-14T13:58:26.157Z
+[2026-05-14 19:28:26] [INFO] ====================================
+[2026-05-14 19:28:29] [INFO] ========== TEST START: TC018 - Cross browser homepage validation @smoke @e2e ==========
+[2026-05-14 19:28:29] [INFO] Browser: chromium
+[2026-05-14 19:28:30] [INFO] Initialized HomePage fixture
+[2026-05-14 19:28:30] [INFO] STEP 1: Verify homepage loads in current browser
+[2026-05-14 19:28:31] [ERROR] ❌ TEST FAILED: TC018 - Cross browser homepage validation @smoke @e2e | Error: Unknown error
+[2026-05-14 19:28:31] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Playwright_Framework/screenshots/FAIL_TC018___Cross_browser_homepage_validation__smoke__e2e_2026-05-14T13-58-31-419Z.png
+[2026-05-14 19:28:31] [INFO] Allure: Screenshot attached to report
+[2026-05-14 19:28:31] [INFO] Allure: Page source attached to report
+[2026-05-14 19:28:31] [INFO] Allure: Execution logs attached to report
+[2026-05-14 19:28:31] [INFO] ========== TEST END: TC018 - Cross browser homepage validation @smoke @e2e ==========
+[2026-05-14 19:28:31] [ERROR] Home page failed to load: locator.waitFor: Test ended.
+Call log:
+  - waiting for locator('.card-block').first() to be visible
+
+[2026-05-14 19:28:31] [INFO] ====================================
+[2026-05-14 19:28:31] [INFO] TEST SUITE COMPLETED
+[2026-05-14 19:28:31] [INFO] Timestamp: 2026-05-14T13:58:31.610Z
+[2026-05-14 19:28:31] [INFO] ====================================

@@ -1,0 +1,21 @@
+[2026-05-14 20:46:54] [INFO] ====================================
+[2026-05-14 20:46:54] [INFO] TEST SUITE STARTED
+[2026-05-14 20:46:54] [INFO] Environment: qa
+[2026-05-14 20:46:54] [INFO] Timestamp: 2026-05-14T15:16:54.037Z
+[2026-05-14 20:46:54] [INFO] ====================================
+[2026-05-14 20:46:54] [INFO] ========== TEST START: TC019 - Parallel execution product browsing @smoke @e2e ==========
+[2026-05-14 20:46:54] [INFO] Browser: chromium
+[2026-05-14 20:46:56] [INFO] Initialized HomePage fixture
+[2026-05-14 20:46:56] [INFO] Initialized ProductPage fixture
+[2026-05-14 20:46:56] [INFO] STEP 1: Select a product
+[2026-05-14 20:46:56] [INFO] Selecting product: Samsung galaxy s6
+[2026-05-14 20:46:59] [INFO] STEP 2: Verify product details
+[2026-05-14 20:46:59] [INFO] Waiting for element: .name
+[2026-05-14 20:46:59] [INFO] Got text from .name: Samsung galaxy s6
+[2026-05-14 20:46:59] [INFO] Product title: Samsung galaxy s6
+[2026-05-14 20:46:59] [INFO] STEP 3: Verify price is displayed
+[2026-05-14 20:46:59] [INFO] Waiting for element: .price-container
+[2026-05-14 20:46:59] [INFO] Got text from .price-container: $360 *includes tax
+[2026-05-14 20:46:59] [INFO] Product price: $360 *includes tax
+[2026-05-14 20:46:59] [INFO] ✅ TEST PASSED: TC019 - Parallel execution product browsing @smoke @e2e
+[2026-05-14 20:46:59] [INFO] ========== TEST END: TC019 - Parallel execution product browsing @smoke @e2e ==========

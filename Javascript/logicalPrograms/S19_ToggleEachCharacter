@@ -1,0 +1,25 @@
+// Program to toggle each character in a string
+
+let input = "HeLLo WoRLd 123!";
+let toggled = "";
+
+for (let i = 0; i < input.length; i++) 
+{
+  let ch = input[i];
+
+  if (ch >= 'A' && ch <= 'Z') 
+{
+    toggled += ch.toLowerCase();
+  } 
+else if (ch >= 'a' && ch <= 'z') 
+{
+    toggled += ch.toUpperCase();
+} 
+else 
+{
+    toggled += ch; // Keep non-alphabetic characters unchanged
+  }
+}
+
+console.log("Original: " + input);
+console.log("Toggled: " + toggled);

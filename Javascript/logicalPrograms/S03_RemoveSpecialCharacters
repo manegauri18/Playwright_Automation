@@ -1,0 +1,23 @@
+// Program to remove special characters from a string
+
+let PalindromeNum= 15151;
+let rev=0;
+let temp= PalindromeNum;
+
+while(temp>0)
+{
+  let digit= temp%10; //last digit
+  rev= rev*10 + digit;
+  temp= Math.floor(temp/10); 
+}
+
+console.log("rev num is: ", rev);
+
+if (PalindromeNum==rev)
+{
+    console.log("Number is palindrome");
+} 
+else
+{
+    console.log("Number is not palindrome");
+}

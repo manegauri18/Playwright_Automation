@@ -1,0 +1,26 @@
+// Program to remove duplicates from a string
+
+let input = "programming998";
+let seen = new Set();
+let unique = "";
+let duplicate = "";
+
+for (let i = 0; i < input.length; i++) 
+{
+  let ch = input[i];
+
+  if (seen.has(ch)) 
+{
+        duplicate = duplicate + ch;
+   
+  } 
+  else 
+    {
+    seen.add(ch);
+    unique = unique + ch;
+  }
+}
+
+console.log("Original: " + input);
+console.log("Without duplicates: " + unique);
+console.log("Duplicate: " + duplicate);

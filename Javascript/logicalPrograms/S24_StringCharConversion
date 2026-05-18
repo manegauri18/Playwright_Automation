@@ -1,0 +1,11 @@
+// S20_StringCharConversion.js
+
+const input = "hello";
+
+// Convert String to char array
+const charArray = input.split('');
+console.log("Char Array:", charArray);
+
+// Convert char array back to String
+const convertedBack = charArray.join('');
+console.log("Converted Back to String:", convertedBack);

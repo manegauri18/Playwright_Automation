@@ -1,0 +1,18 @@
+[2026-05-14 20:47:20] [INFO] ====================================
+[2026-05-14 20:47:20] [INFO] TEST SUITE STARTED
+[2026-05-14 20:47:20] [INFO] Environment: qa
+[2026-05-14 20:47:20] [INFO] Timestamp: 2026-05-14T15:17:20.701Z
+[2026-05-14 20:47:20] [INFO] ====================================
+[2026-05-14 20:47:21] [INFO] ========== TEST START: TC012c - Verify Monitors category shows monitor products @regression @product ==========
+[2026-05-14 20:47:21] [INFO] Browser: chromium
+[2026-05-14 20:47:22] [INFO] Initialized HomePage fixture
+[2026-05-14 20:47:22] [INFO] STEP 1: Click on Monitors category
+[2026-05-14 20:47:22] [INFO] Selecting category: monitors
+[2026-05-14 20:47:22] [INFO] Clicking element: a[onclick="byCat('monitor')"]
+[2026-05-14 20:47:25] [INFO] STEP 2: Verify products are displayed
+[2026-05-14 20:47:26] [INFO] ✅ TEST PASSED: TC012c - Verify Monitors category shows monitor products @regression @product
+[2026-05-14 20:47:26] [INFO] ========== TEST END: TC012c - Verify Monitors category shows monitor products @regression @product ==========
+[2026-05-14 20:47:26] [INFO] ====================================
+[2026-05-14 20:47:26] [INFO] TEST SUITE COMPLETED
+[2026-05-14 20:47:26] [INFO] Timestamp: 2026-05-14T15:17:26.513Z
+[2026-05-14 20:47:26] [INFO] ====================================

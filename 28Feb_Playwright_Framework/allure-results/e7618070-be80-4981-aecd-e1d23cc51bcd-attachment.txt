@@ -1,0 +1,28 @@
+[2026-05-14 20:54:57] [INFO] ====================================
+[2026-05-14 20:54:57] [INFO] TEST SUITE STARTED
+[2026-05-14 20:54:57] [INFO] Environment: staging
+[2026-05-14 20:54:57] [INFO] Timestamp: 2026-05-14T15:24:57.725Z
+[2026-05-14 20:54:57] [INFO] ====================================
+[2026-05-14 20:55:00] [INFO] ========== TEST START: TC002 - Invalid Login with wrong credentials @regression @login ==========
+[2026-05-14 20:55:00] [INFO] Browser: chromium
+[2026-05-14 20:55:02] [INFO] Initialized LoginPage fixture
+[2026-05-14 20:55:02] [INFO] STEP 1: Login with invalid credentials
+[2026-05-14 20:55:02] [INFO] Performing login with user: invaliduser123
+[2026-05-14 20:55:02] [INFO] Clicking Login navigation link
+[2026-05-14 20:55:02] [INFO] Waiting for element: #login2
+[2026-05-14 20:55:02] [INFO] Clicking element: #login2
+[2026-05-14 20:55:03] [INFO] Entering username: invaliduser123
+[2026-05-14 20:55:03] [INFO] Waiting for element: #loginusername
+[2026-05-14 20:55:04] [INFO] Entering text in: #loginusername
+[2026-05-14 20:55:05] [INFO] Entering password
+[2026-05-14 20:55:05] [INFO] Entering text in: #loginpassword
+[2026-05-14 20:55:05] [INFO] Clicking Login button
+[2026-05-14 20:55:05] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-14 20:55:07] [INFO] STEP 2: Verify user is NOT logged in
+[2026-05-14 20:55:10] [INFO] Waiting for element: #nameofuser
+[2026-05-14 20:55:15] [INFO] ✅ TEST PASSED: TC002 - Invalid Login with wrong credentials @regression @login
+[2026-05-14 20:55:16] [INFO] ========== TEST END: TC002 - Invalid Login with wrong credentials @regression @login ==========
+[2026-05-14 20:55:16] [INFO] ====================================
+[2026-05-14 20:55:16] [INFO] TEST SUITE COMPLETED
+[2026-05-14 20:55:16] [INFO] Timestamp: 2026-05-14T15:25:16.866Z
+[2026-05-14 20:55:16] [INFO] ====================================

@@ -1,0 +1,31 @@
+[2026-05-12 23:41:02] [INFO] ========== TEST START: TC005 - Logout after successful login @smoke @login ==========
+[2026-05-12 23:41:02] [INFO] Browser: chromium
+[2026-05-12 23:41:03] [INFO] Initialized LoginPage fixture
+[2026-05-12 23:41:03] [INFO] STEP 1: Login with valid credentials
+[2026-05-12 23:41:03] [INFO] Performing login with user: pavanol
+[2026-05-12 23:41:03] [INFO] Clicking Login navigation link
+[2026-05-12 23:41:03] [INFO] Waiting for element: #login2
+[2026-05-12 23:41:03] [INFO] Clicking element: #login2
+[2026-05-12 23:41:04] [INFO] Entering username: pavanol
+[2026-05-12 23:41:04] [INFO] Waiting for element: #loginusername
+[2026-05-12 23:41:04] [INFO] Entering text in: #loginusername
+[2026-05-12 23:41:04] [INFO] Entering password
+[2026-05-12 23:41:04] [INFO] Entering text in: #loginpassword
+[2026-05-12 23:41:04] [INFO] Clicking Login button
+[2026-05-12 23:41:04] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 23:41:06] [INFO] STEP 2: Verify user is logged in
+[2026-05-12 23:41:06] [INFO] Waiting for element: #nameofuser
+[2026-05-12 23:41:09] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-12 23:41:09] [INFO] Welcome text: Welcome pavanol
+[2026-05-12 23:41:09] [INFO] STEP 3: Perform logout
+[2026-05-12 23:41:09] [INFO] Performing logout
+[2026-05-12 23:41:09] [INFO] Waiting for element: #logout2
+[2026-05-12 23:41:09] [INFO] Clicking element: #logout2
+[2026-05-12 23:41:11] [INFO] STEP 4: Verify Login nav is visible after logout
+[2026-05-12 23:41:12] [INFO] Element #login2 visible: true
+[2026-05-12 23:41:12] [INFO] ✅ TEST PASSED: TC005 - Logout after successful login @smoke @login
+[2026-05-12 23:41:12] [INFO] ========== TEST END: TC005 - Logout after successful login @smoke @login ==========
+[2026-05-12 23:41:12] [INFO] ====================================
+[2026-05-12 23:41:12] [INFO] TEST SUITE COMPLETED
+[2026-05-12 23:41:12] [INFO] Timestamp: 2026-05-12T18:11:12.330Z
+[2026-05-12 23:41:12] [INFO] ====================================

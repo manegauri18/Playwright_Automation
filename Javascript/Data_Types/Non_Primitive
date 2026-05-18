@@ -1,0 +1,76 @@
+// NON-PRIMITIVE DATA TYPES
+// ===============================
+// Non-primitive types store collections of data.
+// Examples: Object, Array, Function
+// They are mutable (their values can be changed after creation)
+// ========================================
+// 1. OBJECT
+// ========================================
+// Object = Collection of key-value pairs
+// Syntax: { key : value }
+let person = {
+name: "Virat", // key: name, value: "Virat"
+age: 35, // key: age, value: 35
+city: "Mumbai", // key: city, value: "Mumbai"
+isEmployed: true // key: isEmployed, value: true
+};
+console.log("\n---- Object Example -------------");
+// Print complete object
+console.log(person);
+// Access multiple properties
+console.log(person.name, person.age);
+// Access single property
+console.log(person.age);
+// Updating object value (Objects are mutable)
+person.age = 32;
+// Print updated value
+console.log(person.age); // Output: 32
+// ========================================
+// 2. ARRAY
+// ========================================
+// Array = Collection of multiple values
+// Values can be of same or different data types
+let colors = ["Red", "Green", "Blue"];
+console.log("\n---- Array Example -------------");
+
+// Array of numbers
+let number = [1, 2, 3, 4, 5];
+// Array with mixed data types
+let mixed = ["Text", 123, true, null, { key: "value" }];
+console.log("------ Array Example -----");
+// typeof array returns "object" in JavaScript
+console.log(typeof colors);
+// Check if variable is an array
+console.log(Array.isArray(number));
+// Print arrays
+console.log(number);
+console.log(colors);
+// Length of array
+console.log(colors.length);
+// ========================================
+// 3. FUNCTION
+// ========================================
+// Function = Reusable block of code
+// Functions are first-class objects in JavaScript
+// Meaning: functions can be stored in variables,
+// passed as arguments, and returned from other functions
+function demo() {
+console.log(`Hello, Javascript!`);
+}
+console.log("\n---- Function Example -------------");
+// Calling the function multiple times
+demo();
+demo();
+demo();
+// typeof function
+console.log(typeof demo); // Output: function
+// ========================================
+// FUNCTION EXPRESSION
+// ========================================
+
+// Function stored inside a variable
+const add = function (a, b) {
+return a + b;
+};
+// Calling the function
+console.log(add(10, 5)); // Output: 15

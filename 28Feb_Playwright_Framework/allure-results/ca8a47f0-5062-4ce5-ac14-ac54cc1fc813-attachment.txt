@@ -1,0 +1,14 @@
+[2026-05-14 19:30:36] [INFO] ====================================
+[2026-05-14 19:30:36] [INFO] TEST SUITE STARTED
+[2026-05-14 19:30:36] [INFO] Environment: qa
+[2026-05-14 19:30:36] [INFO] Timestamp: 2026-05-14T14:00:36.180Z
+[2026-05-14 19:30:36] [INFO] ====================================
+[2026-05-14 19:30:37] [ERROR] ❌ TEST FAILED: TC018 - Cross browser homepage validation @smoke @e2e | Error: Unknown error
+[2026-05-14 19:30:37] [WARN] Allure: Failed to attach screenshot - Cannot read properties of null (reading 'screenshot')
+[2026-05-14 19:30:37] [WARN] Allure: Failed to attach page source - Cannot read properties of null (reading 'content')
+[2026-05-14 19:30:37] [INFO] Allure: Execution logs attached to report
+[2026-05-14 19:30:37] [INFO] ========== TEST END: TC018 - Cross browser homepage validation @smoke @e2e ==========
+[2026-05-14 19:30:37] [INFO] ====================================
+[2026-05-14 19:30:37] [INFO] TEST SUITE COMPLETED
+[2026-05-14 19:30:37] [INFO] Timestamp: 2026-05-14T14:00:37.926Z
+[2026-05-14 19:30:37] [INFO] ====================================

@@ -1,0 +1,63 @@
+// DO...WHILE LOOP
+// =======================================================
+
+/*
+Syntax:
+initialization;
+do {
+    code to be executed;
+    increment/decrement;
+} while (condition);
+
+Key Points:
+- Code block is executed FIRST, then condition is checked
+- Runs AT LEAST ONCE even if condition is false
+- Semicolon (;) is required after while(condition)
+- Useful when you want to execute code at least once
+*/
+
+
+// =======================================================
+// Example 1: Print 1 to 5 using Do-While Loop
+// =======================================================
+
+let q = 1;
+
+do {
+    console.log(q);  // Output: 1, 2, 3, 4, 5
+    q++;
+} while (q <= 5);
+
+console.log("====================================");
+
+
+// =======================================================
+// Example 2: Do-While runs at least once (even if condition is false)
+// =======================================================
+
+let r = 10;
+
+do {
+    console.log("This will print at least once, r =", r);
+    r++;
+} while (r <= 5);  // Condition is false (10 <= 5), but code runs once
+
+// Output: This will print at least once, r = 10
+
+console.log("====================================");
+
+
+// =======================================================
+// Example 3: Sum of Numbers using Do-While Loop
+// =======================================================
+
+let sum2 = 0;
+let s = 1;
+
+do {
+    sum2 = sum2 + s;
+    s++;
+} while (s <= 10);
+
+console.log("Sum using do-while loop:", sum2);  // Output: 55
+console.log("====================================");

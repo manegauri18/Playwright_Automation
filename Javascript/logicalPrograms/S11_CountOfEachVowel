@@ -1,0 +1,34 @@
+// Program to count each vowel in a string
+let inputString = "Hello World";
+inputString = inputString.toLowerCase();
+
+let a = 0, e = 0, i = 0, o = 0, u = 0;
+
+for (let j = 0; j < inputString.length; j++) 
+
+{
+  let ch = inputString[j];
+
+  if (ch === 'a') 
+    {
+    a++;
+  } else if (ch === 'e')
+     {
+    e++;
+  } else if (ch === 'i') 
+    {
+    i++;
+  } else if (ch === 'o') 
+    {
+    o++;
+  } else if (ch === 'u') 
+    {
+    u++;
+  }
+}
+
+console.log("Count of 'a': " + a);
+console.log("Count of 'e': " + e);
+console.log("Count of 'i': " + i);
+console.log("Count of 'o': " + o);
+console.log("Count of 'u': " + u);

@@ -1,0 +1,26 @@
+{
+    "validUser": {
+        "username": "pavanol",
+        "password": "test@123"
+    },
+    "invalidUser": {
+        "username": "invaliduser123",
+        "password": "wrongpassword"
+    },
+    "blankUsername": {
+        "username": "",
+        "password": "test@123"
+    },
+    "blankPassword": {
+        "username": "pavanol",
+        "password": ""
+    },
+    "specialCharUser": {
+        "username": "user@#$%",
+        "password": "pass@#$%"
+    },
+    "longUsername": {
+        "username": "verylongusernamethatexceedsnormallimitsforvalidation",
+        "password": "test@123"
+    }
+}

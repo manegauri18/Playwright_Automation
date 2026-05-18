@@ -1,0 +1,68 @@
+[2026-05-14 20:47:00] [INFO] ========== TEST START: TC020 - Complete E2E purchase flow - login, add product, checkout @smoke @e2e ==========
+[2026-05-14 20:47:00] [INFO] Browser: chromium
+[2026-05-14 20:47:01] [INFO] Initialized LoginPage fixture
+[2026-05-14 20:47:01] [INFO] Initialized HomePage fixture
+[2026-05-14 20:47:01] [INFO] Initialized ProductPage fixture
+[2026-05-14 20:47:01] [INFO] Initialized CartPage fixture
+[2026-05-14 20:47:01] [INFO] STEP 1: Login with valid credentials
+[2026-05-14 20:47:01] [INFO] Performing login with user: pavanol
+[2026-05-14 20:47:01] [INFO] Clicking Login navigation link
+[2026-05-14 20:47:01] [INFO] Waiting for element: #login2
+[2026-05-14 20:47:02] [INFO] Clicking element: #login2
+[2026-05-14 20:47:03] [INFO] Entering username: pavanol
+[2026-05-14 20:47:03] [INFO] Waiting for element: #loginusername
+[2026-05-14 20:47:03] [INFO] Entering text in: #loginusername
+[2026-05-14 20:47:03] [INFO] Entering password
+[2026-05-14 20:47:03] [INFO] Entering text in: #loginpassword
+[2026-05-14 20:47:04] [INFO] Clicking Login button
+[2026-05-14 20:47:04] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-14 20:47:06] [INFO] Waiting for element: #nameofuser
+[2026-05-14 20:47:06] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-14 20:47:06] [INFO] Welcome text: Welcome pavanol
+[2026-05-14 20:47:06] [INFO] STEP 2: Navigate to home and select product
+[2026-05-14 20:47:08] [INFO] Selecting product: Samsung galaxy s6
+[2026-05-14 20:47:11] [INFO] STEP 3: Verify product page and add to cart
+[2026-05-14 20:47:11] [INFO] Waiting for element: .name
+[2026-05-14 20:47:11] [INFO] Got text from .name: Samsung galaxy s6
+[2026-05-14 20:47:11] [INFO] Product title: Samsung galaxy s6
+[2026-05-14 20:47:11] [INFO] Adding product to cart
+[2026-05-14 20:47:12] [INFO] Alert message: Product added.
+[2026-05-14 20:47:13] [INFO] STEP 4: Navigate to cart
+[2026-05-14 20:47:13] [INFO] Navigating to Cart page
+[2026-05-14 20:47:13] [INFO] Clicking element: #cartur
+[2026-05-14 20:47:16] [INFO] Cart item count: 1
+[2026-05-14 20:47:16] [INFO] STEP 5: Complete checkout
+[2026-05-14 20:47:16] [INFO] Generated random name: Mary Moore
+[2026-05-14 20:47:16] [INFO] Clicking Place Order button
+[2026-05-14 20:47:16] [INFO] Clicking element: button[data-target='#orderModal']
+[2026-05-14 20:47:17] [INFO] Filling order form
+[2026-05-14 20:47:17] [INFO] Waiting for element: #name
+[2026-05-14 20:47:17] [INFO] Entering text in: #name
+[2026-05-14 20:47:17] [INFO] Entering text in: #country
+[2026-05-14 20:47:17] [INFO] Entering text in: #city
+[2026-05-14 20:47:17] [INFO] Entering text in: #card
+[2026-05-14 20:47:18] [INFO] Entering text in: #month
+[2026-05-14 20:47:18] [INFO] Entering text in: #year
+[2026-05-14 20:47:18] [INFO] Clicking Purchase button
+[2026-05-14 20:47:18] [INFO] Clicking element: button[onclick='purchaseOrder()']
+[2026-05-14 20:47:20] [INFO] STEP 6: Verify order confirmation
+[2026-05-14 20:47:20] [INFO] Waiting for element: .sweet-alert h2
+[2026-05-14 20:47:20] [INFO] Got text from .sweet-alert h2: Thank you for your purchase!
+[2026-05-14 20:47:20] [INFO] Order confirmation: Thank you for your purchase!
+[2026-05-14 20:47:20] [INFO] STEP 7: Verify confirmation details
+[2026-05-14 20:47:20] [INFO] Waiting for element: .sweet-alert p.lead
+[2026-05-14 20:47:20] [INFO] Got text from .sweet-alert p.lead: Id: 7391784Amount: 360 USDCard Number: 4111111111111111Name: Mary MooreDate: 14/4/2026
+[2026-05-14 20:47:20] [INFO] Clicking OK on confirmation
+[2026-05-14 20:47:20] [INFO] Clicking element: .sweet-alert .confirm
+[2026-05-14 20:47:21] [INFO] STEP 8: Logout
+[2026-05-14 20:47:21] [INFO] Performing logout
+[2026-05-14 20:47:21] [INFO] Waiting for element: #logout2
+[2026-05-14 20:47:22] [INFO] Clicking element: #logout2
+[2026-05-14 20:47:24] [INFO] Element #login2 visible: true
+[2026-05-14 20:47:24] [INFO] E2E Purchase Flow Completed Successfully!
+[2026-05-14 20:47:25] [INFO] ✅ TEST PASSED: TC020 - Complete E2E purchase flow - login, add product, checkout @smoke @e2e
+[2026-05-14 20:47:25] [INFO] ========== TEST END: TC020 - Complete E2E purchase flow - login, add product, checkout @smoke @e2e ==========
+[2026-05-14 20:47:26] [INFO] ====================================
+[2026-05-14 20:47:26] [INFO] TEST SUITE COMPLETED
+[2026-05-14 20:47:26] [INFO] Timestamp: 2026-05-14T15:17:26.032Z
+[2026-05-14 20:47:26] [INFO] ====================================

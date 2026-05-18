@@ -1,0 +1,20 @@
+[2026-05-12 23:52:28] [INFO] ====================================
+[2026-05-12 23:52:28] [INFO] TEST SUITE STARTED
+[2026-05-12 23:52:28] [INFO] Environment: qa
+[2026-05-12 23:52:28] [INFO] Timestamp: 2026-05-12T18:22:28.240Z
+[2026-05-12 23:52:28] [INFO] ====================================
+[2026-05-12 23:52:30] [INFO] ========== TEST START: TC014 - Verify navigation menu links @regression @e2e ==========
+[2026-05-12 23:52:30] [INFO] Browser: chromium
+[2026-05-12 23:52:31] [INFO] Initialized HomePage fixture
+[2026-05-12 23:52:31] [INFO] STEP 1: Verify navigation menu is visible
+[2026-05-12 23:52:31] [INFO] Element a.nav-link[href='index.html'] visible: true
+[2026-05-12 23:52:31] [INFO] Element a.nav-link[data-target='#exampleModal'] visible: true
+[2026-05-12 23:52:31] [INFO] Element #cartur visible: true
+[2026-05-12 23:52:31] [INFO] STEP 2: Verify home page is loaded
+[2026-05-12 23:52:32] [INFO] Home page loaded successfully
+[2026-05-12 23:52:32] [INFO] ✅ TEST PASSED: TC014 - Verify navigation menu links @regression @e2e
+[2026-05-12 23:52:32] [INFO] ========== TEST END: TC014 - Verify navigation menu links @regression @e2e ==========
+[2026-05-12 23:52:32] [INFO] ====================================
+[2026-05-12 23:52:32] [INFO] TEST SUITE COMPLETED
+[2026-05-12 23:52:32] [INFO] Timestamp: 2026-05-12T18:22:32.842Z
+[2026-05-12 23:52:32] [INFO] ====================================

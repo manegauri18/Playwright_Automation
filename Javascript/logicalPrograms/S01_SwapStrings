@@ -1,0 +1,10 @@
+// Program to swap two strings
+let str1 = "Hello";
+let str2 = "World";
+
+let temp = str1; // temp = "Hello"
+str1 = str2;     // str1 = "World"
+str2 = temp;     // str2 = "Hello"
+
+console.log("str1 = " + str1);
+console.log("str2 = " + str2);

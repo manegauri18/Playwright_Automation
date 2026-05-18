@@ -1,0 +1,26 @@
+[2026-05-14 19:28:55] [INFO] ====================================
+[2026-05-14 19:28:55] [INFO] TEST SUITE STARTED
+[2026-05-14 19:28:55] [INFO] Environment: qa
+[2026-05-14 19:28:55] [INFO] Timestamp: 2026-05-14T13:58:55.281Z
+[2026-05-14 19:28:55] [INFO] ====================================
+[2026-05-14 19:28:58] [INFO] ========== TEST START: TC018 - Cross browser homepage validation @smoke @e2e ==========
+[2026-05-14 19:28:58] [INFO] Browser: chromium
+[2026-05-14 19:28:59] [INFO] Initialized HomePage fixture
+[2026-05-14 19:28:59] [INFO] STEP 1: Verify homepage loads in current browser
+[2026-05-14 19:28:59] [ERROR] ❌ TEST FAILED: TC018 - Cross browser homepage validation @smoke @e2e | Error: Unknown error
+[2026-05-14 19:29:00] [INFO] Home page loaded successfully
+[2026-05-14 19:29:00] [INFO] STEP 2: Verify page title
+[2026-05-14 19:29:00] [INFO] Page title: STORE
+[2026-05-14 19:29:00] [INFO] STEP 3: Verify categories
+[2026-05-14 19:29:00] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Playwright_Framework/screenshots/FAIL_TC018___Cross_browser_homepage_validation__smoke__e2e_2026-05-14T13-58-59-860Z.png
+[2026-05-14 19:29:00] [INFO] Allure: Screenshot attached to report
+[2026-05-14 19:29:00] [INFO] Element a[onclick="byCat('phone')"] visible: true
+[2026-05-14 19:29:00] [INFO] Allure: Page source attached to report
+[2026-05-14 19:29:00] [INFO] Allure: Execution logs attached to report
+[2026-05-14 19:29:00] [INFO] ========== TEST END: TC018 - Cross browser homepage validation @smoke @e2e ==========
+[2026-05-14 19:29:00] [INFO] Element a[onclick="byCat('notebook')"] visible: true
+[2026-05-14 19:29:00] [INFO] Element a[onclick="byCat('monitor')"] visible: true
+[2026-05-14 19:29:00] [INFO] ====================================
+[2026-05-14 19:29:00] [INFO] TEST SUITE COMPLETED
+[2026-05-14 19:29:00] [INFO] Timestamp: 2026-05-14T13:59:00.355Z
+[2026-05-14 19:29:00] [INFO] ====================================

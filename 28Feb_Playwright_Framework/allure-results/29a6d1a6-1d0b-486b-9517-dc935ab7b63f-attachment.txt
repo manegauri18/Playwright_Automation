@@ -1,0 +1,33 @@
+[2026-05-14 20:54:57] [INFO] ====================================
+[2026-05-14 20:54:57] [INFO] TEST SUITE STARTED
+[2026-05-14 20:54:57] [INFO] Environment: staging
+[2026-05-14 20:54:57] [INFO] Timestamp: 2026-05-14T15:24:57.654Z
+[2026-05-14 20:54:57] [INFO] ====================================
+[2026-05-14 20:55:00] [INFO] ========== TEST START: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-14 20:55:00] [INFO] Browser: chromium
+[2026-05-14 20:55:02] [INFO] Initialized LoginPage fixture
+[2026-05-14 20:55:02] [INFO] STEP 1: Login with valid credentials
+[2026-05-14 20:55:02] [INFO] Performing login with user: pavanol
+[2026-05-14 20:55:02] [INFO] Clicking Login navigation link
+[2026-05-14 20:55:02] [INFO] Waiting for element: #login2
+[2026-05-14 20:55:02] [INFO] Clicking element: #login2
+[2026-05-14 20:55:04] [INFO] Entering username: pavanol
+[2026-05-14 20:55:04] [INFO] Waiting for element: #loginusername
+[2026-05-14 20:55:04] [INFO] Entering text in: #loginusername
+[2026-05-14 20:55:05] [INFO] Entering password
+[2026-05-14 20:55:05] [INFO] Entering text in: #loginpassword
+[2026-05-14 20:55:05] [INFO] Clicking Login button
+[2026-05-14 20:55:05] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-14 20:55:07] [INFO] STEP 2: Verify user is logged in
+[2026-05-14 20:55:07] [INFO] Waiting for element: #nameofuser
+[2026-05-14 20:55:08] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-14 20:55:08] [INFO] Welcome text: Welcome pavanol
+[2026-05-14 20:55:08] [INFO] STEP 3: Verify welcome text contains username
+[2026-05-14 20:55:08] [INFO] Waiting for element: #nameofuser
+[2026-05-14 20:55:08] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-14 20:55:08] [INFO] ✅ TEST PASSED: TC001 - Valid Login with correct credentials @smoke @login
+[2026-05-14 20:55:09] [INFO] ========== TEST END: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-14 20:55:09] [INFO] ====================================
+[2026-05-14 20:55:09] [INFO] TEST SUITE COMPLETED
+[2026-05-14 20:55:09] [INFO] Timestamp: 2026-05-14T15:25:09.496Z
+[2026-05-14 20:55:09] [INFO] ====================================

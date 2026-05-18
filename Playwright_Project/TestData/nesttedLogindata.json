@@ -1,0 +1,35 @@
+[
+    {
+        "testID": "TC01",
+        "credentials": {
+            "username": "Admin",
+            "password": "admin123"
+        },
+        "expected": {
+            "result": "success",
+            "heading": "Dashboard"
+        }
+    },
+    {
+        "testID": "TC02",
+        "credentials": {
+            "username": "Admin",
+            "password": "admin1234"
+        },
+        "expected": {
+            "result": "failure",
+            "errorMessage": "Invalid credentials"
+        }
+    },
+    {
+        "testID": "TC03",
+        "credentials": {
+            "username": "Admin12",
+            "password": "admin123"
+        },
+        "expected": {
+            "result": "failure",
+            "errorMessage": "Invalid credentials"
+        }
+    }
+]

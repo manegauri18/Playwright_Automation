@@ -1,0 +1,22 @@
+[2026-05-12 23:57:02] [INFO] ====================================
+[2026-05-12 23:57:02] [INFO] TEST SUITE STARTED
+[2026-05-12 23:57:02] [INFO] Environment: qa
+[2026-05-12 23:57:02] [INFO] Timestamp: 2026-05-12T18:27:02.744Z
+[2026-05-12 23:57:02] [INFO] ====================================
+[2026-05-12 23:57:04] [INFO] ========== TEST START: TC016 - Validate no broken links on homepage @regression @e2e ==========
+[2026-05-12 23:57:04] [INFO] Browser: chromium
+[2026-05-12 23:57:05] [INFO] STEP 1: Get all links on the page
+[2026-05-12 23:57:05] [INFO] Found 15 links on homepage
+[2026-05-12 23:57:05] [INFO] STEP 2: Verify key navigation links exist
+[2026-05-12 23:57:05] [ERROR] ❌ TEST FAILED: TC016 - Validate no broken links on homepage @regression @e2e | Error: Error: expect(received).toBeTruthy()
+
+Received: false
+[2026-05-12 23:57:06] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Playwright_Framework/screenshots/FAIL_TC016___Validate_no_broken_links_on_homepage__regression__e2e_2026-05-12T18-27-05-974Z.png
+[2026-05-12 23:57:06] [INFO] Allure: Screenshot attached to report
+[2026-05-12 23:57:06] [INFO] Allure: Page source attached to report
+[2026-05-12 23:57:06] [INFO] Allure: Execution logs attached to report
+[2026-05-12 23:57:06] [INFO] ========== TEST END: TC016 - Validate no broken links on homepage @regression @e2e ==========
+[2026-05-12 23:57:06] [INFO] ====================================
+[2026-05-12 23:57:06] [INFO] TEST SUITE COMPLETED
+[2026-05-12 23:57:06] [INFO] Timestamp: 2026-05-12T18:27:06.151Z
+[2026-05-12 23:57:06] [INFO] ====================================

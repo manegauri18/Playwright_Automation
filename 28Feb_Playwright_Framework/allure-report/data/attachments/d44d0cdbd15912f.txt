@@ -1,0 +1,27 @@
+[2026-05-12 23:28:19] [INFO] ====================================
+[2026-05-12 23:28:19] [INFO] TEST SUITE STARTED
+[2026-05-12 23:28:19] [INFO] Environment: qa
+[2026-05-12 23:28:19] [INFO] Timestamp: 2026-05-12T17:58:19.264Z
+[2026-05-12 23:28:19] [INFO] ====================================
+[2026-05-12 23:28:21] [INFO] ========== TEST START: TC008 - Remove product from cart @regression @cart ==========
+[2026-05-12 23:28:21] [INFO] Browser: chromium
+[2026-05-12 23:28:22] [INFO] Initialized HomePage fixture
+[2026-05-12 23:28:22] [INFO] Initialized ProductPage fixture
+[2026-05-12 23:28:22] [INFO] Initialized CartPage fixture
+[2026-05-12 23:28:22] [INFO] STEP 1: Add a product to cart
+[2026-05-12 23:28:22] [INFO] Selecting product: Samsung galaxy s6
+[2026-05-12 23:28:25] [INFO] Adding product to cart
+[2026-05-12 23:28:25] [INFO] Clicking element: a[onclick='addToCart()']
+[2026-05-12 23:28:41] [ERROR] ❌ TEST FAILED: TC008 - Remove product from cart @regression @cart | Error: TimeoutError: locator.click: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator('a[onclick=\'addToCart()\']')
+
+[2026-05-12 23:28:41] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Playwright_Framework/screenshots/FAIL_TC008___Remove_product_from_cart__regression__cart_2026-05-12T17-58-41-024Z.png
+[2026-05-12 23:28:41] [INFO] Allure: Screenshot attached to report
+[2026-05-12 23:28:41] [INFO] Allure: Page source attached to report
+[2026-05-12 23:28:41] [INFO] Allure: Execution logs attached to report
+[2026-05-12 23:28:41] [INFO] ========== TEST END: TC008 - Remove product from cart @regression @cart ==========
+[2026-05-12 23:28:41] [INFO] ====================================
+[2026-05-12 23:28:41] [INFO] TEST SUITE COMPLETED
+[2026-05-12 23:28:41] [INFO] Timestamp: 2026-05-12T17:58:41.223Z
+[2026-05-12 23:28:41] [INFO] ====================================

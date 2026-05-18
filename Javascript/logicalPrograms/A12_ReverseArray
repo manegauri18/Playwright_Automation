@@ -1,0 +1,11 @@
+const inputArray = ['H', 'e', 'l', 'l', 'o', ' ', 'S', 'a', 'g', 'a', 'r'];
+const result = [];
+
+// Reverse using a for loop
+for (let i = 0; i < inputArray.length; i++) 
+{
+  result[i] = inputArray[inputArray.length - 1 - i];
+}
+
+console.log(result);           // [ 'r', 'a', 'g', 'a', 'S', ' ', 'o', 'l', 'l', 'e', 'H' ]
+

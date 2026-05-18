@@ -1,0 +1,199 @@
+[2026-05-13 00:04:47] [INFO] Allure: Execution logs attached to report
+[2026-05-13 00:04:47] [INFO] ========== TEST END: TC016 - Validate no broken links on homepage @regression @e2e ==========
+[2026-05-13 00:04:47] [INFO] ====================================
+[2026-05-13 00:04:47] [INFO] TEST SUITE COMPLETED
+[2026-05-13 00:04:47] [INFO] Timestamp: 2026-05-12T18:34:47.119Z
+[2026-05-13 00:04:47] [INFO] ====================================
+[2026-05-13 00:04:47] [INFO] ====================================
+[2026-05-13 00:04:47] [INFO] TEST SUITE STARTED
+[2026-05-13 00:04:47] [INFO] Environment: qa
+[2026-05-13 00:04:47] [INFO] Timestamp: 2026-05-12T18:34:47.786Z
+[2026-05-13 00:04:47] [INFO] ====================================
+[2026-05-13 00:04:49] [INFO] ========== TEST START: TC016 - Validate no broken links on homepage @regression @e2e ==========
+[2026-05-13 00:04:49] [INFO] Browser: chromium
+[2026-05-13 00:04:50] [INFO] STEP 1: Get all links on the page
+[2026-05-13 00:04:50] [INFO] Found 15 links on homepage
+[2026-05-13 00:04:50] [INFO] STEP 2: Verify key navigation links exist
+[2026-05-13 00:04:50] [ERROR] ❌ TEST FAILED: TC016 - Validate no broken links on homepage @regression @e2e | Error: ReferenceError: homePage is not defined
+[2026-05-13 00:04:51] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Playwright_Framework/screenshots/FAIL_TC016___Validate_no_broken_links_on_homepage__regression__e2e_2026-05-12T18-34-50-939Z.png
+[2026-05-13 00:04:51] [INFO] Allure: Screenshot attached to report
+[2026-05-13 00:04:51] [INFO] Allure: Page source attached to report
+[2026-05-13 00:04:51] [INFO] Allure: Execution logs attached to report
+[2026-05-13 00:04:51] [INFO] ========== TEST END: TC016 - Validate no broken links on homepage @regression @e2e ==========
+[2026-05-13 00:04:51] [INFO] ====================================
+[2026-05-13 00:04:51] [INFO] TEST SUITE COMPLETED
+[2026-05-13 00:04:51] [INFO] Timestamp: 2026-05-12T18:34:51.120Z
+[2026-05-13 00:04:51] [INFO] ====================================
+[2026-05-13 00:05:35] [INFO] ====================================
+[2026-05-13 00:05:35] [INFO] TEST SUITE STARTED
+[2026-05-13 00:05:35] [INFO] Environment: qa
+[2026-05-13 00:05:35] [INFO] Timestamp: 2026-05-12T18:35:35.922Z
+[2026-05-13 00:05:35] [INFO] ====================================
+[2026-05-13 00:05:38] [INFO] ========== TEST START: TC016 - Validate no broken links on homepage @regression @e2e ==========
+[2026-05-13 00:05:38] [INFO] Browser: chromium
+[2026-05-13 00:05:39] [INFO] STEP 1: Get all links on the page
+[2026-05-13 00:05:39] [INFO] Found 15 links on homepage
+[2026-05-13 00:05:39] [INFO] STEP 2: Verify key navigation links exist
+[2026-05-13 00:05:39] [ERROR] ❌ TEST FAILED: TC016 - Validate no broken links on homepage @regression @e2e | Error: ReferenceError: homePage is not defined
+[2026-05-13 00:05:39] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Playwright_Framework/screenshots/FAIL_TC016___Validate_no_broken_links_on_homepage__regression__e2e_2026-05-12T18-35-39-876Z.png
+[2026-05-13 00:05:39] [INFO] Allure: Screenshot attached to report
+[2026-05-13 00:05:40] [INFO] Allure: Page source attached to report
+[2026-05-13 00:05:40] [INFO] Allure: Execution logs attached to report
+[2026-05-13 00:05:40] [INFO] ========== TEST END: TC016 - Validate no broken links on homepage @regression @e2e ==========
+[2026-05-13 00:05:40] [INFO] ====================================
+[2026-05-13 00:05:40] [INFO] TEST SUITE COMPLETED
+[2026-05-13 00:05:40] [INFO] Timestamp: 2026-05-12T18:35:40.068Z
+[2026-05-13 00:05:40] [INFO] ====================================
+[2026-05-13 00:05:41] [INFO] ====================================
+[2026-05-13 00:05:41] [INFO] TEST SUITE STARTED
+[2026-05-13 00:05:41] [INFO] Environment: qa
+[2026-05-13 00:05:41] [INFO] Timestamp: 2026-05-12T18:35:41.461Z
+[2026-05-13 00:05:41] [INFO] ====================================
+[2026-05-13 00:05:42] [INFO] ========== TEST START: TC016 - Validate no broken links on homepage @regression @e2e ==========
+[2026-05-13 00:05:42] [INFO] Browser: chromium
+[2026-05-13 00:05:43] [INFO] STEP 1: Get all links on the page
+[2026-05-13 00:05:43] [INFO] Found 15 links on homepage
+[2026-05-13 00:05:43] [INFO] STEP 2: Verify key navigation links exist
+[2026-05-13 00:05:44] [ERROR] ❌ TEST FAILED: TC016 - Validate no broken links on homepage @regression @e2e | Error: ReferenceError: homePage is not defined
+[2026-05-13 00:05:44] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Playwright_Framework/screenshots/FAIL_TC016___Validate_no_broken_links_on_homepage__regression__e2e_2026-05-12T18-35-44-029Z.png
+[2026-05-13 00:05:44] [INFO] Allure: Screenshot attached to report
+[2026-05-13 00:05:44] [INFO] Allure: Page source attached to report
+[2026-05-13 00:05:44] [INFO] Allure: Execution logs attached to report
+[2026-05-13 00:05:44] [INFO] ========== TEST END: TC016 - Validate no broken links on homepage @regression @e2e ==========
+[2026-05-13 00:05:44] [INFO] ====================================
+[2026-05-13 00:05:44] [INFO] TEST SUITE COMPLETED
+[2026-05-13 00:05:44] [INFO] Timestamp: 2026-05-12T18:35:44.205Z
+[2026-05-13 00:05:44] [INFO] ====================================
+[2026-05-13 00:06:16] [INFO] ====================================
+[2026-05-13 00:06:16] [INFO] TEST SUITE STARTED
+[2026-05-13 00:06:16] [INFO] Environment: qa
+[2026-05-13 00:06:16] [INFO] Timestamp: 2026-05-12T18:36:16.166Z
+[2026-05-13 00:06:16] [INFO] ====================================
+[2026-05-13 00:06:18] [INFO] ========== TEST START: TC016 - Validate no broken links on homepage @regression @e2e ==========
+[2026-05-13 00:06:18] [INFO] Browser: chromium
+[2026-05-13 00:06:19] [INFO] STEP 1: Get all links on the page
+[2026-05-13 00:06:20] [INFO] Found 15 links on homepage
+[2026-05-13 00:06:20] [INFO] STEP 2: Verify key navigation links exist
+[2026-05-13 00:06:20] [INFO] ✅ TEST PASSED: TC016 - Validate no broken links on homepage @regression @e2e
+[2026-05-13 00:06:20] [INFO] ========== TEST END: TC016 - Validate no broken links on homepage @regression @e2e ==========
+[2026-05-13 00:06:20] [INFO] ====================================
+[2026-05-13 00:06:20] [INFO] TEST SUITE COMPLETED
+[2026-05-13 00:06:20] [INFO] Timestamp: 2026-05-12T18:36:20.523Z
+[2026-05-13 00:06:20] [INFO] ====================================
+[2026-05-13 00:07:02] [INFO] ====================================
+[2026-05-13 00:07:02] [INFO] TEST SUITE STARTED
+[2026-05-13 00:07:02] [INFO] Environment: qa
+[2026-05-13 00:07:02] [INFO] Timestamp: 2026-05-12T18:37:02.187Z
+[2026-05-13 00:07:02] [INFO] ====================================
+[2026-05-13 00:07:04] [INFO] ========== TEST START: TC018 - Cross browser homepage validation @smoke @e2e ==========
+[2026-05-13 00:07:04] [INFO] Browser: chromium
+[2026-05-13 00:07:05] [INFO] Initialized HomePage fixture
+[2026-05-13 00:07:05] [INFO] STEP 1: Verify homepage loads in current browser
+[2026-05-13 00:07:06] [INFO] Home page loaded successfully
+[2026-05-13 00:07:06] [INFO] STEP 2: Verify page title
+[2026-05-13 00:07:06] [INFO] Page title: STORE
+[2026-05-13 00:07:06] [INFO] STEP 3: Verify categories
+[2026-05-13 00:07:06] [INFO] Element a[onclick="byCat('phone')"] visible: true
+[2026-05-13 00:07:06] [INFO] Element a[onclick="byCat('notebook')"] visible: true
+[2026-05-13 00:07:06] [INFO] Element a[onclick="byCat('monitor')"] visible: true
+[2026-05-13 00:07:06] [INFO] ✅ TEST PASSED: TC018 - Cross browser homepage validation @smoke @e2e
+[2026-05-13 00:07:06] [INFO] ========== TEST END: TC018 - Cross browser homepage validation @smoke @e2e ==========
+[2026-05-13 00:07:06] [INFO] ====================================
+[2026-05-13 00:07:06] [INFO] TEST SUITE COMPLETED
+[2026-05-13 00:07:06] [INFO] Timestamp: 2026-05-12T18:37:06.711Z
+[2026-05-13 00:07:06] [INFO] ====================================
+[2026-05-14 19:27:58] [INFO] ====================================
+[2026-05-14 19:27:58] [INFO] TEST SUITE STARTED
+[2026-05-14 19:27:58] [INFO] Environment: qa
+[2026-05-14 19:27:58] [INFO] Timestamp: 2026-05-14T13:57:58.427Z
+[2026-05-14 19:27:58] [INFO] ====================================
+[2026-05-14 19:28:08] [INFO] ========== TEST START: TC018 - Cross browser homepage validation @smoke @e2e ==========
+[2026-05-14 19:28:08] [INFO] Browser: chromium
+[2026-05-14 19:28:10] [INFO] Initialized HomePage fixture
+[2026-05-14 19:28:10] [INFO] STEP 1: Verify homepage loads in current browser
+[2026-05-14 19:28:11] [INFO] Home page loaded successfully
+[2026-05-14 19:28:11] [INFO] STEP 2: Verify page title
+[2026-05-14 19:28:11] [INFO] Page title: STORE
+[2026-05-14 19:28:11] [INFO] STEP 3: Verify categories
+[2026-05-14 19:28:11] [INFO] Element a[onclick="byCat('phone')"] visible: true
+[2026-05-14 19:28:11] [INFO] Element a[onclick="byCat('notebook')"] visible: true
+[2026-05-14 19:28:11] [INFO] Element a[onclick="byCat('monitor')"] visible: true
+[2026-05-14 19:28:12] [INFO] ✅ TEST PASSED: TC018 - Cross browser homepage validation @smoke @e2e
+[2026-05-14 19:28:12] [INFO] ========== TEST END: TC018 - Cross browser homepage validation @smoke @e2e ==========
+[2026-05-14 19:28:12] [INFO] ====================================
+[2026-05-14 19:28:12] [INFO] TEST SUITE COMPLETED
+[2026-05-14 19:28:12] [INFO] Timestamp: 2026-05-14T13:58:12.862Z
+[2026-05-14 19:28:12] [INFO] ====================================
+[2026-05-14 19:28:26] [INFO] ====================================
+[2026-05-14 19:28:26] [INFO] TEST SUITE STARTED
+[2026-05-14 19:28:26] [INFO] Environment: qa
+[2026-05-14 19:28:26] [INFO] Timestamp: 2026-05-14T13:58:26.157Z
+[2026-05-14 19:28:26] [INFO] ====================================
+[2026-05-14 19:28:29] [INFO] ========== TEST START: TC018 - Cross browser homepage validation @smoke @e2e ==========
+[2026-05-14 19:28:29] [INFO] Browser: chromium
+[2026-05-14 19:28:30] [INFO] Initialized HomePage fixture
+[2026-05-14 19:28:30] [INFO] STEP 1: Verify homepage loads in current browser
+[2026-05-14 19:28:31] [ERROR] ❌ TEST FAILED: TC018 - Cross browser homepage validation @smoke @e2e | Error: Unknown error
+[2026-05-14 19:28:31] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Playwright_Framework/screenshots/FAIL_TC018___Cross_browser_homepage_validation__smoke__e2e_2026-05-14T13-58-31-419Z.png
+[2026-05-14 19:28:31] [INFO] Allure: Screenshot attached to report
+[2026-05-14 19:28:31] [INFO] Allure: Page source attached to report
+[2026-05-14 19:28:31] [INFO] Allure: Execution logs attached to report
+[2026-05-14 19:28:31] [INFO] ========== TEST END: TC018 - Cross browser homepage validation @smoke @e2e ==========
+[2026-05-14 19:28:31] [ERROR] Home page failed to load: locator.waitFor: Test ended.
+Call log:
+[2m  - waiting for locator('.card-block').first() to be visible[22m
+
+[2026-05-14 19:28:31] [INFO] ====================================
+[2026-05-14 19:28:31] [INFO] TEST SUITE COMPLETED
+[2026-05-14 19:28:31] [INFO] Timestamp: 2026-05-14T13:58:31.610Z
+[2026-05-14 19:28:31] [INFO] ====================================
+[2026-05-14 19:28:55] [INFO] ====================================
+[2026-05-14 19:28:55] [INFO] TEST SUITE STARTED
+[2026-05-14 19:28:55] [INFO] Environment: qa
+[2026-05-14 19:28:55] [INFO] Timestamp: 2026-05-14T13:58:55.281Z
+[2026-05-14 19:28:55] [INFO] ====================================
+[2026-05-14 19:28:58] [INFO] ========== TEST START: TC018 - Cross browser homepage validation @smoke @e2e ==========
+[2026-05-14 19:28:58] [INFO] Browser: chromium
+[2026-05-14 19:28:59] [INFO] Initialized HomePage fixture
+[2026-05-14 19:28:59] [INFO] STEP 1: Verify homepage loads in current browser
+[2026-05-14 19:28:59] [ERROR] ❌ TEST FAILED: TC018 - Cross browser homepage validation @smoke @e2e | Error: Unknown error
+[2026-05-14 19:29:00] [INFO] Home page loaded successfully
+[2026-05-14 19:29:00] [INFO] STEP 2: Verify page title
+[2026-05-14 19:29:00] [INFO] Page title: STORE
+[2026-05-14 19:29:00] [INFO] STEP 3: Verify categories
+[2026-05-14 19:29:00] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Playwright_Framework/screenshots/FAIL_TC018___Cross_browser_homepage_validation__smoke__e2e_2026-05-14T13-58-59-860Z.png
+[2026-05-14 19:29:00] [INFO] Allure: Screenshot attached to report
+[2026-05-14 19:29:00] [INFO] Element a[onclick="byCat('phone')"] visible: true
+[2026-05-14 19:29:00] [INFO] Allure: Page source attached to report
+[2026-05-14 19:29:00] [INFO] Allure: Execution logs attached to report
+[2026-05-14 19:29:00] [INFO] ========== TEST END: TC018 - Cross browser homepage validation @smoke @e2e ==========
+[2026-05-14 19:29:00] [INFO] Element a[onclick="byCat('notebook')"] visible: true
+[2026-05-14 19:29:00] [INFO] Element a[onclick="byCat('monitor')"] visible: true
+[2026-05-14 19:29:00] [INFO] ====================================
+[2026-05-14 19:29:00] [INFO] TEST SUITE COMPLETED
+[2026-05-14 19:29:00] [INFO] Timestamp: 2026-05-14T13:59:00.355Z
+[2026-05-14 19:29:00] [INFO] ====================================
+[2026-05-14 19:29:39] [INFO] ====================================
+[2026-05-14 19:29:39] [INFO] TEST SUITE STARTED
+[2026-05-14 19:29:39] [INFO] Environment: qa
+[2026-05-14 19:29:39] [INFO] Timestamp: 2026-05-14T13:59:39.163Z
+[2026-05-14 19:29:39] [INFO] ====================================
+[2026-05-14 19:29:40] [INFO] ====================================
+[2026-05-14 19:29:40] [INFO] TEST SUITE COMPLETED
+[2026-05-14 19:29:40] [INFO] Timestamp: 2026-05-14T13:59:40.281Z
+[2026-05-14 19:29:40] [INFO] ====================================
+[2026-05-14 19:30:16] [INFO] ====================================
+[2026-05-14 19:30:16] [INFO] TEST SUITE STARTED
+[2026-05-14 19:30:16] [INFO] Environment: qa
+[2026-05-14 19:30:16] [INFO] Timestamp: 2026-05-14T14:00:16.921Z
+[2026-05-14 19:30:16] [INFO] ====================================
+[2026-05-14 19:30:17] [INFO] ====================================
+[2026-05-14 19:30:17] [INFO] TEST SUITE COMPLETED
+[2026-05-14 19:30:17] [INFO] Timestamp: 2026-05-14T14:00:17.598Z
+[2026-05-14 19:30:17] [INFO] ====================================
+[2026-05-14 19:30:36] [INFO] ====================================
+[2026-05-14 19:30:36] [INFO] TEST SUITE STARTED
+[2026-05-14 19:30:36] [INFO] Environment: qa
+[2026-05-14 19:30:36] [INFO] Timestamp: 2026-05-14T14:00:36.180Z
+[2026-05-14 19:30:36] [INFO] ====================================
+[2026-05-14 19:30:37] [ERROR] ❌ TEST FAILED: TC018 - Cross browser homepage validation @smoke @e2e | Error: Unknown error

@@ -1,0 +1,41 @@
+// JavaScript Conditional Statements
+// ======================================================
+// Conditional statements are used to execute different
+// blocks of code based on conditions.
+// Types of Conditional Statements
+// 1. if statement
+// 2. if...else statement
+// 3. if...else if...else statement
+// 4. Nested if
+// 5. switch statement
+// 6. ternary operator
+// ======================================================
+// 1. SIMPLE IF STATEMENT
+// ======================================================
+// Executes a code block only if the condition is true
+// ======================================================
+// Example 1: Check if a number is positive
+let num = 1;
+if (num > 0) { // condition is true
+console.log("Number is positive");
+}
+// Example 2: Check login status
+let isLoggedIn = false;
+if (isLoggedIn) {
+console.log("Welcome User");
+}
+// This statement runs whether the condition is true or false
+console.log("PC Started");
+
+// ======================================================
+
+console.log("\n------ Simple if statement -----")
+let a = 15;
+let b = 100;
+// check if a > b
+if (a > b) { // 15 > 100 → FALSE → will NOT execute
+console.log("JavaScript");
+}
+if (a < b) { // 15 < 100 → TRUE → will execute
+console.log("Python");
+}

@@ -1,0 +1,26 @@
+[2026-05-13 00:02:52] [INFO] ====================================
+[2026-05-13 00:02:52] [INFO] TEST SUITE STARTED
+[2026-05-13 00:02:52] [INFO] Environment: qa
+[2026-05-13 00:02:52] [INFO] Timestamp: 2026-05-12T18:32:52.754Z
+[2026-05-13 00:02:52] [INFO] ====================================
+[2026-05-13 00:02:53] [INFO] ========== TEST START: TC016 - Validate no broken links on homepage @regression @e2e ==========
+[2026-05-13 00:02:53] [INFO] Browser: chromium
+[2026-05-13 00:02:54] [INFO] STEP 1: Get all links on the page
+[2026-05-13 00:02:54] [INFO] Found 15 links on homepage
+[2026-05-13 00:02:54] [INFO] STEP 2: Verify key navigation links exist
+[2026-05-13 00:02:55] [ERROR] ❌ TEST FAILED: TC016 - Validate no broken links on homepage @regression @e2e | Error: Error: locator.isVisible: Error: strict mode violation: locator('a[href="index.html"]') resolved to 2 elements:
+    1) <a id="nava" href="index.html" class="navbar-brand">…</a> aka getByRole('link', { name: 'PRODUCT STORE' })
+    2) <a class="nav-link" href="index.html">…</a> aka getByRole('link', { name: 'Home (current)' })
+
+Call log:
+    - checking visibility of locator('a[href="index.html"]')
+
+[2026-05-13 00:02:55] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Playwright_Framework/screenshots/FAIL_TC016___Validate_no_broken_links_on_homepage__regression__e2e_2026-05-12T18-32-55-085Z.png
+[2026-05-13 00:02:55] [INFO] Allure: Screenshot attached to report
+[2026-05-13 00:02:55] [INFO] Allure: Page source attached to report
+[2026-05-13 00:02:55] [INFO] Allure: Execution logs attached to report
+[2026-05-13 00:02:55] [INFO] ========== TEST END: TC016 - Validate no broken links on homepage @regression @e2e ==========
+[2026-05-13 00:02:55] [INFO] ====================================
+[2026-05-13 00:02:55] [INFO] TEST SUITE COMPLETED
+[2026-05-13 00:02:55] [INFO] Timestamp: 2026-05-12T18:32:55.260Z
+[2026-05-13 00:02:55] [INFO] ====================================

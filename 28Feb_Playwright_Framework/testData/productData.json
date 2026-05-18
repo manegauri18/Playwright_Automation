@@ -1,0 +1,94 @@
+{
+    "products": [
+        {
+            "name": "Samsung galaxy s6",
+            "category": "phones",
+            "expectedPrice": 360
+        },
+        {
+            "name": "Nokia lumia 1520",
+            "category": "phones",
+            "expectedPrice": 820
+        },
+        {
+            "name": "Nexus 6",
+            "category": "phones",
+            "expectedPrice": 650
+        },
+        {
+            "name": "Samsung galaxy s7",
+            "category": "phones",
+            "expectedPrice": 800
+        },
+        {
+            "name": "Iphone 6 32gb",
+            "category": "phones",
+            "expectedPrice": 790
+        },
+        {
+            "name": "Sony xperia z5",
+            "category": "phones",
+            "expectedPrice": 320
+        },
+        {
+            "name": "HTC One M9",
+            "category": "phones",
+            "expectedPrice": 700
+        },
+        {
+            "name": "Sony vaio i5",
+            "category": "laptops",
+            "expectedPrice": 790
+        },
+        {
+            "name": "Sony vaio i7",
+            "category": "laptops",
+            "expectedPrice": 790
+        },
+        {
+            "name": "MacBook air",
+            "category": "laptops",
+            "expectedPrice": 700
+        },
+        {
+            "name": "Dell i7 8gb",
+            "category": "laptops",
+            "expectedPrice": 700
+        },
+        {
+            "name": "MacBook Pro",
+            "category": "laptops",
+            "expectedPrice": 1100
+        },
+        {
+            "name": "Apple monitor 24",
+            "category": "monitors",
+            "expectedPrice": 400
+        },
+        {
+            "name": "ASUS Full HD",
+            "category": "monitors",
+            "expectedPrice": 230
+        }
+    ],
+    "categories": [
+        "phones",
+        "laptops",
+        "monitors"
+    ],
+    "singleProduct": {
+        "name": "Samsung galaxy s6",
+        "category": "phones",
+        "expectedPrice": 360
+    },
+    "multipleProducts": [
+        {
+            "name": "Samsung galaxy s6",
+            "expectedPrice": 360
+        },
+        {
+            "name": "Nokia lumia 1520",
+            "expectedPrice": 820
+        }
+    ]
+}

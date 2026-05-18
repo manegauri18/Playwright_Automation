@@ -1,0 +1,14 @@
+// Program to reverse a number
+let num = 123
+let numStr = String(num)   // Convert number to string
+
+let reversedStr = "";
+
+for (let i = numStr.length - 1; i >= 0; i--) 
+{
+  reversedStr = reversedStr + numStr[i];
+}
+
+let reversedNum = Number(reversedStr);  // Convert string back to number
+
+console.log("Reversed number: " + reversedNum);

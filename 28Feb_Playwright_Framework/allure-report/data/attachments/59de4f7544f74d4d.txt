@@ -1,0 +1,13 @@
+[2026-05-14 20:47:28] [INFO] ========== TEST START: TC012b - Verify Laptops category shows laptop products @regression @product ==========
+[2026-05-14 20:47:28] [INFO] Browser: chromium
+[2026-05-14 20:47:30] [INFO] Initialized HomePage fixture
+[2026-05-14 20:47:30] [INFO] STEP 1: Click on Laptops category
+[2026-05-14 20:47:30] [INFO] Selecting category: laptops
+[2026-05-14 20:47:30] [INFO] Clicking element: a[onclick="byCat('notebook')"]
+[2026-05-14 20:47:31] [INFO] STEP 2: Verify products are displayed
+[2026-05-14 20:47:32] [INFO] ✅ TEST PASSED: TC012b - Verify Laptops category shows laptop products @regression @product
+[2026-05-14 20:47:33] [INFO] ========== TEST END: TC012b - Verify Laptops category shows laptop products @regression @product ==========
+[2026-05-14 20:47:33] [INFO] ====================================
+[2026-05-14 20:47:33] [INFO] TEST SUITE COMPLETED
+[2026-05-14 20:47:33] [INFO] Timestamp: 2026-05-14T15:17:33.278Z
+[2026-05-14 20:47:33] [INFO] ====================================

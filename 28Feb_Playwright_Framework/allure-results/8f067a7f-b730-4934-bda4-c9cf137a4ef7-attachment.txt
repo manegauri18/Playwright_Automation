@@ -1,0 +1,9 @@
+[2026-05-12 23:41:34] [INFO] ========== TEST START: TC012 - Verify product categories are visible @regression @product ==========
+[2026-05-12 23:41:34] [INFO] Browser: chromium
+[2026-05-12 23:41:35] [INFO] Initialized HomePage fixture
+[2026-05-12 23:41:35] [INFO] STEP 1: Verify all categories are visible
+[2026-05-12 23:41:35] [INFO] Element a[onclick="byCat('phone')"] visible: true
+[2026-05-12 23:41:35] [INFO] Element a[onclick="byCat('notebook')"] visible: true
+[2026-05-12 23:41:35] [INFO] Element a[onclick="byCat('monitor')"] visible: true
+[2026-05-12 23:41:36] [INFO] ✅ TEST PASSED: TC012 - Verify product categories are visible @regression @product
+[2026-05-12 23:41:36] [INFO] ========== TEST END: TC012 - Verify product categories are visible @regression @product ==========

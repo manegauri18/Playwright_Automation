@@ -1,0 +1,22 @@
+// Program to reverse each word but keep the same order
+let inputString = "Gauri khedekar";
+let words = inputString.split(" ");
+let result = "";
+
+console.log("words:", words);
+
+for (let i = 0; i < words.length; i++) 
+{
+  let word = words[i];
+  let reversedWord = "";
+
+  // Reverse each word using a for loop
+  for (let j = word.length - 1; j >= 0; j--) 
+    {
+    reversedWord = reversedWord + word[j];
+  }
+
+  result = result + reversedWord + " ";
+}
+
+console.log("Reversed Words: " + result.trim());

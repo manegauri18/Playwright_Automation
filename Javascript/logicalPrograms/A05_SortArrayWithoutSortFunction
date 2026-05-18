@@ -1,0 +1,20 @@
+// SortArrayWithoutSortFunction.js
+
+const ar = [7, 5, 4, 15]; 
+
+for (let i = 0; i < ar.length; i++) 
+{
+  for (let j = i + 1; j < ar.length; j++) 
+    {
+    let temp = 0;
+
+    if (ar[i] > ar[j]) 
+    {
+      temp = ar[i];
+      ar[i] = ar[j];
+      ar[j] = temp;
+    }
+  }
+ 
+}
+ console.log(ar.join(" "));

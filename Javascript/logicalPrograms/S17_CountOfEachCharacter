@@ -1,0 +1,28 @@
+// Program to count each character in a string
+let input = "aabbbccccddddde";
+
+let charMap = new Map();
+
+for (let i = 0; i < input.length; i++) 
+{
+  let c = input[i];
+
+  if (c === " ")
+{
+    continue; // skip spaces
+  }
+
+  if (charMap[c]) 
+{
+    charMap[c] = charMap[c] + 1;
+
+  } else 
+{
+    charMap[c] = 1;
+  }
+}
+
+// Print results
+for (let key in charMap) {
+  console.log(key + ": " + charMap[key]);
+}

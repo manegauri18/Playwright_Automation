@@ -1,0 +1,22 @@
+[2026-05-12 23:33:47] [INFO] ====================================
+[2026-05-12 23:33:47] [INFO] TEST SUITE STARTED
+[2026-05-12 23:33:47] [INFO] Environment: qa
+[2026-05-12 23:33:47] [INFO] Timestamp: 2026-05-12T18:03:47.443Z
+[2026-05-12 23:33:47] [INFO] ====================================
+[2026-05-12 23:33:49] [INFO] ========== TEST START: TC018 - Cross browser homepage validation @smoke @e2e ==========
+[2026-05-12 23:33:49] [INFO] Browser: chromium
+[2026-05-12 23:33:50] [INFO] Initialized HomePage fixture
+[2026-05-12 23:33:50] [INFO] STEP 1: Verify homepage loads in current browser
+[2026-05-12 23:33:50] [INFO] Waiting for element: .card-block
+[2026-05-12 23:33:51] [ERROR] ❌ TEST FAILED: TC018 - Cross browser homepage validation @smoke @e2e | Error: Error: expect(received).toBeTruthy()
+
+Received: false
+[2026-05-12 23:33:51] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Playwright_Framework/screenshots/FAIL_TC018___Cross_browser_homepage_validation__smoke__e2e_2026-05-12T18-03-51-588Z.png
+[2026-05-12 23:33:51] [INFO] Allure: Screenshot attached to report
+[2026-05-12 23:33:51] [INFO] Allure: Page source attached to report
+[2026-05-12 23:33:51] [INFO] Allure: Execution logs attached to report
+[2026-05-12 23:33:51] [INFO] ========== TEST END: TC018 - Cross browser homepage validation @smoke @e2e ==========
+[2026-05-12 23:33:51] [INFO] ====================================
+[2026-05-12 23:33:51] [INFO] TEST SUITE COMPLETED
+[2026-05-12 23:33:51] [INFO] Timestamp: 2026-05-12T18:03:51.834Z
+[2026-05-12 23:33:51] [INFO] ====================================

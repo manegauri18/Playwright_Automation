@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Product Defects",
+    "description": "Test failures caused by actual product bugs",
+    "matchedStatuses": [
+      "failed"
+    ],
+    "messageRegex": ".*Expected.*toBe.*|.*expect.*toContain.*|.*AssertionError.*"
+  },
+  {
+    "name": "Element Not Found",
+    "description": "Test failures due to missing or changed UI elements",
+    "matchedStatuses": [
+      "failed"
+    ],
+    "messageRegex": ".*locator.*|.*selector.*|.*not found.*|.*no element.*|.*waitForSelector.*"
+  },
+  {
+    "name": "Timeout Issues",
+    "description": "Tests that exceeded timeout thresholds",
+    "matchedStatuses": [
+      "failed",
+      "broken"
+    ],
+    "messageRegex": ".*Timeout.*exceeded.*|.*Timeout.*|.*waiting for.*"
+  },
+  {
+    "name": "Network / API Errors",
+    "description": "Failures related to network requests or API calls",
+    "matchedStatuses": [
+      "broken"
+    ],
+    "messageRegex": ".*net::ERR.*|.*ECONNREFUSED.*|.*fetch.*|.*networkerror.*|.*ERR_CONNECTION.*"
+  },
+  {
+    "name": "Infrastructure Issues",
+    "description": "Browser crashes, environment issues, or flaky infrastructure",
+    "matchedStatuses": [
+      "broken"
+    ],
+    "messageRegex": ".*browser.*closed.*|.*Target closed.*|.*crash.*|.*EPERM.*|.*ENOENT.*"
+  },
+  {
+    "name": "Skipped Tests",
+    "description": "Tests that were intentionally skipped",
+    "matchedStatuses": [
+      "skipped"
+    ]
+  },
+  {
+    "name": "Flaky Tests",
+    "description": "Tests that passed on retry (flaky behavior)",
+    "matchedStatuses": [
+      "passed"
+    ],
+    "flaky": true
+  }
+]

@@ -1,0 +1,20 @@
+// Program to move vowels to the right side of the string
+let inputString = "programming";
+let vowels = "";
+let nonvowels = "";
+
+for (let i = 0; i < inputString.length; i++) 
+{
+  let ch = inputString[i];
+
+  if (ch === 'a' || ch === 'e' || ch === 'i' || ch === 'o' || ch === 'u') 
+  {
+    vowels = vowels + ch;
+  } 
+  else 
+  {
+    nonvowels = nonvowels + ch;
+  }
+}
+
+console.log("Final String: " + nonvowels + vowels);

@@ -1,0 +1,42 @@
+[2026-05-12 23:33:58] [INFO] ========== TEST START: TC020 - Complete E2E purchase flow - login, add product, checkout @smoke @e2e ==========
+[2026-05-12 23:33:58] [INFO] Browser: chromium
+[2026-05-12 23:33:59] [INFO] Initialized LoginPage fixture
+[2026-05-12 23:33:59] [INFO] Initialized HomePage fixture
+[2026-05-12 23:33:59] [INFO] Initialized ProductPage fixture
+[2026-05-12 23:33:59] [INFO] Initialized CartPage fixture
+[2026-05-12 23:33:59] [INFO] STEP 1: Login with valid credentials
+[2026-05-12 23:33:59] [INFO] Performing login with user: pavanol
+[2026-05-12 23:33:59] [INFO] Clicking Login navigation link
+[2026-05-12 23:33:59] [INFO] Waiting for element: #login2
+[2026-05-12 23:33:59] [INFO] Clicking element: #login2
+[2026-05-12 23:34:01] [INFO] Entering username: pavanol
+[2026-05-12 23:34:01] [INFO] Waiting for element: #loginusername
+[2026-05-12 23:34:01] [INFO] Entering text in: #loginusername
+[2026-05-12 23:34:01] [INFO] Entering password
+[2026-05-12 23:34:01] [INFO] Entering text in: #loginpassword
+[2026-05-12 23:34:01] [INFO] Clicking Login button
+[2026-05-12 23:34:01] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 23:34:03] [INFO] Waiting for element: #nameofuser
+[2026-05-12 23:34:03] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-12 23:34:03] [INFO] Welcome text: Welcome pavanol
+[2026-05-12 23:34:03] [INFO] STEP 2: Navigate to home and select product
+[2026-05-12 23:34:04] [INFO] Selecting product: Samsung galaxy s6
+[2026-05-12 23:34:06] [INFO] STEP 3: Verify product page and add to cart
+[2026-05-12 23:34:06] [INFO] Waiting for element: .name
+[2026-05-12 23:34:06] [INFO] Got text from .name: Samsung galaxy s6
+[2026-05-12 23:34:06] [INFO] Product title: Samsung galaxy s6
+[2026-05-12 23:34:06] [INFO] Adding product to cart
+[2026-05-12 23:34:06] [INFO] Clicking element: a[onclick='addToCart()']
+[2026-05-12 23:34:21] [ERROR] ❌ TEST FAILED: TC020 - Complete E2E purchase flow - login, add product, checkout @smoke @e2e | Error: TimeoutError: locator.click: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator('a[onclick=\'addToCart()\']')
+
+[2026-05-12 23:34:21] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Playwright_Framework/screenshots/FAIL_TC020___Complete_E2E_purchase_flow___login__add_product__checkout__smoke__e2e_2026-05-12T18-04-21-791Z.png
+[2026-05-12 23:34:21] [INFO] Allure: Screenshot attached to report
+[2026-05-12 23:34:21] [INFO] Allure: Page source attached to report
+[2026-05-12 23:34:21] [INFO] Allure: Execution logs attached to report
+[2026-05-12 23:34:21] [INFO] ========== TEST END: TC020 - Complete E2E purchase flow - login, add product, checkout @smoke @e2e ==========
+[2026-05-12 23:34:21] [INFO] ====================================
+[2026-05-12 23:34:21] [INFO] TEST SUITE COMPLETED
+[2026-05-12 23:34:21] [INFO] Timestamp: 2026-05-12T18:04:21.944Z
+[2026-05-12 23:34:21] [INFO] ====================================

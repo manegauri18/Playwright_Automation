@@ -1,0 +1,27 @@
+[2026-05-12 23:30:42] [INFO] ====================================
+[2026-05-12 23:30:42] [INFO] TEST SUITE STARTED
+[2026-05-12 23:30:42] [INFO] Environment: qa
+[2026-05-12 23:30:42] [INFO] Timestamp: 2026-05-12T18:00:42.692Z
+[2026-05-12 23:30:42] [INFO] ====================================
+[2026-05-12 23:30:44] [INFO] ========== TEST START: TC009a - Verify cart displays correct product names @regression @cart ==========
+[2026-05-12 23:30:44] [INFO] Browser: chromium
+[2026-05-12 23:30:45] [INFO] Initialized HomePage fixture
+[2026-05-12 23:30:45] [INFO] Initialized ProductPage fixture
+[2026-05-12 23:30:45] [INFO] Initialized CartPage fixture
+[2026-05-12 23:30:45] [INFO] STEP 1: Add product: Samsung galaxy s6
+[2026-05-12 23:30:45] [INFO] Selecting product: Samsung galaxy s6
+[2026-05-12 23:30:48] [INFO] Adding product to cart
+[2026-05-12 23:30:48] [INFO] Clicking element: a[onclick='addToCart()']
+[2026-05-12 23:31:03] [ERROR] ❌ TEST FAILED: TC009a - Verify cart displays correct product names @regression @cart | Error: TimeoutError: locator.click: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator('a[onclick=\'addToCart()\']')
+
+[2026-05-12 23:31:04] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Playwright_Framework/screenshots/FAIL_TC009a___Verify_cart_displays_correct_product_names__regression__cart_2026-05-12T18-01-03-925Z.png
+[2026-05-12 23:31:04] [INFO] Allure: Screenshot attached to report
+[2026-05-12 23:31:04] [INFO] Allure: Page source attached to report
+[2026-05-12 23:31:04] [INFO] Allure: Execution logs attached to report
+[2026-05-12 23:31:04] [INFO] ========== TEST END: TC009a - Verify cart displays correct product names @regression @cart ==========
+[2026-05-12 23:31:04] [INFO] ====================================
+[2026-05-12 23:31:04] [INFO] TEST SUITE COMPLETED
+[2026-05-12 23:31:04] [INFO] Timestamp: 2026-05-12T18:01:04.116Z
+[2026-05-12 23:31:04] [INFO] ====================================

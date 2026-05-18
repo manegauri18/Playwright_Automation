@@ -1,0 +1,22 @@
+[2026-05-12 23:38:40] [INFO] ========== TEST START: TC009 - Verify cart total price @regression @cart ==========
+[2026-05-12 23:38:40] [INFO] Browser: chromium
+[2026-05-12 23:38:42] [INFO] Initialized HomePage fixture
+[2026-05-12 23:38:42] [INFO] Initialized ProductPage fixture
+[2026-05-12 23:38:42] [INFO] Initialized CartPage fixture
+[2026-05-12 23:38:42] [INFO] STEP 1: Add multiple products to cart
+[2026-05-12 23:38:44] [INFO] Selecting product: Samsung galaxy s6
+[2026-05-12 23:38:46] [INFO] Adding product to cart
+[2026-05-12 23:38:47] [INFO] Alert message: Product added
+[2026-05-12 23:38:49] [INFO] Selecting product: Nokia lumia 1520
+[2026-05-12 23:38:51] [INFO] Adding product to cart
+[2026-05-12 23:38:52] [INFO] Alert message: Product added
+[2026-05-12 23:38:53] [INFO] STEP 2: Navigate to cart
+[2026-05-12 23:38:53] [INFO] Navigating to Cart page
+[2026-05-12 23:38:53] [INFO] Clicking element: #cartur
+[2026-05-12 23:38:55] [INFO] STEP 3: Verify total price
+[2026-05-12 23:38:55] [INFO] Waiting for element: #totalp
+[2026-05-12 23:38:56] [INFO] Got text from #totalp: 1180
+[2026-05-12 23:38:56] [INFO] Cart total: 1180
+[2026-05-12 23:38:56] [INFO] Expected total: 1180, Displayed total: 1180
+[2026-05-12 23:38:56] [INFO] ✅ TEST PASSED: TC009 - Verify cart total price @regression @cart
+[2026-05-12 23:38:56] [INFO] ========== TEST END: TC009 - Verify cart total price @regression @cart ==========

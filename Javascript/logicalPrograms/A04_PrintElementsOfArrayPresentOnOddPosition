@@ -1,0 +1,17 @@
+// PrintElementsOfArrayPresentOnOddPosition.js
+
+const array = [25, 11, 7, 75, 56];
+
+// Print all numbers from odd index
+console.log("----Numbers at odd index----");
+for (let i = 1; i < array.length; i = i + 2) 
+{
+  console.log(array[i]);
+}
+
+// Print all numbers from even index
+console.log("----Numbers at even index----");
+for (let i = 0; i < array.length; i = i + 2) 
+{
+  console.log(array[i]);
+}

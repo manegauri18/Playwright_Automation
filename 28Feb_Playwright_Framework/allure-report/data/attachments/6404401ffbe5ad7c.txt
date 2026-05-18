@@ -1,0 +1,199 @@
+[2026-05-12 23:40:50] [INFO] ========== TEST START: TC004 - Login with blank password @regression @login ==========
+[2026-05-12 23:40:50] [INFO] Browser: chromium
+[2026-05-12 23:40:51] [INFO] Initialized LoginPage fixture
+[2026-05-12 23:40:51] [INFO] STEP 1: Login with blank password
+[2026-05-12 23:40:51] [INFO] Performing login with user: pavanol
+[2026-05-12 23:40:51] [INFO] Clicking Login navigation link
+[2026-05-12 23:40:51] [INFO] Waiting for element: #login2
+[2026-05-12 23:40:51] [INFO] Clicking element: #login2
+[2026-05-12 23:40:52] [INFO] Entering username: pavanol
+[2026-05-12 23:40:52] [INFO] Waiting for element: #loginusername
+[2026-05-12 23:40:52] [INFO] Entering text in: #loginusername
+[2026-05-12 23:40:52] [INFO] Entering password
+[2026-05-12 23:40:52] [INFO] Entering text in: #loginpassword
+[2026-05-12 23:40:52] [INFO] Clicking Login button
+[2026-05-12 23:40:52] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 23:40:54] [INFO] STEP 2: Verify user is NOT logged in
+[2026-05-12 23:40:56] [INFO] Waiting for element: #nameofuser
+[2026-05-12 23:41:01] [INFO] ✅ TEST PASSED: TC004 - Login with blank password @regression @login
+[2026-05-12 23:41:01] [INFO] ========== TEST END: TC004 - Login with blank password @regression @login ==========
+[2026-05-12 23:41:02] [INFO] ========== TEST START: TC005 - Logout after successful login @smoke @login ==========
+[2026-05-12 23:41:02] [INFO] Browser: chromium
+[2026-05-12 23:41:03] [INFO] Initialized LoginPage fixture
+[2026-05-12 23:41:03] [INFO] STEP 1: Login with valid credentials
+[2026-05-12 23:41:03] [INFO] Performing login with user: pavanol
+[2026-05-12 23:41:03] [INFO] Clicking Login navigation link
+[2026-05-12 23:41:03] [INFO] Waiting for element: #login2
+[2026-05-12 23:41:03] [INFO] Clicking element: #login2
+[2026-05-12 23:41:04] [INFO] Entering username: pavanol
+[2026-05-12 23:41:04] [INFO] Waiting for element: #loginusername
+[2026-05-12 23:41:04] [INFO] Entering text in: #loginusername
+[2026-05-12 23:41:04] [INFO] Entering password
+[2026-05-12 23:41:04] [INFO] Entering text in: #loginpassword
+[2026-05-12 23:41:04] [INFO] Clicking Login button
+[2026-05-12 23:41:04] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 23:41:06] [INFO] STEP 2: Verify user is logged in
+[2026-05-12 23:41:06] [INFO] Waiting for element: #nameofuser
+[2026-05-12 23:41:09] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-12 23:41:09] [INFO] Welcome text: Welcome pavanol
+[2026-05-12 23:41:09] [INFO] STEP 3: Perform logout
+[2026-05-12 23:41:09] [INFO] Performing logout
+[2026-05-12 23:41:09] [INFO] Waiting for element: #logout2
+[2026-05-12 23:41:09] [INFO] Clicking element: #logout2
+[2026-05-12 23:41:11] [INFO] STEP 4: Verify Login nav is visible after logout
+[2026-05-12 23:41:12] [INFO] Element #login2 visible: true
+[2026-05-12 23:41:12] [INFO] ✅ TEST PASSED: TC005 - Logout after successful login @smoke @login
+[2026-05-12 23:41:12] [INFO] ========== TEST END: TC005 - Logout after successful login @smoke @login ==========
+[2026-05-12 23:41:12] [INFO] ====================================
+[2026-05-12 23:41:12] [INFO] TEST SUITE COMPLETED
+[2026-05-12 23:41:12] [INFO] Timestamp: 2026-05-12T18:11:12.330Z
+[2026-05-12 23:41:12] [INFO] ====================================
+[2026-05-12 23:41:12] [INFO] ====================================
+[2026-05-12 23:41:12] [INFO] TEST SUITE STARTED
+[2026-05-12 23:41:12] [INFO] Environment: qa
+[2026-05-12 23:41:12] [INFO] Timestamp: 2026-05-12T18:11:12.356Z
+[2026-05-12 23:41:12] [INFO] ====================================
+[2026-05-12 23:41:13] [INFO] ========== TEST START: TC006 - Add single product to cart @smoke @product ==========
+[2026-05-12 23:41:13] [INFO] Browser: chromium
+[2026-05-12 23:41:14] [INFO] Initialized HomePage fixture
+[2026-05-12 23:41:14] [INFO] Initialized ProductPage fixture
+[2026-05-12 23:41:14] [INFO] STEP 1: Select product: Samsung galaxy s6
+[2026-05-12 23:41:14] [INFO] Selecting product: Samsung galaxy s6
+[2026-05-12 23:41:17] [INFO] STEP 2: Verify product page loads
+[2026-05-12 23:41:17] [INFO] Waiting for element: .name
+[2026-05-12 23:41:17] [INFO] STEP 3: Verify product title
+[2026-05-12 23:41:17] [INFO] Waiting for element: .name
+[2026-05-12 23:41:17] [INFO] Got text from .name: Samsung galaxy s6
+[2026-05-12 23:41:17] [INFO] Product title: Samsung galaxy s6
+[2026-05-12 23:41:17] [INFO] STEP 4: Add product to cart
+[2026-05-12 23:41:17] [INFO] Adding product to cart
+[2026-05-12 23:41:17] [INFO] Alert message: Product added
+[2026-05-12 23:41:17] [INFO] ✅ TEST PASSED: TC006 - Add single product to cart @smoke @product
+[2026-05-12 23:41:17] [INFO] ========== TEST END: TC006 - Add single product to cart @smoke @product ==========
+[2026-05-12 23:41:18] [INFO] ========== TEST START: TC007 - Add multiple products to cart @regression @product ==========
+[2026-05-12 23:41:18] [INFO] Browser: chromium
+[2026-05-12 23:41:19] [INFO] Initialized HomePage fixture
+[2026-05-12 23:41:19] [INFO] Initialized ProductPage fixture
+[2026-05-12 23:41:19] [INFO] STEP 1: Navigate to home and select: Samsung galaxy s6
+[2026-05-12 23:41:20] [INFO] Selecting product: Samsung galaxy s6
+[2026-05-12 23:41:22] [INFO] STEP 2: Add product to cart
+[2026-05-12 23:41:22] [INFO] Adding product to cart
+[2026-05-12 23:41:23] [INFO] Alert message: Product added
+[2026-05-12 23:41:24] [INFO] STEP 1: Navigate to home and select: Nokia lumia 1520
+[2026-05-12 23:41:26] [INFO] Selecting product: Nokia lumia 1520
+[2026-05-12 23:41:28] [INFO] STEP 2: Add product to cart
+[2026-05-12 23:41:28] [INFO] Adding product to cart
+[2026-05-12 23:41:29] [INFO] Alert message: Product added
+[2026-05-12 23:41:30] [INFO] STEP 3: Navigate to cart and verify items
+[2026-05-12 23:41:30] [INFO] Navigating to Cart page
+[2026-05-12 23:41:30] [INFO] Clicking element: #cartur
+[2026-05-12 23:41:33] [INFO] Cart item count: 2
+[2026-05-12 23:41:33] [INFO] ✅ TEST PASSED: TC007 - Add multiple products to cart @regression @product
+[2026-05-12 23:41:33] [INFO] ========== TEST END: TC007 - Add multiple products to cart @regression @product ==========
+[2026-05-12 23:41:34] [INFO] ========== TEST START: TC012 - Verify product categories are visible @regression @product ==========
+[2026-05-12 23:41:34] [INFO] Browser: chromium
+[2026-05-12 23:41:35] [INFO] Initialized HomePage fixture
+[2026-05-12 23:41:35] [INFO] STEP 1: Verify all categories are visible
+[2026-05-12 23:41:35] [INFO] Element a[onclick="byCat('phone')"] visible: true
+[2026-05-12 23:41:35] [INFO] Element a[onclick="byCat('notebook')"] visible: true
+[2026-05-12 23:41:35] [INFO] Element a[onclick="byCat('monitor')"] visible: true
+[2026-05-12 23:41:36] [INFO] ✅ TEST PASSED: TC012 - Verify product categories are visible @regression @product
+[2026-05-12 23:41:36] [INFO] ========== TEST END: TC012 - Verify product categories are visible @regression @product ==========
+[2026-05-12 23:41:36] [INFO] ========== TEST START: TC013 - Verify product details on product page @regression @product ==========
+[2026-05-12 23:41:36] [INFO] Browser: chromium
+[2026-05-12 23:41:37] [INFO] Initialized HomePage fixture
+[2026-05-12 23:41:37] [INFO] Initialized ProductPage fixture
+[2026-05-12 23:41:37] [INFO] STEP 1: Select product: Samsung galaxy s6
+[2026-05-12 23:41:37] [INFO] Selecting product: Samsung galaxy s6
+[2026-05-12 23:41:41] [INFO] STEP 2: Verify product title
+[2026-05-12 23:41:41] [INFO] Waiting for element: .name
+[2026-05-12 23:41:41] [INFO] Got text from .name: Samsung galaxy s6
+[2026-05-12 23:41:41] [INFO] Product title: Samsung galaxy s6
+[2026-05-12 23:41:41] [INFO] STEP 3: Verify product price is displayed
+[2026-05-12 23:41:41] [INFO] Waiting for element: .price-container
+[2026-05-12 23:41:41] [INFO] Got text from .price-container: $360 *includes tax
+[2026-05-12 23:41:41] [INFO] Product price: $360 *includes tax
+[2026-05-12 23:41:41] [INFO] STEP 4: Verify Add to Cart button is visible
+[2026-05-12 23:41:41] [INFO] Element //a[contains(text(),'Add to cart')] visible: true
+[2026-05-12 23:41:41] [INFO] ✅ TEST PASSED: TC013 - Verify product details on product page @regression @product
+[2026-05-12 23:41:41] [INFO] ========== TEST END: TC013 - Verify product details on product page @regression @product ==========
+[2026-05-12 23:41:42] [INFO] ========== TEST START: TC012a - Verify Phones category shows phone products @regression @product ==========
+[2026-05-12 23:41:42] [INFO] Browser: chromium
+[2026-05-12 23:41:43] [INFO] Initialized HomePage fixture
+[2026-05-12 23:41:43] [INFO] STEP 1: Click on Phones category
+[2026-05-12 23:41:43] [INFO] Selecting category: phones
+[2026-05-12 23:41:43] [INFO] Clicking element: a[onclick="byCat('phone')"]
+[2026-05-12 23:41:45] [INFO] STEP 2: Verify products are displayed
+[2026-05-12 23:41:46] [INFO] STEP 3: Verify product names
+[2026-05-12 23:41:47] [INFO] Found 7 products
+[2026-05-12 23:41:47] [INFO] Phones category products: Samsung galaxy s6, Nokia lumia 1520, Nexus 6, Samsung galaxy s7, Iphone 6 32gb, Sony xperia z5, HTC One M9
+[2026-05-12 23:41:47] [INFO] ✅ TEST PASSED: TC012a - Verify Phones category shows phone products @regression @product
+[2026-05-12 23:41:47] [INFO] ========== TEST END: TC012a - Verify Phones category shows phone products @regression @product ==========
+[2026-05-12 23:41:47] [INFO] ========== TEST START: TC012b - Verify Laptops category shows laptop products @regression @product ==========
+[2026-05-12 23:41:47] [INFO] Browser: chromium
+[2026-05-12 23:41:48] [INFO] Initialized HomePage fixture
+[2026-05-12 23:41:48] [INFO] STEP 1: Click on Laptops category
+[2026-05-12 23:41:48] [INFO] Selecting category: laptops
+[2026-05-12 23:41:48] [INFO] Clicking element: a[onclick="byCat('notebook')"]
+[2026-05-12 23:41:50] [INFO] STEP 2: Verify products are displayed
+[2026-05-12 23:41:51] [INFO] ✅ TEST PASSED: TC012b - Verify Laptops category shows laptop products @regression @product
+[2026-05-12 23:41:51] [INFO] ========== TEST END: TC012b - Verify Laptops category shows laptop products @regression @product ==========
+[2026-05-12 23:41:51] [INFO] ========== TEST START: TC012c - Verify Monitors category shows monitor products @regression @product ==========
+[2026-05-12 23:41:51] [INFO] Browser: chromium
+[2026-05-12 23:41:52] [INFO] Initialized HomePage fixture
+[2026-05-12 23:41:52] [INFO] STEP 1: Click on Monitors category
+[2026-05-12 23:41:52] [INFO] Selecting category: monitors
+[2026-05-12 23:41:52] [INFO] Clicking element: a[onclick="byCat('monitor')"]
+[2026-05-12 23:41:53] [INFO] STEP 2: Verify products are displayed
+[2026-05-12 23:41:55] [INFO] ✅ TEST PASSED: TC012c - Verify Monitors category shows monitor products @regression @product
+[2026-05-12 23:41:55] [INFO] ========== TEST END: TC012c - Verify Monitors category shows monitor products @regression @product ==========
+[2026-05-12 23:41:55] [INFO] ====================================
+[2026-05-12 23:41:55] [INFO] TEST SUITE COMPLETED
+[2026-05-12 23:41:55] [INFO] Timestamp: 2026-05-12T18:11:55.186Z
+[2026-05-12 23:41:55] [INFO] ====================================
+[2026-05-12 23:49:25] [INFO] ====================================
+[2026-05-12 23:49:25] [INFO] TEST SUITE STARTED
+[2026-05-12 23:49:25] [INFO] Environment: qa
+[2026-05-12 23:49:25] [INFO] Timestamp: 2026-05-12T18:19:25.615Z
+[2026-05-12 23:49:25] [INFO] ====================================
+[2026-05-12 23:49:27] [INFO] ========== TEST START: TC014 - Verify navigation menu links @regression @e2e ==========
+[2026-05-12 23:49:27] [INFO] Browser: chromium
+[2026-05-12 23:49:29] [INFO] Initialized HomePage fixture
+[2026-05-12 23:49:29] [INFO] STEP 1: Verify navigation menu is visible
+[2026-05-12 23:49:29] [INFO] Element a.nav-link[href='index.html'] visible: true
+[2026-05-12 23:49:29] [INFO] Element a.nav-link[data-target='#exampleModal'] visible: true
+[2026-05-12 23:49:29] [INFO] Element #cartur visible: true
+[2026-05-12 23:49:29] [INFO] STEP 2: Verify home page is loaded
+[2026-05-12 23:49:29] [INFO] Waiting for element: .card-block
+[2026-05-12 23:49:30] [ERROR] ❌ TEST FAILED: TC014 - Verify navigation menu links @regression @e2e | Error: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+[2026-05-12 23:49:30] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Playwright_Framework/screenshots/FAIL_TC014___Verify_navigation_menu_links__regression__e2e_2026-05-12T18-19-30-568Z.png
+[2026-05-12 23:49:30] [INFO] Allure: Screenshot attached to report
+[2026-05-12 23:49:30] [INFO] Allure: Page source attached to report
+[2026-05-12 23:49:30] [INFO] Allure: Execution logs attached to report
+[2026-05-12 23:49:30] [INFO] ========== TEST END: TC014 - Verify navigation menu links @regression @e2e ==========
+[2026-05-12 23:49:30] [INFO] ====================================
+[2026-05-12 23:49:30] [INFO] TEST SUITE COMPLETED
+[2026-05-12 23:49:30] [INFO] Timestamp: 2026-05-12T18:19:30.793Z
+[2026-05-12 23:49:30] [INFO] ====================================
+[2026-05-12 23:49:31] [INFO] ====================================
+[2026-05-12 23:49:31] [INFO] TEST SUITE STARTED
+[2026-05-12 23:49:31] [INFO] Environment: qa
+[2026-05-12 23:49:31] [INFO] Timestamp: 2026-05-12T18:19:31.790Z
+[2026-05-12 23:49:31] [INFO] ====================================
+[2026-05-12 23:49:33] [INFO] ========== TEST START: TC014 - Verify navigation menu links @regression @e2e ==========
+[2026-05-12 23:49:33] [INFO] Browser: chromium
+[2026-05-12 23:49:34] [INFO] Initialized HomePage fixture
+[2026-05-12 23:49:34] [INFO] STEP 1: Verify navigation menu is visible
+[2026-05-12 23:49:34] [INFO] Element a.nav-link[href='index.html'] visible: true
+[2026-05-12 23:49:34] [INFO] Element a.nav-link[data-target='#exampleModal'] visible: true
+[2026-05-12 23:49:34] [INFO] Element #cartur visible: true
+[2026-05-12 23:49:34] [INFO] STEP 2: Verify home page is loaded
+[2026-05-12 23:49:34] [INFO] Waiting for element: .card-block
+[2026-05-12 23:49:35] [ERROR] ❌ TEST FAILED: TC014 - Verify navigation menu links @regression @e2e | Error: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+[2026-05-12 23:49:36] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Playwright_Framework/screenshots/FAIL_TC014___Verify_navigation_menu_links__regression__e2e_2026-05-12T18-19-35-894Z.png
+[2026-05-12 23:49:36] [INFO] Allure: Screenshot attached to report
+[2026-05-12 23:49:36] [INFO] Allure: Page source attached to report

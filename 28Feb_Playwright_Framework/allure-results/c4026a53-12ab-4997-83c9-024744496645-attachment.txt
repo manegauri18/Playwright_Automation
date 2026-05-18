@@ -1,0 +1,22 @@
+[2026-05-14 19:27:58] [INFO] ====================================
+[2026-05-14 19:27:58] [INFO] TEST SUITE STARTED
+[2026-05-14 19:27:58] [INFO] Environment: qa
+[2026-05-14 19:27:58] [INFO] Timestamp: 2026-05-14T13:57:58.427Z
+[2026-05-14 19:27:58] [INFO] ====================================
+[2026-05-14 19:28:08] [INFO] ========== TEST START: TC018 - Cross browser homepage validation @smoke @e2e ==========
+[2026-05-14 19:28:08] [INFO] Browser: chromium
+[2026-05-14 19:28:10] [INFO] Initialized HomePage fixture
+[2026-05-14 19:28:10] [INFO] STEP 1: Verify homepage loads in current browser
+[2026-05-14 19:28:11] [INFO] Home page loaded successfully
+[2026-05-14 19:28:11] [INFO] STEP 2: Verify page title
+[2026-05-14 19:28:11] [INFO] Page title: STORE
+[2026-05-14 19:28:11] [INFO] STEP 3: Verify categories
+[2026-05-14 19:28:11] [INFO] Element a[onclick="byCat('phone')"] visible: true
+[2026-05-14 19:28:11] [INFO] Element a[onclick="byCat('notebook')"] visible: true
+[2026-05-14 19:28:11] [INFO] Element a[onclick="byCat('monitor')"] visible: true
+[2026-05-14 19:28:12] [INFO] ✅ TEST PASSED: TC018 - Cross browser homepage validation @smoke @e2e
+[2026-05-14 19:28:12] [INFO] ========== TEST END: TC018 - Cross browser homepage validation @smoke @e2e ==========
+[2026-05-14 19:28:12] [INFO] ====================================
+[2026-05-14 19:28:12] [INFO] TEST SUITE COMPLETED
+[2026-05-14 19:28:12] [INFO] Timestamp: 2026-05-14T13:58:12.862Z
+[2026-05-14 19:28:12] [INFO] ====================================

@@ -1,0 +1,28 @@
+[2026-05-14 20:47:04] [INFO] ====================================
+[2026-05-14 20:47:04] [INFO] TEST SUITE STARTED
+[2026-05-14 20:47:04] [INFO] Environment: qa
+[2026-05-14 20:47:04] [INFO] Timestamp: 2026-05-14T15:17:04.426Z
+[2026-05-14 20:47:04] [INFO] ====================================
+[2026-05-14 20:47:05] [INFO] ========== TEST START: TC003 - Login with blank username @regression @login ==========
+[2026-05-14 20:47:05] [INFO] Browser: chromium
+[2026-05-14 20:47:07] [INFO] Initialized LoginPage fixture
+[2026-05-14 20:47:07] [INFO] STEP 1: Login with blank username
+[2026-05-14 20:47:07] [INFO] Performing login with user: 
+[2026-05-14 20:47:07] [INFO] Clicking Login navigation link
+[2026-05-14 20:47:07] [INFO] Waiting for element: #login2
+[2026-05-14 20:47:07] [INFO] Clicking element: #login2
+[2026-05-14 20:47:08] [INFO] Entering username: 
+[2026-05-14 20:47:08] [INFO] Waiting for element: #loginusername
+[2026-05-14 20:47:08] [INFO] Entering text in: #loginusername
+[2026-05-14 20:47:08] [INFO] Entering password
+[2026-05-14 20:47:08] [INFO] Entering text in: #loginpassword
+[2026-05-14 20:47:08] [INFO] Clicking Login button
+[2026-05-14 20:47:08] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-14 20:47:11] [INFO] STEP 2: Verify user is NOT logged in
+[2026-05-14 20:47:13] [INFO] Waiting for element: #nameofuser
+[2026-05-14 20:47:19] [INFO] ✅ TEST PASSED: TC003 - Login with blank username @regression @login
+[2026-05-14 20:47:19] [INFO] ========== TEST END: TC003 - Login with blank username @regression @login ==========
+[2026-05-14 20:47:19] [INFO] ====================================
+[2026-05-14 20:47:19] [INFO] TEST SUITE COMPLETED
+[2026-05-14 20:47:19] [INFO] Timestamp: 2026-05-14T15:17:19.503Z
+[2026-05-14 20:47:19] [INFO] ====================================

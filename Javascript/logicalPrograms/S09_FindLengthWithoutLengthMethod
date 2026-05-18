@@ -1,0 +1,16 @@
+// Program to find length of a string without using .length
+
+let inputString = "Hello World";
+
+// Convert string to array of characters
+let chars = inputString.split(""); 
+
+let count = 0;
+
+// Count characters manually
+for (let i = 0; chars[i] !== undefined; i++) 
+{
+  count++;
+}
+
+console.log("Length of the string: " + count);

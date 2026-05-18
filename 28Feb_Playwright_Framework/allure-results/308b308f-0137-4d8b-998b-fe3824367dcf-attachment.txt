@@ -1,0 +1,20 @@
+[2026-05-13 00:04:43] [INFO] ====================================
+[2026-05-13 00:04:43] [INFO] TEST SUITE STARTED
+[2026-05-13 00:04:43] [INFO] Environment: qa
+[2026-05-13 00:04:43] [INFO] Timestamp: 2026-05-12T18:34:43.174Z
+[2026-05-13 00:04:43] [INFO] ====================================
+[2026-05-13 00:04:45] [INFO] ========== TEST START: TC016 - Validate no broken links on homepage @regression @e2e ==========
+[2026-05-13 00:04:45] [INFO] Browser: chromium
+[2026-05-13 00:04:46] [INFO] STEP 1: Get all links on the page
+[2026-05-13 00:04:46] [INFO] Found 15 links on homepage
+[2026-05-13 00:04:46] [INFO] STEP 2: Verify key navigation links exist
+[2026-05-13 00:04:46] [ERROR] ❌ TEST FAILED: TC016 - Validate no broken links on homepage @regression @e2e | Error: ReferenceError: homePage is not defined
+[2026-05-13 00:04:46] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Playwright_Framework/screenshots/FAIL_TC016___Validate_no_broken_links_on_homepage__regression__e2e_2026-05-12T18-34-46-870Z.png
+[2026-05-13 00:04:46] [INFO] Allure: Screenshot attached to report
+[2026-05-13 00:04:47] [INFO] Allure: Page source attached to report
+[2026-05-13 00:04:47] [INFO] Allure: Execution logs attached to report
+[2026-05-13 00:04:47] [INFO] ========== TEST END: TC016 - Validate no broken links on homepage @regression @e2e ==========
+[2026-05-13 00:04:47] [INFO] ====================================
+[2026-05-13 00:04:47] [INFO] TEST SUITE COMPLETED
+[2026-05-13 00:04:47] [INFO] Timestamp: 2026-05-12T18:34:47.119Z
+[2026-05-13 00:04:47] [INFO] ====================================

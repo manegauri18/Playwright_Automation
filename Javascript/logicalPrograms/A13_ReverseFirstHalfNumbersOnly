@@ -1,0 +1,30 @@
+const num = 1274568;
+const numStr = String(num);
+const length = numStr.length;
+
+// Find midpoint
+const half = Math.floor(length / 2);
+
+// Split into two halves
+const firstHalf = numStr.substring(0, half);
+const secondHalf = numStr.substring(half);
+
+// Reverse first half
+let rev = "";
+for (let i = firstHalf.length - 1; i >= 0; i--) 
+{
+  rev += firstHalf[i];
+}
+
+// Join reversed first half with normal second half
+const result = rev + secondHalf;
+
+// Convert back to integer
+const finalResult = Number(result);
+
+// Print results
+console.log("Original number:", num);
+console.log("First half:", firstHalf);
+console.log("Second half:", secondHalf);
+console.log("Reversed first half:", rev);
+console.log("Final result:", finalResult);

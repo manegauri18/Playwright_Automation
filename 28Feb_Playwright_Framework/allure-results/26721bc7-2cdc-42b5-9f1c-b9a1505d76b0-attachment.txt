@@ -1,0 +1,36 @@
+[2026-05-14 20:47:08] [INFO] ====================================
+[2026-05-14 20:47:08] [INFO] TEST SUITE STARTED
+[2026-05-14 20:47:08] [INFO] Environment: qa
+[2026-05-14 20:47:08] [INFO] Timestamp: 2026-05-14T15:17:08.809Z
+[2026-05-14 20:47:08] [INFO] ====================================
+[2026-05-14 20:47:11] [INFO] ========== TEST START: TC005 - Logout after successful login @smoke @login ==========
+[2026-05-14 20:47:11] [INFO] Browser: chromium
+[2026-05-14 20:47:12] [INFO] Initialized LoginPage fixture
+[2026-05-14 20:47:12] [INFO] STEP 1: Login with valid credentials
+[2026-05-14 20:47:12] [INFO] Performing login with user: pavanol
+[2026-05-14 20:47:12] [INFO] Clicking Login navigation link
+[2026-05-14 20:47:12] [INFO] Waiting for element: #login2
+[2026-05-14 20:47:12] [INFO] Clicking element: #login2
+[2026-05-14 20:47:13] [INFO] Entering username: pavanol
+[2026-05-14 20:47:13] [INFO] Waiting for element: #loginusername
+[2026-05-14 20:47:13] [INFO] Entering text in: #loginusername
+[2026-05-14 20:47:13] [INFO] Entering password
+[2026-05-14 20:47:13] [INFO] Entering text in: #loginpassword
+[2026-05-14 20:47:13] [INFO] Clicking Login button
+[2026-05-14 20:47:13] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-14 20:47:16] [INFO] STEP 2: Verify user is logged in
+[2026-05-14 20:47:16] [INFO] Waiting for element: #nameofuser
+[2026-05-14 20:47:16] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-14 20:47:16] [INFO] Welcome text: Welcome pavanol
+[2026-05-14 20:47:16] [INFO] STEP 3: Perform logout
+[2026-05-14 20:47:16] [INFO] Performing logout
+[2026-05-14 20:47:16] [INFO] Waiting for element: #logout2
+[2026-05-14 20:47:16] [INFO] Clicking element: #logout2
+[2026-05-14 20:47:17] [INFO] STEP 4: Verify Login nav is visible after logout
+[2026-05-14 20:47:18] [INFO] Element #login2 visible: true
+[2026-05-14 20:47:18] [INFO] ✅ TEST PASSED: TC005 - Logout after successful login @smoke @login
+[2026-05-14 20:47:19] [INFO] ========== TEST END: TC005 - Logout after successful login @smoke @login ==========
+[2026-05-14 20:47:19] [INFO] ====================================
+[2026-05-14 20:47:19] [INFO] TEST SUITE COMPLETED
+[2026-05-14 20:47:19] [INFO] Timestamp: 2026-05-14T15:17:19.531Z
+[2026-05-14 20:47:19] [INFO] ====================================

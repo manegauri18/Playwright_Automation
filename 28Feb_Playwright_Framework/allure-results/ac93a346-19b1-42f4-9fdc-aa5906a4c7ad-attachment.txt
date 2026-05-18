@@ -1,0 +1,22 @@
+[2026-05-14 20:55:16] [INFO] ====================================
+[2026-05-14 20:55:17] [INFO] TEST SUITE STARTED
+[2026-05-14 20:55:17] [INFO] Environment: staging
+[2026-05-14 20:55:17] [INFO] Timestamp: 2026-05-14T15:25:17.023Z
+[2026-05-14 20:55:17] [INFO] ====================================
+[2026-05-14 20:55:22] [INFO] ========== TEST START: TC006 - Add single product to cart @smoke @product ==========
+[2026-05-14 20:55:22] [INFO] Browser: chromium
+[2026-05-14 20:55:23] [INFO] Initialized HomePage fixture
+[2026-05-14 20:55:23] [INFO] Initialized ProductPage fixture
+[2026-05-14 20:55:23] [INFO] STEP 1: Select product: Samsung galaxy s6
+[2026-05-14 20:55:23] [INFO] Selecting product: Samsung galaxy s6
+[2026-05-14 20:55:27] [INFO] STEP 2: Verify product page loads
+[2026-05-14 20:55:27] [INFO] Waiting for element: .name
+[2026-05-14 20:55:27] [INFO] STEP 3: Verify product title
+[2026-05-14 20:55:27] [INFO] Waiting for element: .name
+[2026-05-14 20:55:27] [INFO] Got text from .name: Samsung galaxy s6
+[2026-05-14 20:55:27] [INFO] Product title: Samsung galaxy s6
+[2026-05-14 20:55:27] [INFO] STEP 4: Add product to cart
+[2026-05-14 20:55:27] [INFO] Adding product to cart
+[2026-05-14 20:55:28] [INFO] Alert message: Product added
+[2026-05-14 20:55:28] [INFO] ✅ TEST PASSED: TC006 - Add single product to cart @smoke @product
+[2026-05-14 20:55:29] [INFO] ========== TEST END: TC006 - Add single product to cart @smoke @product ==========

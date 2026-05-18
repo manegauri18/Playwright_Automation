@@ -1,0 +1,20 @@
+// PrintEvenOddNumbers.js
+
+const ar = [1, 2, 3, 4, 5, 6];
+
+// Extracting even numbers
+console.log("----Print even numbers from array----");
+for (let i = 0; i < ar.length; i++) {
+  if (ar[i] % 2 == 0) {
+    console.log(ar[i]);
+  }
+
+}
+
+// Extracting odd numbers
+console.log("----Print odd numbers from array----");
+for (let i = 0; i < ar.length; i++) {
+  if (ar[i] % 2 != 0) {
+    console.log(ar[i]);
+  }
+}

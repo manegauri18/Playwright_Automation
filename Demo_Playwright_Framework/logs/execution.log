@@ -1,0 +1,2055 @@
+[2026-05-12 18:58:09] [INFO] ========================================
+[2026-05-12 18:58:09] [INFO] ========================================
+[2026-05-12 18:58:09] [INFO] TEST SUITE STARTED
+[2026-05-12 18:58:09] [INFO] Environment: qa
+[2026-05-12 18:58:09] [INFO] Timestamp: 2026-05-12T13:28:09.888Z
+[2026-05-12 18:58:09] [INFO] ========================================
+[2026-05-12 18:58:09] [INFO] ========================================
+[2026-05-12 18:58:09] [INFO] TEST SUITE STARTED
+[2026-05-12 18:58:09] [INFO] Environment: qa
+[2026-05-12 18:58:09] [INFO] Timestamp: 2026-05-12T13:28:09.902Z
+[2026-05-12 18:58:09] [INFO] ========================================
+[2026-05-12 18:58:09] [INFO] TEST SUITE STARTED
+[2026-05-12 18:58:09] [INFO] Environment: qa
+[2026-05-12 18:58:09] [INFO] Timestamp: 2026-05-12T13:28:09.918Z
+[2026-05-12 18:58:09] [INFO] ========================================
+[2026-05-12 18:58:14] [INFO] ========== TEST START: TC009a - Verify cart displays correct product names @regression @cart ==========
+[2026-05-12 18:58:14] [INFO] ========== TEST START: TC009 - Verify cart total price @regression @cart ==========
+[2026-05-12 18:58:14] [INFO] ========== TEST START: TC008 - Remove product from cart @regression @cart ==========
+[2026-05-12 18:58:14] [INFO] Browser: chromium
+[2026-05-12 18:58:14] [INFO] Browser: chromium
+[2026-05-12 18:58:14] [INFO] Browser: chromium
+[2026-05-12 18:58:43] [ERROR] ❌ TEST FAILED: TC009 - Verify cart total price @regression @cart | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 18:58:43] [ERROR] ❌ TEST FAILED: TC008 - Remove product from cart @regression @cart | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 18:58:43] [ERROR] ❌ TEST FAILED: TC009a - Verify cart displays correct product names @regression @cart | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 18:58:43] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC009___Verify_cart_total_price__regression__cart_2026-05-12T13-28-43-340Z.png
+[2026-05-12 18:58:43] [INFO] ========== TEST END: TC009 - Verify cart total price @regression @cart ==========
+[2026-05-12 18:58:43] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC008___Remove_product_from_cart__regression__cart_2026-05-12T13-28-43-401Z.png
+[2026-05-12 18:58:43] [INFO] ========== TEST END: TC008 - Remove product from cart @regression @cart ==========
+[2026-05-12 18:58:44] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC009a___Verify_cart_displays_correct_product_names__regression__cart_2026-05-12T13-28-43-415Z.png
+[2026-05-12 18:58:44] [INFO] ========== TEST END: TC009a - Verify cart displays correct product names @regression @cart ==========
+[2026-05-12 18:58:44] [INFO] ========================================
+[2026-05-12 18:58:44] [INFO] ========================================
+[2026-05-12 18:58:44] [INFO] TEST SUITE COMPLETED
+[2026-05-12 18:58:44] [INFO] Timestamp: 2026-05-12T13:28:44.103Z
+[2026-05-12 18:58:44] [INFO] ========================================
+[2026-05-12 18:58:44] [INFO] TEST SUITE COMPLETED
+[2026-05-12 18:58:44] [INFO] Timestamp: 2026-05-12T13:28:44.103Z
+[2026-05-12 18:58:44] [INFO] ========================================
+[2026-05-12 18:58:44] [INFO] ========================================
+[2026-05-12 18:58:44] [INFO] TEST SUITE COMPLETED
+[2026-05-12 18:58:44] [INFO] Timestamp: 2026-05-12T13:28:44.156Z
+[2026-05-12 18:58:44] [INFO] ========================================
+[2026-05-12 19:01:11] [INFO] ========================================
+[2026-05-12 19:01:11] [INFO] ========================================
+[2026-05-12 19:01:11] [INFO] ========================================
+[2026-05-12 19:01:11] [INFO] TEST SUITE STARTED
+[2026-05-12 19:01:11] [INFO] Environment: qa
+[2026-05-12 19:01:11] [INFO] Timestamp: 2026-05-12T13:31:11.183Z
+[2026-05-12 19:01:11] [INFO] ========================================
+[2026-05-12 19:01:11] [INFO] TEST SUITE STARTED
+[2026-05-12 19:01:11] [INFO] Environment: qa
+[2026-05-12 19:01:11] [INFO] Timestamp: 2026-05-12T13:31:11.183Z
+[2026-05-12 19:01:11] [INFO] ========================================
+[2026-05-12 19:01:11] [INFO] TEST SUITE STARTED
+[2026-05-12 19:01:11] [INFO] Environment: qa
+[2026-05-12 19:01:11] [INFO] Timestamp: 2026-05-12T13:31:11.187Z
+[2026-05-12 19:01:11] [INFO] ========================================
+[2026-05-12 19:01:15] [INFO] ========== TEST START: TC008 - Remove product from cart @regression @cart ==========
+[2026-05-12 19:01:15] [INFO] ========== TEST START: TC009a - Verify cart displays correct product names @regression @cart ==========
+[2026-05-12 19:01:15] [INFO] Browser: chromium
+[2026-05-12 19:01:15] [INFO] Browser: chromium
+[2026-05-12 19:01:16] [INFO] ========== TEST START: TC009 - Verify cart total price @regression @cart ==========
+[2026-05-12 19:01:16] [INFO] Browser: chromium
+[2026-05-12 19:01:44] [ERROR] ❌ TEST FAILED: TC009a - Verify cart displays correct product names @regression @cart | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:01:45] [ERROR] ❌ TEST FAILED: TC008 - Remove product from cart @regression @cart | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:01:45] [ERROR] ❌ TEST FAILED: TC009 - Verify cart total price @regression @cart | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:01:46] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC009a___Verify_cart_displays_correct_product_names__regression__cart_2026-05-12T13-31-44-858Z.png
+[2026-05-12 19:01:46] [INFO] ========== TEST END: TC009a - Verify cart displays correct product names @regression @cart ==========
+[2026-05-12 19:01:46] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC008___Remove_product_from_cart__regression__cart_2026-05-12T13-31-45-362Z.png
+[2026-05-12 19:01:46] [INFO] ========== TEST END: TC008 - Remove product from cart @regression @cart ==========
+[2026-05-12 19:01:46] [INFO] ========================================
+[2026-05-12 19:01:46] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:01:46] [INFO] Timestamp: 2026-05-12T13:31:46.982Z
+[2026-05-12 19:01:46] [INFO] ========================================
+[2026-05-12 19:01:47] [INFO] ========================================
+[2026-05-12 19:01:47] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:01:47] [INFO] Timestamp: 2026-05-12T13:31:47.218Z
+[2026-05-12 19:01:47] [INFO] ========================================
+[2026-05-12 19:01:47] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC009___Verify_cart_total_price__regression__cart_2026-05-12T13-31-45-435Z.png
+[2026-05-12 19:01:47] [INFO] ========== TEST END: TC009 - Verify cart total price @regression @cart ==========
+[2026-05-12 19:01:47] [INFO] ========================================
+[2026-05-12 19:01:47] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:01:47] [INFO] Timestamp: 2026-05-12T13:31:47.960Z
+[2026-05-12 19:01:47] [INFO] ========================================
+[2026-05-12 19:02:30] [INFO] ========================================
+[2026-05-12 19:02:30] [INFO] ========================================
+[2026-05-12 19:02:30] [INFO] ========================================
+[2026-05-12 19:02:30] [INFO] TEST SUITE STARTED
+[2026-05-12 19:02:30] [INFO] Environment: qa
+[2026-05-12 19:02:30] [INFO] Timestamp: 2026-05-12T13:32:30.524Z
+[2026-05-12 19:02:30] [INFO] ========================================
+[2026-05-12 19:02:30] [INFO] TEST SUITE STARTED
+[2026-05-12 19:02:30] [INFO] Environment: qa
+[2026-05-12 19:02:30] [INFO] Timestamp: 2026-05-12T13:32:30.534Z
+[2026-05-12 19:02:30] [INFO] ========================================
+[2026-05-12 19:02:30] [INFO] TEST SUITE STARTED
+[2026-05-12 19:02:30] [INFO] Environment: qa
+[2026-05-12 19:02:30] [INFO] Timestamp: 2026-05-12T13:32:30.542Z
+[2026-05-12 19:02:30] [INFO] ========================================
+[2026-05-12 19:02:33] [INFO] ========== TEST START: TC005 - Logout after successful login @smoke @login ==========
+[2026-05-12 19:02:33] [INFO] ========== TEST START: TC003 - Login with blank username @regression @login ==========
+[2026-05-12 19:02:33] [INFO] Browser: chromium
+[2026-05-12 19:02:33] [INFO] Browser: chromium
+[2026-05-12 19:02:33] [INFO] ========== TEST START: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:02:33] [INFO] Browser: chromium
+[2026-05-12 19:03:03] [ERROR] ❌ TEST FAILED: TC003 - Login with blank username @regression @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:03:03] [ERROR] ❌ TEST FAILED: TC005 - Logout after successful login @smoke @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:03:03] [ERROR] ❌ TEST FAILED: TC001 - Valid Login with correct credentials @smoke @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:03:03] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC001___Valid_Login_with_correct_credentials__smoke__login_2026-05-12T13-33-03-212Z.png
+[2026-05-12 19:03:03] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC003___Login_with_blank_username__regression__login_2026-05-12T13-33-03-212Z.png
+[2026-05-12 19:03:03] [INFO] ========== TEST END: TC003 - Login with blank username @regression @login ==========
+[2026-05-12 19:03:03] [INFO] ========== TEST END: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:03:03] [INFO] ========================================
+[2026-05-12 19:03:03] [INFO] ========================================
+[2026-05-12 19:03:03] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:03:03] [INFO] Timestamp: 2026-05-12T13:33:03.765Z
+[2026-05-12 19:03:03] [INFO] ========================================
+[2026-05-12 19:03:03] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:03:03] [INFO] Timestamp: 2026-05-12T13:33:03.766Z
+[2026-05-12 19:03:03] [INFO] ========================================
+[2026-05-12 19:03:04] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC005___Logout_after_successful_login__smoke__login_2026-05-12T13-33-03-212Z.png
+[2026-05-12 19:03:04] [INFO] ========== TEST END: TC005 - Logout after successful login @smoke @login ==========
+[2026-05-12 19:03:04] [INFO] ========================================
+[2026-05-12 19:03:04] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:03:04] [INFO] Timestamp: 2026-05-12T13:33:04.349Z
+[2026-05-12 19:03:04] [INFO] ========================================
+[2026-05-12 19:03:04] [INFO] ========================================
+[2026-05-12 19:03:04] [INFO] TEST SUITE STARTED
+[2026-05-12 19:03:04] [INFO] Environment: qa
+[2026-05-12 19:03:04] [INFO] Timestamp: 2026-05-12T13:33:04.914Z
+[2026-05-12 19:03:04] [INFO] ========================================
+[2026-05-12 19:03:05] [INFO] ========================================
+[2026-05-12 19:03:05] [INFO] TEST SUITE STARTED
+[2026-05-12 19:03:05] [INFO] Environment: qa
+[2026-05-12 19:03:05] [INFO] Timestamp: 2026-05-12T13:33:05.005Z
+[2026-05-12 19:03:05] [INFO] ========================================
+[2026-05-12 19:03:07] [INFO] ========== TEST START: TC005 - Logout after successful login @smoke @login ==========
+[2026-05-12 19:03:07] [INFO] ========== TEST START: TC003 - Login with blank username @regression @login ==========
+[2026-05-12 19:03:07] [INFO] Browser: chromium
+[2026-05-12 19:03:07] [INFO] Browser: chromium
+[2026-05-12 19:03:25] [INFO] ========================================
+[2026-05-12 19:03:25] [INFO] TEST SUITE STARTED
+[2026-05-12 19:03:25] [INFO] Environment: qa
+[2026-05-12 19:03:25] [INFO] Timestamp: 2026-05-12T13:33:25.804Z
+[2026-05-12 19:03:25] [INFO] ========================================
+[2026-05-12 19:03:27] [INFO] ========== TEST START: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:03:27] [INFO] Browser: chromium
+[2026-05-12 19:03:36] [ERROR] ❌ TEST FAILED: TC003 - Login with blank username @regression @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:03:36] [ERROR] ❌ TEST FAILED: TC005 - Logout after successful login @smoke @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:03:37] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC005___Logout_after_successful_login__smoke__login_2026-05-12T13-33-36-831Z.png
+[2026-05-12 19:03:37] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC003___Login_with_blank_username__regression__login_2026-05-12T13-33-36-831Z.png
+[2026-05-12 19:03:37] [INFO] ========== TEST END: TC005 - Logout after successful login @smoke @login ==========
+[2026-05-12 19:03:37] [INFO] ========== TEST END: TC003 - Login with blank username @regression @login ==========
+[2026-05-12 19:03:37] [INFO] ========================================
+[2026-05-12 19:03:37] [INFO] ========================================
+[2026-05-12 19:03:37] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:03:37] [INFO] Timestamp: 2026-05-12T13:33:37.113Z
+[2026-05-12 19:03:37] [INFO] ========================================
+[2026-05-12 19:03:37] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:03:37] [INFO] Timestamp: 2026-05-12T13:33:37.113Z
+[2026-05-12 19:03:37] [INFO] ========================================
+[2026-05-12 19:03:37] [INFO] ========================================
+[2026-05-12 19:03:37] [INFO] TEST SUITE STARTED
+[2026-05-12 19:03:37] [INFO] Environment: qa
+[2026-05-12 19:03:37] [INFO] Timestamp: 2026-05-12T13:33:37.837Z
+[2026-05-12 19:03:37] [INFO] ========================================
+[2026-05-12 19:03:38] [INFO] ========== TEST START: TC004 - Login with blank password @regression @login ==========
+[2026-05-12 19:03:38] [INFO] Browser: chromium
+[2026-05-12 19:03:45] [INFO] ========================================
+[2026-05-12 19:03:45] [INFO] TEST SUITE STARTED
+[2026-05-12 19:03:45] [INFO] Environment: qa
+[2026-05-12 19:03:45] [INFO] Timestamp: 2026-05-12T13:33:45.897Z
+[2026-05-12 19:03:45] [INFO] ========================================
+[2026-05-12 19:03:49] [INFO] ========== TEST START: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:03:49] [INFO] Browser: firefox
+[2026-05-12 19:03:54] [INFO] Initialized LoginPage fixture
+[2026-05-12 19:03:54] [INFO] STEP 1: Login with valid credentials
+[2026-05-12 19:03:54] [INFO] Performing login with user: pavanol
+[2026-05-12 19:03:54] [INFO] Clicking Login navigation link
+[2026-05-12 19:03:54] [INFO] Waiting for element: #login2
+[2026-05-12 19:03:54] [INFO] Clicking element: #login2
+[2026-05-12 19:03:55] [INFO] Entering username: pavanol
+[2026-05-12 19:03:55] [INFO] Waiting for element: #loginusername
+[2026-05-12 19:03:55] [INFO] Entering text in: #loginusername
+[2026-05-12 19:03:55] [INFO] Entering password
+[2026-05-12 19:03:55] [INFO] Entering text in: #loginpassword
+[2026-05-12 19:03:55] [INFO] Clicking Login button
+[2026-05-12 19:03:55] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 19:03:56] [ERROR] ❌ TEST FAILED: TC001 - Valid Login with correct credentials @smoke @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:03:57] [INFO] STEP 2: Verify user is logged in
+[2026-05-12 19:03:57] [INFO] Waiting for element: #nameofuser
+[2026-05-12 19:03:57] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC001___Valid_Login_with_correct_credentials__smoke__login_2026-05-12T13-33-56-780Z.png
+[2026-05-12 19:03:57] [INFO] ========== TEST END: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:03:57] [INFO] ========================================
+[2026-05-12 19:03:57] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:03:57] [INFO] Timestamp: 2026-05-12T13:33:57.774Z
+[2026-05-12 19:03:57] [INFO] ========================================
+[2026-05-12 19:03:58] [INFO] ========================================
+[2026-05-12 19:03:58] [INFO] TEST SUITE STARTED
+[2026-05-12 19:03:58] [INFO] Environment: qa
+[2026-05-12 19:03:58] [INFO] Timestamp: 2026-05-12T13:33:58.504Z
+[2026-05-12 19:03:58] [INFO] ========================================
+[2026-05-12 19:03:59] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-12 19:03:59] [INFO] Welcome text: Welcome pavanol
+[2026-05-12 19:03:59] [INFO] STEP 3: Verify welcome text contains username
+[2026-05-12 19:03:59] [INFO] Waiting for element: #nameofuser
+[2026-05-12 19:03:59] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-12 19:03:59] [INFO] ✅ TEST PASSED: TC001 - Valid Login with correct credentials @smoke @login
+[2026-05-12 19:03:59] [INFO] ========== TEST END: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:03:59] [INFO] ========== TEST START: TC002 - Invalid Login with wrong credentials @regression @login ==========
+[2026-05-12 19:03:59] [INFO] Browser: firefox
+[2026-05-12 19:04:00] [INFO] ========== TEST START: TC002 - Invalid Login with wrong credentials @regression @login ==========
+[2026-05-12 19:04:00] [INFO] Browser: chromium
+[2026-05-12 19:04:02] [INFO] Initialized LoginPage fixture
+[2026-05-12 19:04:02] [INFO] STEP 1: Login with invalid credentials
+[2026-05-12 19:04:02] [INFO] Performing login with user: invaliduser123
+[2026-05-12 19:04:02] [INFO] Clicking Login navigation link
+[2026-05-12 19:04:02] [INFO] Waiting for element: #login2
+[2026-05-12 19:04:02] [INFO] Clicking element: #login2
+[2026-05-12 19:04:03] [INFO] Entering username: invaliduser123
+[2026-05-12 19:04:03] [INFO] Waiting for element: #loginusername
+[2026-05-12 19:04:03] [INFO] Entering text in: #loginusername
+[2026-05-12 19:04:03] [INFO] Entering password
+[2026-05-12 19:04:03] [INFO] Entering text in: #loginpassword
+[2026-05-12 19:04:03] [INFO] Clicking Login button
+[2026-05-12 19:04:03] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 19:04:05] [INFO] STEP 2: Verify user is NOT logged in
+[2026-05-12 19:04:07] [INFO] Waiting for element: #nameofuser
+[2026-05-12 19:04:08] [ERROR] ❌ TEST FAILED: TC004 - Login with blank password @regression @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:04:08] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC004___Login_with_blank_password__regression__login_2026-05-12T13-34-08-678Z.png
+[2026-05-12 19:04:08] [INFO] ========== TEST END: TC004 - Login with blank password @regression @login ==========
+[2026-05-12 19:04:08] [INFO] ========================================
+[2026-05-12 19:04:08] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:04:08] [INFO] Timestamp: 2026-05-12T13:34:08.885Z
+[2026-05-12 19:04:08] [INFO] ========================================
+[2026-05-12 19:04:12] [INFO] ✅ TEST PASSED: TC002 - Invalid Login with wrong credentials @regression @login
+[2026-05-12 19:04:12] [INFO] ========== TEST END: TC002 - Invalid Login with wrong credentials @regression @login ==========
+[2026-05-12 19:04:12] [INFO] ========================================
+[2026-05-12 19:04:12] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:04:12] [INFO] Timestamp: 2026-05-12T13:34:12.991Z
+[2026-05-12 19:04:12] [INFO] ========================================
+[2026-05-12 19:04:13] [INFO] ========================================
+[2026-05-12 19:04:13] [INFO] TEST SUITE STARTED
+[2026-05-12 19:04:13] [INFO] Environment: qa
+[2026-05-12 19:04:13] [INFO] Timestamp: 2026-05-12T13:34:13.003Z
+[2026-05-12 19:04:13] [INFO] ========================================
+[2026-05-12 19:04:13] [INFO] ========== TEST START: TC003 - Login with blank username @regression @login ==========
+[2026-05-12 19:04:13] [INFO] Browser: firefox
+[2026-05-12 19:04:16] [INFO] Initialized LoginPage fixture
+[2026-05-12 19:04:16] [INFO] STEP 1: Login with blank username
+[2026-05-12 19:04:16] [INFO] Performing login with user: 
+[2026-05-12 19:04:16] [INFO] Clicking Login navigation link
+[2026-05-12 19:04:16] [INFO] Waiting for element: #login2
+[2026-05-12 19:04:16] [INFO] Clicking element: #login2
+[2026-05-12 19:04:17] [INFO] Entering username: 
+[2026-05-12 19:04:17] [INFO] Waiting for element: #loginusername
+[2026-05-12 19:04:17] [INFO] Entering text in: #loginusername
+[2026-05-12 19:04:17] [INFO] Entering password
+[2026-05-12 19:04:17] [INFO] Entering text in: #loginpassword
+[2026-05-12 19:04:17] [INFO] Clicking Login button
+[2026-05-12 19:04:17] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 19:04:18] [INFO] ========================================
+[2026-05-12 19:04:18] [INFO] TEST SUITE STARTED
+[2026-05-12 19:04:18] [INFO] Environment: qa
+[2026-05-12 19:04:19] [INFO] Timestamp: 2026-05-12T13:34:18.999Z
+[2026-05-12 19:04:19] [INFO] ========================================
+[2026-05-12 19:04:19] [INFO] STEP 2: Verify user is NOT logged in
+[2026-05-12 19:04:20] [INFO] ========== TEST START: TC004 - Login with blank password @regression @login ==========
+[2026-05-12 19:04:20] [INFO] Browser: chromium
+[2026-05-12 19:04:21] [INFO] Waiting for element: #nameofuser
+[2026-05-12 19:04:27] [INFO] ✅ TEST PASSED: TC003 - Login with blank username @regression @login
+[2026-05-12 19:04:27] [INFO] ========== TEST END: TC003 - Login with blank username @regression @login ==========
+[2026-05-12 19:04:27] [INFO] ========== TEST START: TC004 - Login with blank password @regression @login ==========
+[2026-05-12 19:04:27] [INFO] Browser: firefox
+[2026-05-12 19:04:29] [ERROR] ❌ TEST FAILED: TC002 - Invalid Login with wrong credentials @regression @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:04:30] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC002___Invalid_Login_with_wrong_credentials__regression__login_2026-05-12T13-34-29-922Z.png
+[2026-05-12 19:04:30] [INFO] ========== TEST END: TC002 - Invalid Login with wrong credentials @regression @login ==========
+[2026-05-12 19:04:30] [INFO] ========================================
+[2026-05-12 19:04:30] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:04:30] [INFO] Timestamp: 2026-05-12T13:34:30.234Z
+[2026-05-12 19:04:30] [INFO] ========================================
+[2026-05-12 19:04:33] [INFO] Initialized LoginPage fixture
+[2026-05-12 19:04:33] [INFO] STEP 1: Login with blank password
+[2026-05-12 19:04:33] [INFO] Performing login with user: pavanol
+[2026-05-12 19:04:33] [INFO] Clicking Login navigation link
+[2026-05-12 19:04:33] [INFO] Waiting for element: #login2
+[2026-05-12 19:04:33] [INFO] Clicking element: #login2
+[2026-05-12 19:04:34] [INFO] Entering username: pavanol
+[2026-05-12 19:04:34] [INFO] Waiting for element: #loginusername
+[2026-05-12 19:04:34] [INFO] Entering text in: #loginusername
+[2026-05-12 19:04:34] [INFO] Entering password
+[2026-05-12 19:04:34] [INFO] Entering text in: #loginpassword
+[2026-05-12 19:04:34] [INFO] Clicking Login button
+[2026-05-12 19:04:34] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 19:04:36] [INFO] STEP 2: Verify user is NOT logged in
+[2026-05-12 19:04:37] [INFO] ========================================
+[2026-05-12 19:04:37] [INFO] TEST SUITE STARTED
+[2026-05-12 19:04:37] [INFO] Environment: qa
+[2026-05-12 19:04:37] [INFO] Timestamp: 2026-05-12T13:34:37.031Z
+[2026-05-12 19:04:37] [INFO] ========================================
+[2026-05-12 19:04:38] [INFO] ========== TEST START: TC002 - Invalid Login with wrong credentials @regression @login ==========
+[2026-05-12 19:04:38] [INFO] Browser: chromium
+[2026-05-12 19:04:38] [INFO] Waiting for element: #nameofuser
+[2026-05-12 19:04:43] [INFO] ✅ TEST PASSED: TC004 - Login with blank password @regression @login
+[2026-05-12 19:04:43] [INFO] ========== TEST END: TC004 - Login with blank password @regression @login ==========
+[2026-05-12 19:04:43] [INFO] ========================================
+[2026-05-12 19:04:43] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:04:43] [INFO] Timestamp: 2026-05-12T13:34:43.867Z
+[2026-05-12 19:04:43] [INFO] ========================================
+[2026-05-12 19:04:43] [INFO] ========================================
+[2026-05-12 19:04:43] [INFO] TEST SUITE STARTED
+[2026-05-12 19:04:43] [INFO] Environment: qa
+[2026-05-12 19:04:43] [INFO] Timestamp: 2026-05-12T13:34:43.889Z
+[2026-05-12 19:04:43] [INFO] ========================================
+[2026-05-12 19:04:44] [INFO] ========== TEST START: TC005 - Logout after successful login @smoke @login ==========
+[2026-05-12 19:04:44] [INFO] Browser: firefox
+[2026-05-12 19:04:47] [INFO] Initialized LoginPage fixture
+[2026-05-12 19:04:47] [INFO] STEP 1: Login with valid credentials
+[2026-05-12 19:04:47] [INFO] Performing login with user: pavanol
+[2026-05-12 19:04:47] [INFO] Clicking Login navigation link
+[2026-05-12 19:04:47] [INFO] Waiting for element: #login2
+[2026-05-12 19:04:47] [INFO] Clicking element: #login2
+[2026-05-12 19:04:48] [INFO] Entering username: pavanol
+[2026-05-12 19:04:48] [INFO] Waiting for element: #loginusername
+[2026-05-12 19:04:48] [INFO] Entering text in: #loginusername
+[2026-05-12 19:04:48] [INFO] Entering password
+[2026-05-12 19:04:48] [INFO] Entering text in: #loginpassword
+[2026-05-12 19:04:48] [INFO] Clicking Login button
+[2026-05-12 19:04:48] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 19:04:50] [INFO] STEP 2: Verify user is logged in
+[2026-05-12 19:04:50] [INFO] Waiting for element: #nameofuser
+[2026-05-12 19:04:51] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-12 19:04:51] [INFO] Welcome text: Welcome pavanol
+[2026-05-12 19:04:51] [INFO] STEP 3: Perform logout
+[2026-05-12 19:04:51] [INFO] Performing logout
+[2026-05-12 19:04:51] [INFO] Waiting for element: #logout2
+[2026-05-12 19:04:51] [INFO] Clicking element: #logout2
+[2026-05-12 19:04:51] [ERROR] ❌ TEST FAILED: TC004 - Login with blank password @regression @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:04:52] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC004___Login_with_blank_password__regression__login_2026-05-12T13-34-51-962Z.png
+[2026-05-12 19:04:52] [INFO] ========== TEST END: TC004 - Login with blank password @regression @login ==========
+[2026-05-12 19:04:52] [INFO] ========================================
+[2026-05-12 19:04:52] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:04:52] [INFO] Timestamp: 2026-05-12T13:34:52.192Z
+[2026-05-12 19:04:52] [INFO] ========================================
+[2026-05-12 19:04:52] [INFO] STEP 4: Verify Login nav is visible after logout
+[2026-05-12 19:04:53] [INFO] ========================================
+[2026-05-12 19:04:53] [INFO] TEST SUITE STARTED
+[2026-05-12 19:04:53] [INFO] Environment: qa
+[2026-05-12 19:04:53] [INFO] Timestamp: 2026-05-12T13:34:53.139Z
+[2026-05-12 19:04:53] [INFO] ========================================
+[2026-05-12 19:04:53] [INFO] Element #login2 visible: true
+[2026-05-12 19:04:53] [INFO] ✅ TEST PASSED: TC005 - Logout after successful login @smoke @login
+[2026-05-12 19:04:53] [INFO] ========== TEST END: TC005 - Logout after successful login @smoke @login ==========
+[2026-05-12 19:04:53] [INFO] ========================================
+[2026-05-12 19:04:53] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:04:53] [INFO] Timestamp: 2026-05-12T13:34:53.408Z
+[2026-05-12 19:04:53] [INFO] ========================================
+[2026-05-12 19:04:54] [INFO] ========================================
+[2026-05-12 19:04:54] [INFO] TEST SUITE STARTED
+[2026-05-12 19:04:54] [INFO] Environment: qa
+[2026-05-12 19:04:54] [INFO] Timestamp: 2026-05-12T13:34:54.354Z
+[2026-05-12 19:04:54] [INFO] ========================================
+[2026-05-12 19:04:57] [INFO] ========== TEST START: TC003 - Login with blank username @regression @login ==========
+[2026-05-12 19:04:57] [INFO] ========== TEST START: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:04:57] [INFO] Browser: webkit
+[2026-05-12 19:04:57] [INFO] Browser: webkit
+[2026-05-12 19:05:08] [ERROR] ❌ TEST FAILED: TC002 - Invalid Login with wrong credentials @regression @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:05:08] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC002___Invalid_Login_with_wrong_credentials__regression__login_2026-05-12T13-35-08-522Z.png
+[2026-05-12 19:05:08] [INFO] ========== TEST END: TC002 - Invalid Login with wrong credentials @regression @login ==========
+[2026-05-12 19:05:08] [INFO] ========================================
+[2026-05-12 19:05:08] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:05:08] [INFO] Timestamp: 2026-05-12T13:35:08.938Z
+[2026-05-12 19:05:08] [INFO] ========================================
+[2026-05-12 19:05:25] [INFO] ========================================
+[2026-05-12 19:05:25] [INFO] TEST SUITE STARTED
+[2026-05-12 19:05:25] [INFO] Environment: qa
+[2026-05-12 19:05:25] [INFO] Timestamp: 2026-05-12T13:35:25.849Z
+[2026-05-12 19:05:25] [INFO] ========================================
+[2026-05-12 19:05:26] [ERROR] ❌ TEST FAILED: TC001 - Valid Login with correct credentials @smoke @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:05:26] [ERROR] ❌ TEST FAILED: TC003 - Login with blank username @regression @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:05:27] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC003___Login_with_blank_username__regression__login_2026-05-12T13-35-26-624Z.png
+[2026-05-12 19:05:27] [INFO] ========== TEST END: TC003 - Login with blank username @regression @login ==========
+[2026-05-12 19:05:27] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC001___Valid_Login_with_correct_credentials__smoke__login_2026-05-12T13-35-26-624Z.png
+[2026-05-12 19:05:27] [INFO] ========== TEST END: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:05:27] [INFO] ========================================
+[2026-05-12 19:05:27] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:05:27] [INFO] Timestamp: 2026-05-12T13:35:27.131Z
+[2026-05-12 19:05:27] [INFO] ========================================
+[2026-05-12 19:05:27] [INFO] ========================================
+[2026-05-12 19:05:27] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:05:27] [INFO] Timestamp: 2026-05-12T13:35:27.145Z
+[2026-05-12 19:05:27] [INFO] ========================================
+[2026-05-12 19:05:27] [INFO] ========== TEST START: TC005 - Logout after successful login @smoke @login ==========
+[2026-05-12 19:05:27] [INFO] Browser: webkit
+[2026-05-12 19:05:27] [INFO] ========================================
+[2026-05-12 19:05:27] [INFO] ========================================
+[2026-05-12 19:05:27] [INFO] TEST SUITE STARTED
+[2026-05-12 19:05:27] [INFO] Environment: qa
+[2026-05-12 19:05:27] [INFO] Timestamp: 2026-05-12T13:35:27.835Z
+[2026-05-12 19:05:27] [INFO] ========================================
+[2026-05-12 19:05:27] [INFO] TEST SUITE STARTED
+[2026-05-12 19:05:27] [INFO] Environment: qa
+[2026-05-12 19:05:27] [INFO] Timestamp: 2026-05-12T13:35:27.837Z
+[2026-05-12 19:05:27] [INFO] ========================================
+[2026-05-12 19:05:28] [INFO] ========== TEST START: TC003 - Login with blank username @regression @login ==========
+[2026-05-12 19:05:28] [INFO] ========== TEST START: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:05:28] [INFO] Browser: webkit
+[2026-05-12 19:05:28] [INFO] Browser: webkit
+[2026-05-12 19:05:57] [ERROR] ❌ TEST FAILED: TC005 - Logout after successful login @smoke @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:05:57] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC005___Logout_after_successful_login__smoke__login_2026-05-12T13-35-57-169Z.png
+[2026-05-12 19:05:57] [INFO] ========== TEST END: TC005 - Logout after successful login @smoke @login ==========
+[2026-05-12 19:05:57] [INFO] ========================================
+[2026-05-12 19:05:57] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:05:57] [INFO] Timestamp: 2026-05-12T13:35:57.550Z
+[2026-05-12 19:05:57] [INFO] ========================================
+[2026-05-12 19:05:58] [ERROR] ❌ TEST FAILED: TC003 - Login with blank username @regression @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:05:58] [ERROR] ❌ TEST FAILED: TC001 - Valid Login with correct credentials @smoke @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:05:58] [INFO] ========================================
+[2026-05-12 19:05:58] [INFO] TEST SUITE STARTED
+[2026-05-12 19:05:58] [INFO] Environment: qa
+[2026-05-12 19:05:58] [INFO] Timestamp: 2026-05-12T13:35:58.302Z
+[2026-05-12 19:05:58] [INFO] ========================================
+[2026-05-12 19:05:58] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC003___Login_with_blank_username__regression__login_2026-05-12T13-35-58-283Z.png
+[2026-05-12 19:05:58] [INFO] ========== TEST END: TC003 - Login with blank username @regression @login ==========
+[2026-05-12 19:05:58] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC001___Valid_Login_with_correct_credentials__smoke__login_2026-05-12T13-35-58-298Z.png
+[2026-05-12 19:05:58] [INFO] ========== TEST END: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:05:58] [INFO] ========================================
+[2026-05-12 19:05:58] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:05:58] [INFO] Timestamp: 2026-05-12T13:35:58.759Z
+[2026-05-12 19:05:58] [INFO] ========================================
+[2026-05-12 19:05:58] [INFO] ========================================
+[2026-05-12 19:05:58] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:05:58] [INFO] Timestamp: 2026-05-12T13:35:58.777Z
+[2026-05-12 19:05:58] [INFO] ========================================
+[2026-05-12 19:05:59] [INFO] ========================================
+[2026-05-12 19:05:59] [INFO] ========================================
+[2026-05-12 19:05:59] [INFO] TEST SUITE STARTED
+[2026-05-12 19:05:59] [INFO] Environment: qa
+[2026-05-12 19:05:59] [INFO] Timestamp: 2026-05-12T13:35:59.534Z
+[2026-05-12 19:05:59] [INFO] ========================================
+[2026-05-12 19:05:59] [INFO] TEST SUITE STARTED
+[2026-05-12 19:05:59] [INFO] Environment: qa
+[2026-05-12 19:05:59] [INFO] Timestamp: 2026-05-12T13:35:59.534Z
+[2026-05-12 19:05:59] [INFO] ========================================
+[2026-05-12 19:06:00] [INFO] ========== TEST START: TC005 - Logout after successful login @smoke @login ==========
+[2026-05-12 19:06:00] [INFO] Browser: webkit
+[2026-05-12 19:06:00] [INFO] ========== TEST START: TC002 - Invalid Login with wrong credentials @regression @login ==========
+[2026-05-12 19:06:00] [INFO] ========== TEST START: TC004 - Login with blank password @regression @login ==========
+[2026-05-12 19:06:00] [INFO] Browser: webkit
+[2026-05-12 19:06:00] [INFO] Browser: webkit
+[2026-05-12 19:06:29] [ERROR] ❌ TEST FAILED: TC005 - Logout after successful login @smoke @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:06:30] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC005___Logout_after_successful_login__smoke__login_2026-05-12T13-36-29-644Z.png
+[2026-05-12 19:06:30] [INFO] ========== TEST END: TC005 - Logout after successful login @smoke @login ==========
+[2026-05-12 19:06:30] [ERROR] ❌ TEST FAILED: TC002 - Invalid Login with wrong credentials @regression @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:06:30] [ERROR] ❌ TEST FAILED: TC004 - Login with blank password @regression @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:06:30] [INFO] ========================================
+[2026-05-12 19:06:30] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:06:30] [INFO] Timestamp: 2026-05-12T13:36:30.255Z
+[2026-05-12 19:06:30] [INFO] ========================================
+[2026-05-12 19:06:30] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC002___Invalid_Login_with_wrong_credentials__regression__login_2026-05-12T13-36-30-101Z.png
+[2026-05-12 19:06:30] [INFO] ========== TEST END: TC002 - Invalid Login with wrong credentials @regression @login ==========
+[2026-05-12 19:06:30] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC004___Login_with_blank_password__regression__login_2026-05-12T13-36-30-137Z.png
+[2026-05-12 19:06:30] [INFO] ========== TEST END: TC004 - Login with blank password @regression @login ==========
+[2026-05-12 19:06:30] [INFO] ========================================
+[2026-05-12 19:06:30] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:06:30] [INFO] Timestamp: 2026-05-12T13:36:30.574Z
+[2026-05-12 19:06:30] [INFO] ========================================
+[2026-05-12 19:06:30] [INFO] ========================================
+[2026-05-12 19:06:30] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:06:30] [INFO] Timestamp: 2026-05-12T13:36:30.643Z
+[2026-05-12 19:06:30] [INFO] ========================================
+[2026-05-12 19:06:31] [INFO] ========================================
+[2026-05-12 19:06:31] [INFO] ========================================
+[2026-05-12 19:06:31] [INFO] ========================================
+[2026-05-12 19:06:31] [INFO] TEST SUITE STARTED
+[2026-05-12 19:06:31] [INFO] Environment: qa
+[2026-05-12 19:06:31] [INFO] Timestamp: 2026-05-12T13:36:31.309Z
+[2026-05-12 19:06:31] [INFO] ========================================
+[2026-05-12 19:06:31] [INFO] TEST SUITE STARTED
+[2026-05-12 19:06:31] [INFO] Environment: qa
+[2026-05-12 19:06:31] [INFO] Timestamp: 2026-05-12T13:36:31.309Z
+[2026-05-12 19:06:31] [INFO] ========================================
+[2026-05-12 19:06:31] [INFO] TEST SUITE STARTED
+[2026-05-12 19:06:31] [INFO] Environment: qa
+[2026-05-12 19:06:31] [INFO] Timestamp: 2026-05-12T13:36:31.309Z
+[2026-05-12 19:06:31] [INFO] ========================================
+[2026-05-12 19:06:32] [INFO] ========== TEST START: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:06:32] [INFO] Browser: mobile-chrome
+[2026-05-12 19:06:32] [INFO] ========== TEST START: TC002 - Invalid Login with wrong credentials @regression @login ==========
+[2026-05-12 19:06:32] [INFO] Browser: webkit
+[2026-05-12 19:06:32] [INFO] ========== TEST START: TC004 - Login with blank password @regression @login ==========
+[2026-05-12 19:06:32] [INFO] Browser: webkit
+[2026-05-12 19:06:57] [INFO] Initialized LoginPage fixture
+[2026-05-12 19:06:57] [INFO] STEP 1: Login with blank password
+[2026-05-12 19:06:57] [INFO] Performing login with user: pavanol
+[2026-05-12 19:06:57] [INFO] Clicking Login navigation link
+[2026-05-12 19:06:57] [INFO] Waiting for element: #login2
+[2026-05-12 19:06:57] [INFO] Clicking element: #login2
+[2026-05-12 19:06:58] [INFO] Entering username: pavanol
+[2026-05-12 19:06:58] [INFO] Waiting for element: #loginusername
+[2026-05-12 19:06:58] [INFO] Entering text in: #loginusername
+[2026-05-12 19:06:58] [INFO] Entering password
+[2026-05-12 19:06:58] [INFO] Entering text in: #loginpassword
+[2026-05-12 19:06:58] [INFO] Clicking Login button
+[2026-05-12 19:06:58] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 19:06:58] [INFO] Initialized LoginPage fixture
+[2026-05-12 19:06:58] [INFO] STEP 1: Login with invalid credentials
+[2026-05-12 19:06:58] [INFO] Performing login with user: invaliduser123
+[2026-05-12 19:06:58] [INFO] Clicking Login navigation link
+[2026-05-12 19:06:58] [INFO] Waiting for element: #login2
+[2026-05-12 19:06:58] [INFO] Clicking element: #login2
+[2026-05-12 19:06:59] [INFO] Entering username: invaliduser123
+[2026-05-12 19:06:59] [INFO] Waiting for element: #loginusername
+[2026-05-12 19:06:59] [INFO] Entering text in: #loginusername
+[2026-05-12 19:06:59] [INFO] Entering password
+[2026-05-12 19:06:59] [INFO] Entering text in: #loginpassword
+[2026-05-12 19:06:59] [INFO] Clicking Login button
+[2026-05-12 19:06:59] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 19:07:00] [INFO] STEP 2: Verify user is NOT logged in
+[2026-05-12 19:07:01] [INFO] STEP 2: Verify user is NOT logged in
+[2026-05-12 19:07:02] [ERROR] ❌ TEST FAILED: TC001 - Valid Login with correct credentials @smoke @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:07:02] [INFO] Waiting for element: #nameofuser
+[2026-05-12 19:07:02] [ERROR] ❌ TEST FAILED: TC002 - Invalid Login with wrong credentials @regression @login | Error: [31mTest timeout of 30000ms exceeded.[39m
+[2026-05-12 19:07:02] [ERROR] ❌ TEST FAILED: TC004 - Login with blank password @regression @login | Error: [31mTest timeout of 30000ms exceeded.[39m
+[2026-05-12 19:07:02] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC004___Login_with_blank_password__regression__login_2026-05-12T13-37-02-391Z.png
+[2026-05-12 19:07:02] [INFO] ========== TEST END: TC004 - Login with blank password @regression @login ==========
+[2026-05-12 19:07:02] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC002___Invalid_Login_with_wrong_credentials__regression__login_2026-05-12T13-37-02-386Z.png
+[2026-05-12 19:07:02] [INFO] ========== TEST END: TC002 - Invalid Login with wrong credentials @regression @login ==========
+[2026-05-12 19:07:02] [INFO] ========================================
+[2026-05-12 19:07:02] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:07:02] [INFO] Timestamp: 2026-05-12T13:37:02.912Z
+[2026-05-12 19:07:02] [INFO] ========================================
+[2026-05-12 19:07:02] [INFO] ========================================
+[2026-05-12 19:07:02] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:07:02] [INFO] Timestamp: 2026-05-12T13:37:02.914Z
+[2026-05-12 19:07:02] [INFO] ========================================
+[2026-05-12 19:07:03] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC001___Valid_Login_with_correct_credentials__smoke__login_2026-05-12T13-37-02-230Z.png
+[2026-05-12 19:07:03] [INFO] ========== TEST END: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:07:03] [INFO] ========================================
+[2026-05-12 19:07:03] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:07:03] [INFO] Timestamp: 2026-05-12T13:37:03.543Z
+[2026-05-12 19:07:03] [INFO] ========================================
+[2026-05-12 19:07:03] [INFO] ========================================
+[2026-05-12 19:07:03] [INFO] ========================================
+[2026-05-12 19:07:03] [INFO] TEST SUITE STARTED
+[2026-05-12 19:07:03] [INFO] Environment: qa
+[2026-05-12 19:07:03] [INFO] Timestamp: 2026-05-12T13:37:03.801Z
+[2026-05-12 19:07:03] [INFO] ========================================
+[2026-05-12 19:07:03] [INFO] TEST SUITE STARTED
+[2026-05-12 19:07:03] [INFO] Environment: qa
+[2026-05-12 19:07:03] [INFO] Timestamp: 2026-05-12T13:37:03.801Z
+[2026-05-12 19:07:03] [INFO] ========================================
+[2026-05-12 19:07:04] [INFO] ========================================
+[2026-05-12 19:07:04] [INFO] TEST SUITE STARTED
+[2026-05-12 19:07:04] [INFO] Environment: qa
+[2026-05-12 19:07:04] [INFO] Timestamp: 2026-05-12T13:37:04.002Z
+[2026-05-12 19:07:04] [INFO] ========================================
+[2026-05-12 19:07:04] [INFO] ========== TEST START: TC003 - Login with blank username @regression @login ==========
+[2026-05-12 19:07:04] [INFO] ========== TEST START: TC005 - Logout after successful login @smoke @login ==========
+[2026-05-12 19:07:04] [INFO] ========== TEST START: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:07:04] [INFO] Browser: mobile-chrome
+[2026-05-12 19:07:04] [INFO] Browser: mobile-chrome
+[2026-05-12 19:07:04] [INFO] Browser: mobile-chrome
+[2026-05-12 19:07:34] [ERROR] ❌ TEST FAILED: TC003 - Login with blank username @regression @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:07:34] [ERROR] ❌ TEST FAILED: TC001 - Valid Login with correct credentials @smoke @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:07:34] [ERROR] ❌ TEST FAILED: TC005 - Logout after successful login @smoke @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:07:35] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC003___Login_with_blank_username__regression__login_2026-05-12T13-37-34-479Z.png
+[2026-05-12 19:07:35] [INFO] ========== TEST END: TC003 - Login with blank username @regression @login ==========
+[2026-05-12 19:07:35] [INFO] ========================================
+[2026-05-12 19:07:35] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:07:35] [INFO] Timestamp: 2026-05-12T13:37:35.707Z
+[2026-05-12 19:07:35] [INFO] ========================================
+[2026-05-12 19:07:35] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC001___Valid_Login_with_correct_credentials__smoke__login_2026-05-12T13-37-34-521Z.png
+[2026-05-12 19:07:35] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC005___Logout_after_successful_login__smoke__login_2026-05-12T13-37-34-542Z.png
+[2026-05-12 19:07:35] [INFO] ========== TEST END: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:07:35] [INFO] ========== TEST END: TC005 - Logout after successful login @smoke @login ==========
+[2026-05-12 19:07:35] [INFO] ========================================
+[2026-05-12 19:07:35] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:07:35] [INFO] Timestamp: 2026-05-12T13:37:35.786Z
+[2026-05-12 19:07:35] [INFO] ========================================
+[2026-05-12 19:07:35] [INFO] ========================================
+[2026-05-12 19:07:35] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:07:35] [INFO] Timestamp: 2026-05-12T13:37:35.788Z
+[2026-05-12 19:07:35] [INFO] ========================================
+[2026-05-12 19:07:36] [INFO] ========================================
+[2026-05-12 19:07:36] [INFO] ========================================
+[2026-05-12 19:07:36] [INFO] ========================================
+[2026-05-12 19:07:36] [INFO] TEST SUITE STARTED
+[2026-05-12 19:07:36] [INFO] Environment: qa
+[2026-05-12 19:07:36] [INFO] Timestamp: 2026-05-12T13:37:36.294Z
+[2026-05-12 19:07:36] [INFO] ========================================
+[2026-05-12 19:07:36] [INFO] TEST SUITE STARTED
+[2026-05-12 19:07:36] [INFO] Environment: qa
+[2026-05-12 19:07:36] [INFO] Timestamp: 2026-05-12T13:37:36.294Z
+[2026-05-12 19:07:36] [INFO] ========================================
+[2026-05-12 19:07:36] [INFO] TEST SUITE STARTED
+[2026-05-12 19:07:36] [INFO] Environment: qa
+[2026-05-12 19:07:36] [INFO] Timestamp: 2026-05-12T13:37:36.291Z
+[2026-05-12 19:07:36] [INFO] ========================================
+[2026-05-12 19:07:36] [INFO] ========== TEST START: TC003 - Login with blank username @regression @login ==========
+[2026-05-12 19:07:36] [INFO] ========== TEST START: TC005 - Logout after successful login @smoke @login ==========
+[2026-05-12 19:07:36] [INFO] Browser: mobile-chrome
+[2026-05-12 19:07:36] [INFO] Browser: mobile-chrome
+[2026-05-12 19:07:36] [INFO] ========== TEST START: TC002 - Invalid Login with wrong credentials @regression @login ==========
+[2026-05-12 19:07:36] [INFO] Browser: mobile-chrome
+[2026-05-12 19:08:06] [ERROR] ❌ TEST FAILED: TC002 - Invalid Login with wrong credentials @regression @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:08:06] [ERROR] ❌ TEST FAILED: TC005 - Logout after successful login @smoke @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:08:06] [ERROR] ❌ TEST FAILED: TC003 - Login with blank username @regression @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:08:07] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC005___Logout_after_successful_login__smoke__login_2026-05-12T13-38-06-726Z.png
+[2026-05-12 19:08:07] [INFO] ========== TEST END: TC005 - Logout after successful login @smoke @login ==========
+[2026-05-12 19:08:07] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC002___Invalid_Login_with_wrong_credentials__regression__login_2026-05-12T13-38-06-725Z.png
+[2026-05-12 19:08:07] [INFO] ========== TEST END: TC002 - Invalid Login with wrong credentials @regression @login ==========
+[2026-05-12 19:08:07] [INFO] ========================================
+[2026-05-12 19:08:07] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:08:07] [INFO] Timestamp: 2026-05-12T13:38:07.982Z
+[2026-05-12 19:08:07] [INFO] ========================================
+[2026-05-12 19:08:08] [INFO] ========================================
+[2026-05-12 19:08:08] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:08:08] [INFO] Timestamp: 2026-05-12T13:38:08.027Z
+[2026-05-12 19:08:08] [INFO] ========================================
+[2026-05-12 19:08:08] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC003___Login_with_blank_username__regression__login_2026-05-12T13-38-06-757Z.png
+[2026-05-12 19:08:08] [INFO] ========== TEST END: TC003 - Login with blank username @regression @login ==========
+[2026-05-12 19:08:08] [INFO] ========================================
+[2026-05-12 19:08:08] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:08:08] [INFO] Timestamp: 2026-05-12T13:38:08.074Z
+[2026-05-12 19:08:08] [INFO] ========================================
+[2026-05-12 19:08:08] [INFO] ========================================
+[2026-05-12 19:08:08] [INFO] ========================================
+[2026-05-12 19:08:08] [INFO] ========================================
+[2026-05-12 19:08:08] [INFO] TEST SUITE STARTED
+[2026-05-12 19:08:08] [INFO] Environment: qa
+[2026-05-12 19:08:08] [INFO] Timestamp: 2026-05-12T13:38:08.575Z
+[2026-05-12 19:08:08] [INFO] ========================================
+[2026-05-12 19:08:08] [INFO] TEST SUITE STARTED
+[2026-05-12 19:08:08] [INFO] Environment: qa
+[2026-05-12 19:08:08] [INFO] Timestamp: 2026-05-12T13:38:08.576Z
+[2026-05-12 19:08:08] [INFO] ========================================
+[2026-05-12 19:08:08] [INFO] TEST SUITE STARTED
+[2026-05-12 19:08:08] [INFO] Environment: qa
+[2026-05-12 19:08:08] [INFO] Timestamp: 2026-05-12T13:38:08.576Z
+[2026-05-12 19:08:08] [INFO] ========================================
+[2026-05-12 19:08:09] [INFO] ========== TEST START: TC002 - Invalid Login with wrong credentials @regression @login ==========
+[2026-05-12 19:08:09] [INFO] ========== TEST START: TC004 - Login with blank password @regression @login ==========
+[2026-05-12 19:08:09] [INFO] Browser: mobile-chrome
+[2026-05-12 19:08:09] [INFO] Browser: mobile-chrome
+[2026-05-12 19:08:10] [INFO] ========== TEST START: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:08:10] [INFO] Browser: mobile-safari
+[2026-05-12 19:08:27] [INFO] Initialized LoginPage fixture
+[2026-05-12 19:08:27] [INFO] STEP 1: Login with valid credentials
+[2026-05-12 19:08:27] [INFO] Performing login with user: pavanol
+[2026-05-12 19:08:27] [INFO] Clicking Login navigation link
+[2026-05-12 19:08:27] [INFO] Waiting for element: #login2
+[2026-05-12 19:08:27] [INFO] Clicking element: #login2
+[2026-05-12 19:08:28] [INFO] Entering username: pavanol
+[2026-05-12 19:08:28] [INFO] Waiting for element: #loginusername
+[2026-05-12 19:08:28] [INFO] Entering text in: #loginusername
+[2026-05-12 19:08:28] [INFO] Entering password
+[2026-05-12 19:08:28] [INFO] Entering text in: #loginpassword
+[2026-05-12 19:08:28] [INFO] Clicking Login button
+[2026-05-12 19:08:28] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 19:08:30] [INFO] STEP 2: Verify user is logged in
+[2026-05-12 19:08:30] [INFO] Waiting for element: #nameofuser
+[2026-05-12 19:08:31] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-12 19:08:31] [INFO] Welcome text: Welcome pavanol
+[2026-05-12 19:08:31] [INFO] STEP 3: Verify welcome text contains username
+[2026-05-12 19:08:31] [INFO] Waiting for element: #nameofuser
+[2026-05-12 19:08:31] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-12 19:08:31] [INFO] ✅ TEST PASSED: TC001 - Valid Login with correct credentials @smoke @login
+[2026-05-12 19:08:31] [INFO] ========== TEST END: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:08:32] [INFO] ========== TEST START: TC002 - Invalid Login with wrong credentials @regression @login ==========
+[2026-05-12 19:08:32] [INFO] Browser: mobile-safari
+[2026-05-12 19:08:39] [ERROR] ❌ TEST FAILED: TC004 - Login with blank password @regression @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:08:39] [ERROR] ❌ TEST FAILED: TC002 - Invalid Login with wrong credentials @regression @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:08:40] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC004___Login_with_blank_password__regression__login_2026-05-12T13-38-39-258Z.png
+[2026-05-12 19:08:40] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC002___Invalid_Login_with_wrong_credentials__regression__login_2026-05-12T13-38-39-259Z.png
+[2026-05-12 19:08:40] [INFO] ========== TEST END: TC002 - Invalid Login with wrong credentials @regression @login ==========
+[2026-05-12 19:08:40] [INFO] ========== TEST END: TC004 - Login with blank password @regression @login ==========
+[2026-05-12 19:08:40] [INFO] ========================================
+[2026-05-12 19:08:40] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:08:40] [INFO] Timestamp: 2026-05-12T13:38:40.503Z
+[2026-05-12 19:08:40] [INFO] ========================================
+[2026-05-12 19:08:40] [INFO] ========================================
+[2026-05-12 19:08:40] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:08:40] [INFO] Timestamp: 2026-05-12T13:38:40.506Z
+[2026-05-12 19:08:40] [INFO] ========================================
+[2026-05-12 19:08:41] [INFO] ========================================
+[2026-05-12 19:08:41] [INFO] ========================================
+[2026-05-12 19:08:41] [INFO] TEST SUITE STARTED
+[2026-05-12 19:08:41] [INFO] Environment: qa
+[2026-05-12 19:08:41] [INFO] Timestamp: 2026-05-12T13:38:41.179Z
+[2026-05-12 19:08:41] [INFO] ========================================
+[2026-05-12 19:08:41] [INFO] TEST SUITE STARTED
+[2026-05-12 19:08:41] [INFO] Environment: qa
+[2026-05-12 19:08:41] [INFO] Timestamp: 2026-05-12T13:38:41.178Z
+[2026-05-12 19:08:41] [INFO] ========================================
+[2026-05-12 19:08:41] [INFO] ========== TEST START: TC004 - Login with blank password @regression @login ==========
+[2026-05-12 19:08:41] [INFO] Browser: mobile-chrome
+[2026-05-12 19:08:42] [INFO] ========== TEST START: TC003 - Login with blank username @regression @login ==========
+[2026-05-12 19:08:42] [INFO] Browser: mobile-safari
+[2026-05-12 19:08:46] [INFO] Initialized LoginPage fixture
+[2026-05-12 19:08:46] [INFO] STEP 1: Login with invalid credentials
+[2026-05-12 19:08:46] [INFO] Performing login with user: invaliduser123
+[2026-05-12 19:08:46] [INFO] Clicking Login navigation link
+[2026-05-12 19:08:46] [INFO] Waiting for element: #login2
+[2026-05-12 19:08:46] [INFO] Clicking element: #login2
+[2026-05-12 19:08:47] [INFO] Entering username: invaliduser123
+[2026-05-12 19:08:47] [INFO] Waiting for element: #loginusername
+[2026-05-12 19:08:47] [INFO] Entering text in: #loginusername
+[2026-05-12 19:08:47] [INFO] Entering password
+[2026-05-12 19:08:47] [INFO] Entering text in: #loginpassword
+[2026-05-12 19:08:47] [INFO] Clicking Login button
+[2026-05-12 19:08:47] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 19:08:49] [INFO] STEP 2: Verify user is NOT logged in
+[2026-05-12 19:08:51] [INFO] Waiting for element: #nameofuser
+[2026-05-12 19:08:57] [INFO] ✅ TEST PASSED: TC002 - Invalid Login with wrong credentials @regression @login
+[2026-05-12 19:08:57] [INFO] ========== TEST END: TC002 - Invalid Login with wrong credentials @regression @login ==========
+[2026-05-12 19:08:57] [INFO] ========================================
+[2026-05-12 19:08:57] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:08:57] [INFO] Timestamp: 2026-05-12T13:38:57.114Z
+[2026-05-12 19:08:57] [INFO] ========================================
+[2026-05-12 19:08:57] [INFO] ========================================
+[2026-05-12 19:08:57] [INFO] TEST SUITE STARTED
+[2026-05-12 19:08:57] [INFO] Environment: qa
+[2026-05-12 19:08:57] [INFO] Timestamp: 2026-05-12T13:38:57.178Z
+[2026-05-12 19:08:57] [INFO] ========================================
+[2026-05-12 19:08:57] [INFO] ========== TEST START: TC005 - Logout after successful login @smoke @login ==========
+[2026-05-12 19:08:57] [INFO] Browser: mobile-safari
+[2026-05-12 19:09:07] [INFO] Initialized LoginPage fixture
+[2026-05-12 19:09:07] [INFO] STEP 1: Login with blank username
+[2026-05-12 19:09:07] [INFO] Performing login with user: 
+[2026-05-12 19:09:07] [INFO] Clicking Login navigation link
+[2026-05-12 19:09:07] [INFO] Waiting for element: #login2
+[2026-05-12 19:09:07] [INFO] Clicking element: #login2
+[2026-05-12 19:09:08] [INFO] Entering username: 
+[2026-05-12 19:09:08] [INFO] Waiting for element: #loginusername
+[2026-05-12 19:09:08] [INFO] Entering text in: #loginusername
+[2026-05-12 19:09:08] [INFO] Entering password
+[2026-05-12 19:09:08] [INFO] Entering text in: #loginpassword
+[2026-05-12 19:09:08] [INFO] Clicking Login button
+[2026-05-12 19:09:08] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 19:09:10] [INFO] STEP 2: Verify user is NOT logged in
+[2026-05-12 19:09:11] [ERROR] ❌ TEST FAILED: TC003 - Login with blank username @regression @login | Error: [31mTest timeout of 30000ms exceeded.[39m
+[2026-05-12 19:09:11] [ERROR] ❌ TEST FAILED: TC004 - Login with blank password @regression @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:09:12] [INFO] Waiting for element: #nameofuser
+[2026-05-12 19:09:12] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC003___Login_with_blank_username__regression__login_2026-05-12T13-39-11-943Z.png
+[2026-05-12 19:09:12] [INFO] ========== TEST END: TC003 - Login with blank username @regression @login ==========
+[2026-05-12 19:09:12] [INFO] ========================================
+[2026-05-12 19:09:12] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:09:12] [INFO] Timestamp: 2026-05-12T13:39:12.696Z
+[2026-05-12 19:09:12] [INFO] ========================================
+[2026-05-12 19:09:13] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC004___Login_with_blank_password__regression__login_2026-05-12T13-39-11-982Z.png
+[2026-05-12 19:09:13] [INFO] ========== TEST END: TC004 - Login with blank password @regression @login ==========
+[2026-05-12 19:09:13] [INFO] ========================================
+[2026-05-12 19:09:13] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:09:13] [INFO] Timestamp: 2026-05-12T13:39:13.346Z
+[2026-05-12 19:09:13] [INFO] ========================================
+[2026-05-12 19:09:13] [INFO] ========================================
+[2026-05-12 19:09:13] [INFO] TEST SUITE STARTED
+[2026-05-12 19:09:13] [INFO] Environment: qa
+[2026-05-12 19:09:13] [INFO] Timestamp: 2026-05-12T13:39:13.408Z
+[2026-05-12 19:09:13] [INFO] ========================================
+[2026-05-12 19:09:14] [INFO] ========== TEST START: TC003 - Login with blank username @regression @login ==========
+[2026-05-12 19:09:14] [INFO] Browser: mobile-safari
+[2026-05-12 19:09:15] [INFO] Initialized LoginPage fixture
+[2026-05-12 19:09:15] [INFO] STEP 1: Login with valid credentials
+[2026-05-12 19:09:15] [INFO] Performing login with user: pavanol
+[2026-05-12 19:09:15] [INFO] Clicking Login navigation link
+[2026-05-12 19:09:15] [INFO] Waiting for element: #login2
+[2026-05-12 19:09:15] [INFO] Clicking element: #login2
+[2026-05-12 19:09:16] [INFO] Entering username: pavanol
+[2026-05-12 19:09:16] [INFO] Waiting for element: #loginusername
+[2026-05-12 19:09:16] [INFO] Entering text in: #loginusername
+[2026-05-12 19:09:16] [INFO] Entering password
+[2026-05-12 19:09:16] [INFO] Entering text in: #loginpassword
+[2026-05-12 19:09:16] [INFO] Clicking Login button
+[2026-05-12 19:09:16] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 19:09:18] [INFO] STEP 2: Verify user is logged in
+[2026-05-12 19:09:18] [INFO] Waiting for element: #nameofuser
+[2026-05-12 19:09:23] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-12 19:09:23] [INFO] Welcome text: Welcome pavanol
+[2026-05-12 19:09:23] [INFO] STEP 3: Perform logout
+[2026-05-12 19:09:23] [INFO] Performing logout
+[2026-05-12 19:09:23] [INFO] Waiting for element: #logout2
+[2026-05-12 19:09:23] [INFO] Clicking element: #logout2
+[2026-05-12 19:09:25] [INFO] STEP 4: Verify Login nav is visible after logout
+[2026-05-12 19:09:26] [INFO] Element #login2 visible: true
+[2026-05-12 19:09:26] [INFO] ✅ TEST PASSED: TC005 - Logout after successful login @smoke @login
+[2026-05-12 19:09:26] [INFO] ========== TEST END: TC005 - Logout after successful login @smoke @login ==========
+[2026-05-12 19:09:26] [INFO] ========================================
+[2026-05-12 19:09:26] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:09:26] [INFO] Timestamp: 2026-05-12T13:39:26.281Z
+[2026-05-12 19:09:26] [INFO] ========================================
+[2026-05-12 19:09:29] [INFO] Initialized LoginPage fixture
+[2026-05-12 19:09:29] [INFO] STEP 1: Login with blank username
+[2026-05-12 19:09:29] [INFO] Performing login with user: 
+[2026-05-12 19:09:29] [INFO] Clicking Login navigation link
+[2026-05-12 19:09:29] [INFO] Waiting for element: #login2
+[2026-05-12 19:09:30] [INFO] Clicking element: #login2
+[2026-05-12 19:09:31] [INFO] Entering username: 
+[2026-05-12 19:09:31] [INFO] Waiting for element: #loginusername
+[2026-05-12 19:09:31] [INFO] Entering text in: #loginusername
+[2026-05-12 19:09:31] [INFO] Entering password
+[2026-05-12 19:09:31] [INFO] Entering text in: #loginpassword
+[2026-05-12 19:09:31] [INFO] Clicking Login button
+[2026-05-12 19:09:31] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 19:09:33] [INFO] STEP 2: Verify user is NOT logged in
+[2026-05-12 19:09:35] [INFO] Waiting for element: #nameofuser
+[2026-05-12 19:09:40] [INFO] ✅ TEST PASSED: TC003 - Login with blank username @regression @login
+[2026-05-12 19:09:40] [INFO] ========== TEST END: TC003 - Login with blank username @regression @login ==========
+[2026-05-12 19:09:40] [INFO] ========== TEST START: TC004 - Login with blank password @regression @login ==========
+[2026-05-12 19:09:40] [INFO] Browser: mobile-safari
+[2026-05-12 19:10:00] [INFO] Initialized LoginPage fixture
+[2026-05-12 19:10:00] [INFO] STEP 1: Login with blank password
+[2026-05-12 19:10:00] [INFO] Performing login with user: pavanol
+[2026-05-12 19:10:00] [INFO] Clicking Login navigation link
+[2026-05-12 19:10:00] [INFO] Waiting for element: #login2
+[2026-05-12 19:10:00] [INFO] Clicking element: #login2
+[2026-05-12 19:10:01] [INFO] Entering username: pavanol
+[2026-05-12 19:10:01] [INFO] Waiting for element: #loginusername
+[2026-05-12 19:10:01] [INFO] Entering text in: #loginusername
+[2026-05-12 19:10:01] [INFO] Entering password
+[2026-05-12 19:10:01] [INFO] Entering text in: #loginpassword
+[2026-05-12 19:10:01] [INFO] Clicking Login button
+[2026-05-12 19:10:01] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 19:10:03] [INFO] STEP 2: Verify user is NOT logged in
+[2026-05-12 19:10:05] [INFO] Waiting for element: #nameofuser
+[2026-05-12 19:10:10] [ERROR] ❌ TEST FAILED: TC004 - Login with blank password @regression @login | Error: [31mTest timeout of 30000ms exceeded.[39m
+[2026-05-12 19:10:10] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC004___Login_with_blank_password__regression__login_2026-05-12T13-40-10-426Z.png
+[2026-05-12 19:10:10] [INFO] ========== TEST END: TC004 - Login with blank password @regression @login ==========
+[2026-05-12 19:10:10] [INFO] ========================================
+[2026-05-12 19:10:10] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:10:10] [INFO] Timestamp: 2026-05-12T13:40:10.972Z
+[2026-05-12 19:10:10] [INFO] ========================================
+[2026-05-12 19:10:11] [INFO] ========================================
+[2026-05-12 19:10:11] [INFO] TEST SUITE STARTED
+[2026-05-12 19:10:11] [INFO] Environment: qa
+[2026-05-12 19:10:11] [INFO] Timestamp: 2026-05-12T13:40:11.584Z
+[2026-05-12 19:10:11] [INFO] ========================================
+[2026-05-12 19:10:13] [INFO] ========== TEST START: TC004 - Login with blank password @regression @login ==========
+[2026-05-12 19:10:13] [INFO] Browser: mobile-safari
+[2026-05-12 19:10:28] [INFO] Initialized LoginPage fixture
+[2026-05-12 19:10:28] [INFO] STEP 1: Login with blank password
+[2026-05-12 19:10:28] [INFO] Performing login with user: pavanol
+[2026-05-12 19:10:28] [INFO] Clicking Login navigation link
+[2026-05-12 19:10:28] [INFO] Waiting for element: #login2
+[2026-05-12 19:10:28] [INFO] Clicking element: #login2
+[2026-05-12 19:10:29] [INFO] Entering username: pavanol
+[2026-05-12 19:10:29] [INFO] Waiting for element: #loginusername
+[2026-05-12 19:10:29] [INFO] Entering text in: #loginusername
+[2026-05-12 19:10:29] [INFO] Entering password
+[2026-05-12 19:10:29] [INFO] Entering text in: #loginpassword
+[2026-05-12 19:10:29] [INFO] Clicking Login button
+[2026-05-12 19:10:29] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 19:10:31] [INFO] STEP 2: Verify user is NOT logged in
+[2026-05-12 19:10:33] [INFO] Waiting for element: #nameofuser
+[2026-05-12 19:10:39] [INFO] ✅ TEST PASSED: TC004 - Login with blank password @regression @login
+[2026-05-12 19:10:39] [INFO] ========== TEST END: TC004 - Login with blank password @regression @login ==========
+[2026-05-12 19:10:39] [INFO] ========================================
+[2026-05-12 19:10:39] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:10:39] [INFO] Timestamp: 2026-05-12T13:40:39.131Z
+[2026-05-12 19:10:39] [INFO] ========================================
+[2026-05-12 19:14:51] [INFO] ========================================
+[2026-05-12 19:14:51] [INFO] ========================================
+[2026-05-12 19:14:51] [INFO] ========================================
+[2026-05-12 19:14:51] [INFO] TEST SUITE STARTED
+[2026-05-12 19:14:51] [INFO] Environment: qa
+[2026-05-12 19:14:51] [INFO] Timestamp: 2026-05-12T13:44:51.015Z
+[2026-05-12 19:14:51] [INFO] ========================================
+[2026-05-12 19:14:51] [INFO] TEST SUITE STARTED
+[2026-05-12 19:14:51] [INFO] Environment: qa
+[2026-05-12 19:14:51] [INFO] Timestamp: 2026-05-12T13:44:51.020Z
+[2026-05-12 19:14:51] [INFO] ========================================
+[2026-05-12 19:14:51] [INFO] TEST SUITE STARTED
+[2026-05-12 19:14:51] [INFO] Environment: qa
+[2026-05-12 19:14:51] [INFO] Timestamp: 2026-05-12T13:44:51.024Z
+[2026-05-12 19:14:51] [INFO] ========================================
+[2026-05-12 19:14:53] [INFO] ========== TEST START: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:14:53] [INFO] Browser: webkit
+[2026-05-12 19:14:54] [INFO] ========== TEST START: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:14:54] [INFO] Browser: chromium
+[2026-05-12 19:14:54] [INFO] ========== TEST START: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:14:54] [INFO] Browser: firefox
+[2026-05-12 19:15:00] [INFO] Initialized LoginPage fixture
+[2026-05-12 19:15:00] [INFO] STEP 1: Login with valid credentials
+[2026-05-12 19:15:00] [INFO] Performing login with user: pavanol
+[2026-05-12 19:15:00] [INFO] Clicking Login navigation link
+[2026-05-12 19:15:00] [INFO] Waiting for element: #login2
+[2026-05-12 19:15:00] [INFO] Clicking element: #login2
+[2026-05-12 19:15:01] [INFO] Entering username: pavanol
+[2026-05-12 19:15:01] [INFO] Waiting for element: #loginusername
+[2026-05-12 19:15:01] [INFO] Entering text in: #loginusername
+[2026-05-12 19:15:02] [INFO] Entering password
+[2026-05-12 19:15:02] [INFO] Entering text in: #loginpassword
+[2026-05-12 19:15:02] [INFO] Clicking Login button
+[2026-05-12 19:15:02] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 19:15:04] [INFO] STEP 2: Verify user is logged in
+[2026-05-12 19:15:04] [INFO] Waiting for element: #nameofuser
+[2026-05-12 19:15:05] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-12 19:15:05] [INFO] Welcome text: Welcome pavanol
+[2026-05-12 19:15:05] [INFO] STEP 3: Verify welcome text contains username
+[2026-05-12 19:15:05] [INFO] Waiting for element: #nameofuser
+[2026-05-12 19:15:05] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-12 19:15:05] [INFO] ✅ TEST PASSED: TC001 - Valid Login with correct credentials @smoke @login
+[2026-05-12 19:15:05] [INFO] ========== TEST END: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:15:05] [INFO] ========================================
+[2026-05-12 19:15:05] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:15:05] [INFO] Timestamp: 2026-05-12T13:45:05.191Z
+[2026-05-12 19:15:05] [INFO] ========================================
+[2026-05-12 19:15:06] [INFO] ========================================
+[2026-05-12 19:15:06] [INFO] TEST SUITE STARTED
+[2026-05-12 19:15:06] [INFO] Environment: qa
+[2026-05-12 19:15:06] [INFO] Timestamp: 2026-05-12T13:45:06.360Z
+[2026-05-12 19:15:06] [INFO] ========================================
+[2026-05-12 19:15:07] [INFO] ========== TEST START: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:15:07] [INFO] Browser: mobile-chrome
+[2026-05-12 19:15:16] [INFO] Initialized LoginPage fixture
+[2026-05-12 19:15:16] [INFO] STEP 1: Login with valid credentials
+[2026-05-12 19:15:16] [INFO] Performing login with user: pavanol
+[2026-05-12 19:15:16] [INFO] Clicking Login navigation link
+[2026-05-12 19:15:16] [INFO] Waiting for element: #login2
+[2026-05-12 19:15:16] [INFO] Clicking element: #login2
+[2026-05-12 19:15:17] [INFO] Entering username: pavanol
+[2026-05-12 19:15:17] [INFO] Waiting for element: #loginusername
+[2026-05-12 19:15:17] [INFO] Entering text in: #loginusername
+[2026-05-12 19:15:17] [INFO] Entering password
+[2026-05-12 19:15:17] [INFO] Entering text in: #loginpassword
+[2026-05-12 19:15:17] [INFO] Clicking Login button
+[2026-05-12 19:15:17] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 19:15:19] [INFO] STEP 2: Verify user is logged in
+[2026-05-12 19:15:19] [INFO] Waiting for element: #nameofuser
+[2026-05-12 19:15:19] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-12 19:15:19] [INFO] Welcome text: Welcome pavanol
+[2026-05-12 19:15:19] [INFO] STEP 3: Verify welcome text contains username
+[2026-05-12 19:15:19] [INFO] Waiting for element: #nameofuser
+[2026-05-12 19:15:19] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-12 19:15:20] [INFO] ✅ TEST PASSED: TC001 - Valid Login with correct credentials @smoke @login
+[2026-05-12 19:15:20] [INFO] ========== TEST END: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:15:20] [INFO] ========================================
+[2026-05-12 19:15:20] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:15:20] [INFO] Timestamp: 2026-05-12T13:45:20.069Z
+[2026-05-12 19:15:20] [INFO] ========================================
+[2026-05-12 19:15:20] [INFO] ========================================
+[2026-05-12 19:15:20] [INFO] TEST SUITE STARTED
+[2026-05-12 19:15:20] [INFO] Environment: qa
+[2026-05-12 19:15:20] [INFO] Timestamp: 2026-05-12T13:45:20.654Z
+[2026-05-12 19:15:20] [INFO] ========================================
+[2026-05-12 19:15:22] [INFO] ========== TEST START: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:15:22] [INFO] Browser: mobile-safari
+[2026-05-12 19:15:23] [ERROR] ❌ TEST FAILED: TC001 - Valid Login with correct credentials @smoke @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:15:23] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC001___Valid_Login_with_correct_credentials__smoke__login_2026-05-12T13-45-23-410Z.png
+[2026-05-12 19:15:23] [INFO] ========== TEST END: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:15:23] [INFO] ========================================
+[2026-05-12 19:15:23] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:15:23] [INFO] Timestamp: 2026-05-12T13:45:23.799Z
+[2026-05-12 19:15:23] [INFO] ========================================
+[2026-05-12 19:15:29] [ERROR] ❌ TEST FAILED: TC001 - Valid Login with correct credentials @smoke @login | Error: Unknown error
+[2026-05-12 19:15:29] [ERROR] ❌ TEST FAILED: TC001 - Valid Login with correct credentials @smoke @login | Error: Unknown error
+[2026-05-12 19:15:30] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC001___Valid_Login_with_correct_credentials__smoke__login_2026-05-12T13-45-29-571Z.png
+[2026-05-12 19:15:30] [INFO] ========== TEST END: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:15:30] [INFO] ========================================
+[2026-05-12 19:15:30] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:15:30] [INFO] Timestamp: 2026-05-12T13:45:30.209Z
+[2026-05-12 19:15:30] [INFO] ========================================
+[2026-05-12 19:15:30] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC001___Valid_Login_with_correct_credentials__smoke__login_2026-05-12T13-45-29-833Z.png
+[2026-05-12 19:15:30] [INFO] ========== TEST END: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:15:31] [INFO] ========================================
+[2026-05-12 19:15:31] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:15:31] [INFO] Timestamp: 2026-05-12T13:45:31.047Z
+[2026-05-12 19:15:31] [INFO] ========================================
+[2026-05-12 19:15:35] [INFO] ========================================
+[2026-05-12 19:15:35] [INFO] ========================================
+[2026-05-12 19:15:35] [INFO] TEST SUITE STARTED
+[2026-05-12 19:15:35] [INFO] Environment: qa
+[2026-05-12 19:15:35] [INFO] Timestamp: 2026-05-12T13:45:35.235Z
+[2026-05-12 19:15:35] [INFO] ========================================
+[2026-05-12 19:15:35] [INFO] ========================================
+[2026-05-12 19:15:35] [INFO] TEST SUITE STARTED
+[2026-05-12 19:15:35] [INFO] Environment: qa
+[2026-05-12 19:15:35] [INFO] Timestamp: 2026-05-12T13:45:35.240Z
+[2026-05-12 19:15:35] [INFO] ========================================
+[2026-05-12 19:15:35] [INFO] TEST SUITE STARTED
+[2026-05-12 19:15:35] [INFO] Environment: qa
+[2026-05-12 19:15:35] [INFO] Timestamp: 2026-05-12T13:45:35.246Z
+[2026-05-12 19:15:35] [INFO] ========================================
+[2026-05-12 19:15:37] [INFO] ========== TEST START: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:15:37] [INFO] Browser: webkit
+[2026-05-12 19:15:37] [INFO] ========== TEST START: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:15:37] [INFO] Browser: chromium
+[2026-05-12 19:15:40] [INFO] ========== TEST START: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:15:40] [INFO] Browser: firefox
+[2026-05-12 19:15:44] [INFO] Initialized LoginPage fixture
+[2026-05-12 19:15:44] [INFO] STEP 1: Login with valid credentials
+[2026-05-12 19:15:44] [INFO] Performing login with user: pavanol
+[2026-05-12 19:15:44] [INFO] Clicking Login navigation link
+[2026-05-12 19:15:44] [INFO] Waiting for element: #login2
+[2026-05-12 19:15:44] [INFO] Clicking element: #login2
+[2026-05-12 19:15:45] [INFO] Entering username: pavanol
+[2026-05-12 19:15:45] [INFO] Waiting for element: #loginusername
+[2026-05-12 19:15:45] [INFO] Entering text in: #loginusername
+[2026-05-12 19:15:45] [INFO] Entering password
+[2026-05-12 19:15:45] [INFO] Entering text in: #loginpassword
+[2026-05-12 19:15:45] [INFO] Clicking Login button
+[2026-05-12 19:15:45] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 19:15:47] [INFO] STEP 2: Verify user is logged in
+[2026-05-12 19:15:47] [INFO] Waiting for element: #nameofuser
+[2026-05-12 19:15:48] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-12 19:15:48] [INFO] Welcome text: Welcome pavanol
+[2026-05-12 19:15:48] [INFO] STEP 3: Verify welcome text contains username
+[2026-05-12 19:15:48] [INFO] Waiting for element: #nameofuser
+[2026-05-12 19:15:48] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-12 19:15:48] [INFO] ✅ TEST PASSED: TC001 - Valid Login with correct credentials @smoke @login
+[2026-05-12 19:15:48] [INFO] ========== TEST END: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:15:48] [INFO] ========================================
+[2026-05-12 19:15:48] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:15:48] [INFO] Timestamp: 2026-05-12T13:45:48.945Z
+[2026-05-12 19:15:48] [INFO] ========================================
+[2026-05-12 19:15:50] [INFO] ========================================
+[2026-05-12 19:15:50] [INFO] TEST SUITE STARTED
+[2026-05-12 19:15:50] [INFO] Environment: qa
+[2026-05-12 19:15:50] [INFO] Timestamp: 2026-05-12T13:45:50.215Z
+[2026-05-12 19:15:50] [INFO] ========================================
+[2026-05-12 19:15:52] [INFO] ========== TEST START: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:15:52] [INFO] Browser: mobile-chrome
+[2026-05-12 19:15:54] [INFO] Initialized LoginPage fixture
+[2026-05-12 19:15:54] [INFO] STEP 1: Login with valid credentials
+[2026-05-12 19:15:54] [INFO] Performing login with user: pavanol
+[2026-05-12 19:15:54] [INFO] Clicking Login navigation link
+[2026-05-12 19:15:54] [INFO] Waiting for element: #login2
+[2026-05-12 19:15:54] [INFO] Clicking element: #login2
+[2026-05-12 19:15:55] [INFO] Entering username: pavanol
+[2026-05-12 19:15:55] [INFO] Waiting for element: #loginusername
+[2026-05-12 19:15:55] [INFO] Entering text in: #loginusername
+[2026-05-12 19:15:56] [INFO] Entering password
+[2026-05-12 19:15:56] [INFO] Entering text in: #loginpassword
+[2026-05-12 19:15:56] [INFO] Clicking Login button
+[2026-05-12 19:15:56] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 19:15:58] [INFO] STEP 2: Verify user is logged in
+[2026-05-12 19:15:58] [INFO] Waiting for element: #nameofuser
+[2026-05-12 19:15:59] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-12 19:15:59] [INFO] Welcome text: Welcome pavanol
+[2026-05-12 19:15:59] [INFO] STEP 3: Verify welcome text contains username
+[2026-05-12 19:15:59] [INFO] Waiting for element: #nameofuser
+[2026-05-12 19:15:59] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-12 19:15:59] [INFO] ✅ TEST PASSED: TC001 - Valid Login with correct credentials @smoke @login
+[2026-05-12 19:15:59] [INFO] ========== TEST END: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:15:59] [INFO] ========================================
+[2026-05-12 19:15:59] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:15:59] [INFO] Timestamp: 2026-05-12T13:45:59.584Z
+[2026-05-12 19:15:59] [INFO] ========================================
+[2026-05-12 19:16:00] [INFO] ========================================
+[2026-05-12 19:16:00] [INFO] TEST SUITE STARTED
+[2026-05-12 19:16:00] [INFO] Environment: qa
+[2026-05-12 19:16:00] [INFO] Timestamp: 2026-05-12T13:46:00.291Z
+[2026-05-12 19:16:00] [INFO] ========================================
+[2026-05-12 19:16:01] [INFO] ========== TEST START: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:16:01] [INFO] Browser: mobile-safari
+[2026-05-12 19:16:07] [ERROR] ❌ TEST FAILED: TC001 - Valid Login with correct credentials @smoke @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:16:07] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC001___Valid_Login_with_correct_credentials__smoke__login_2026-05-12T13-46-07-015Z.png
+[2026-05-12 19:16:07] [INFO] ========== TEST END: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:16:07] [INFO] ========================================
+[2026-05-12 19:16:07] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:16:07] [INFO] Timestamp: 2026-05-12T13:46:07.351Z
+[2026-05-12 19:16:07] [INFO] ========================================
+[2026-05-12 19:16:17] [ERROR] ❌ TEST FAILED: TC001 - Valid Login with correct credentials @smoke @login | Error: Unknown error
+[2026-05-12 19:16:17] [ERROR] ❌ TEST FAILED: TC001 - Valid Login with correct credentials @smoke @login | Error: Unknown error
+[2026-05-12 19:16:18] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC001___Valid_Login_with_correct_credentials__smoke__login_2026-05-12T13-46-17-392Z.png
+[2026-05-12 19:16:18] [INFO] ========== TEST END: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:16:18] [INFO] ========================================
+[2026-05-12 19:16:18] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:16:18] [INFO] Timestamp: 2026-05-12T13:46:18.080Z
+[2026-05-12 19:16:18] [INFO] ========================================
+[2026-05-12 19:16:18] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC001___Valid_Login_with_correct_credentials__smoke__login_2026-05-12T13-46-17-602Z.png
+[2026-05-12 19:16:18] [INFO] ========== TEST END: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:16:18] [INFO] ========================================
+[2026-05-12 19:16:18] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:16:18] [INFO] Timestamp: 2026-05-12T13:46:18.704Z
+[2026-05-12 19:16:18] [INFO] ========================================
+[2026-05-12 19:16:21] [INFO] ========================================
+[2026-05-12 19:16:21] [INFO] TEST SUITE STARTED
+[2026-05-12 19:16:21] [INFO] Environment: qa
+[2026-05-12 19:16:21] [INFO] Timestamp: 2026-05-12T13:46:21.762Z
+[2026-05-12 19:16:21] [INFO] ========================================
+[2026-05-12 19:16:23] [INFO] ========== TEST START: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:16:23] [INFO] Browser: chromium
+[2026-05-12 19:16:53] [ERROR] ❌ TEST FAILED: TC001 - Valid Login with correct credentials @smoke @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:16:53] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC001___Valid_Login_with_correct_credentials__smoke__login_2026-05-12T13-46-53-447Z.png
+[2026-05-12 19:16:53] [INFO] ========== TEST END: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:16:53] [INFO] ========================================
+[2026-05-12 19:16:53] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:16:53] [INFO] Timestamp: 2026-05-12T13:46:53.664Z
+[2026-05-12 19:16:53] [INFO] ========================================
+[2026-05-12 19:17:08] [INFO] ========================================
+[2026-05-12 19:17:08] [INFO] TEST SUITE STARTED
+[2026-05-12 19:17:08] [INFO] Environment: qa
+[2026-05-12 19:17:08] [INFO] Timestamp: 2026-05-12T13:47:08.244Z
+[2026-05-12 19:17:08] [INFO] ========================================
+[2026-05-12 19:17:10] [INFO] ========== TEST START: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:17:10] [INFO] Browser: chromium
+[2026-05-12 19:17:39] [ERROR] ❌ TEST FAILED: TC001 - Valid Login with correct credentials @smoke @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:17:39] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC001___Valid_Login_with_correct_credentials__smoke__login_2026-05-12T13-47-39-524Z.png
+[2026-05-12 19:17:39] [INFO] ========== TEST END: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:17:39] [INFO] ========================================
+[2026-05-12 19:17:39] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:17:39] [INFO] Timestamp: 2026-05-12T13:47:39.738Z
+[2026-05-12 19:17:39] [INFO] ========================================
+[2026-05-12 19:17:54] [INFO] ========================================
+[2026-05-12 19:17:54] [INFO] TEST SUITE STARTED
+[2026-05-12 19:17:54] [INFO] Environment: qa
+[2026-05-12 19:17:54] [INFO] Timestamp: 2026-05-12T13:47:54.279Z
+[2026-05-12 19:17:54] [INFO] ========================================
+[2026-05-12 19:17:56] [INFO] ========== TEST START: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:17:56] [INFO] Browser: chromium
+[2026-05-12 19:18:26] [ERROR] ❌ TEST FAILED: TC001 - Valid Login with correct credentials @smoke @login | Error: [31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+[2026-05-12 19:18:26] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC001___Valid_Login_with_correct_credentials__smoke__login_2026-05-12T13-48-26-117Z.png
+[2026-05-12 19:18:26] [INFO] ========== TEST END: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:18:26] [INFO] ========================================
+[2026-05-12 19:18:26] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:18:26] [INFO] Timestamp: 2026-05-12T13:48:26.442Z
+[2026-05-12 19:18:26] [INFO] ========================================
+[2026-05-12 19:19:00] [INFO] ========================================
+[2026-05-12 19:19:00] [INFO] TEST SUITE STARTED
+[2026-05-12 19:19:00] [INFO] Environment: qa
+[2026-05-12 19:19:00] [INFO] Timestamp: 2026-05-12T13:49:00.060Z
+[2026-05-12 19:19:00] [INFO] ========================================
+[2026-05-12 19:19:03] [INFO] ========== TEST START: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:19:03] [INFO] Browser: chromium
+[2026-05-12 19:19:06] [INFO] Initialized LoginPage fixture
+[2026-05-12 19:19:06] [INFO] STEP 1: Login with valid credentials
+[2026-05-12 19:19:06] [INFO] Performing login with user: pavanol
+[2026-05-12 19:19:06] [INFO] Clicking Login navigation link
+[2026-05-12 19:19:06] [INFO] Waiting for element: #login2
+[2026-05-12 19:19:06] [INFO] Clicking element: #login2
+[2026-05-12 19:19:07] [INFO] Entering username: pavanol
+[2026-05-12 19:19:07] [INFO] Waiting for element: #loginusername
+[2026-05-12 19:19:07] [INFO] Entering text in: #loginusername
+[2026-05-12 19:19:07] [INFO] Entering password
+[2026-05-12 19:19:07] [INFO] Entering text in: #loginpassword
+[2026-05-12 19:19:07] [INFO] Clicking Login button
+[2026-05-12 19:19:07] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 19:19:09] [INFO] STEP 2: Verify user is logged in
+[2026-05-12 19:19:09] [INFO] Waiting for element: #nameofuser
+[2026-05-12 19:19:09] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-12 19:19:09] [INFO] Welcome text: Welcome pavanol
+[2026-05-12 19:19:09] [INFO] STEP 3: Verify welcome text contains username
+[2026-05-12 19:19:09] [INFO] Waiting for element: #nameofuser
+[2026-05-12 19:19:09] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-12 19:19:09] [INFO] ✅ TEST PASSED: TC001 - Valid Login with correct credentials @smoke @login
+[2026-05-12 19:19:09] [INFO] ========== TEST END: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 19:19:09] [INFO] ========================================
+[2026-05-12 19:19:09] [INFO] TEST SUITE COMPLETED
+[2026-05-12 19:19:09] [INFO] Timestamp: 2026-05-12T13:49:09.552Z
+[2026-05-12 19:19:09] [INFO] ========================================
+[2026-05-12 20:29:31] [INFO] ========================================
+[2026-05-12 20:29:31] [INFO] ========================================
+[2026-05-12 20:29:31] [INFO] ========================================
+[2026-05-12 20:29:31] [INFO] TEST SUITE STARTED
+[2026-05-12 20:29:31] [INFO] Environment: qa
+[2026-05-12 20:29:31] [INFO] Timestamp: 2026-05-12T14:59:31.630Z
+[2026-05-12 20:29:31] [INFO] ========================================
+[2026-05-12 20:29:31] [INFO] TEST SUITE STARTED
+[2026-05-12 20:29:31] [INFO] Environment: qa
+[2026-05-12 20:29:31] [INFO] Timestamp: 2026-05-12T14:59:31.668Z
+[2026-05-12 20:29:31] [INFO] ========================================
+[2026-05-12 20:29:31] [INFO] TEST SUITE STARTED
+[2026-05-12 20:29:31] [INFO] Environment: qa
+[2026-05-12 20:29:31] [INFO] Timestamp: 2026-05-12T14:59:31.668Z
+[2026-05-12 20:29:31] [INFO] ========================================
+[2026-05-12 20:29:33] [INFO] ========================================
+[2026-05-12 20:29:33] [INFO] ========================================
+[2026-05-12 20:29:33] [INFO] TEST SUITE COMPLETED
+[2026-05-12 20:29:33] [INFO] Timestamp: 2026-05-12T14:59:33.284Z
+[2026-05-12 20:29:33] [INFO] ========================================
+[2026-05-12 20:29:33] [INFO] TEST SUITE COMPLETED
+[2026-05-12 20:29:33] [INFO] Timestamp: 2026-05-12T14:59:33.284Z
+[2026-05-12 20:29:33] [INFO] ========================================
+[2026-05-12 20:29:33] [INFO] ========================================
+[2026-05-12 20:29:33] [INFO] TEST SUITE COMPLETED
+[2026-05-12 20:29:33] [INFO] Timestamp: 2026-05-12T14:59:33.288Z
+[2026-05-12 20:29:33] [INFO] ========================================
+[2026-05-12 20:36:03] [INFO] ========================================
+[2026-05-12 20:36:03] [INFO] TEST SUITE STARTED
+[2026-05-12 20:36:03] [INFO] Environment: qa
+[2026-05-12 20:36:03] [INFO] Timestamp: 2026-05-12T15:06:03.153Z
+[2026-05-12 20:36:03] [INFO] ========================================
+[2026-05-12 20:36:06] [INFO] ========== TEST START: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 20:36:06] [INFO] Browser: chromium
+[2026-05-12 20:36:09] [INFO] Initialized LoginPage fixture
+[2026-05-12 20:36:09] [INFO] STEP 1: Login with valid credentials
+[2026-05-12 20:36:09] [INFO] Performing login with user: pavanol
+[2026-05-12 20:36:09] [INFO] Clicking Login navigation link
+[2026-05-12 20:36:09] [INFO] Waiting for element: #login2
+[2026-05-12 20:36:09] [INFO] Clicking element: #login2
+[2026-05-12 20:36:10] [INFO] Entering username: pavanol
+[2026-05-12 20:36:10] [INFO] Waiting for element: #loginusername
+[2026-05-12 20:36:10] [INFO] Entering text in: #loginusername
+[2026-05-12 20:36:10] [INFO] Entering password
+[2026-05-12 20:36:10] [INFO] Entering text in: #loginpassword
+[2026-05-12 20:36:11] [INFO] Clicking Login button
+[2026-05-12 20:36:11] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 20:36:13] [INFO] STEP 2: Verify user is logged in
+[2026-05-12 20:36:13] [INFO] Waiting for element: #nameofuser
+[2026-05-12 20:36:13] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-12 20:36:13] [INFO] Welcome text: Welcome pavanol
+[2026-05-12 20:36:13] [INFO] STEP 3: Verify welcome text contains username
+[2026-05-12 20:36:13] [INFO] Waiting for element: #nameofuser
+[2026-05-12 20:36:13] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-12 20:36:13] [INFO] ✅ TEST PASSED: TC001 - Valid Login with correct credentials @smoke @login
+[2026-05-12 20:36:13] [INFO] ========== TEST END: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 20:36:13] [INFO] ========================================
+[2026-05-12 20:36:13] [INFO] TEST SUITE COMPLETED
+[2026-05-12 20:36:13] [INFO] Timestamp: 2026-05-12T15:06:13.299Z
+[2026-05-12 20:36:13] [INFO] ========================================
+[2026-05-12 20:48:47] [INFO] ========================================
+[2026-05-12 20:48:47] [INFO] TEST SUITE STARTED
+[2026-05-12 20:48:47] [INFO] Environment: qa
+[2026-05-12 20:48:47] [INFO] Timestamp: 2026-05-12T15:18:47.805Z
+[2026-05-12 20:48:47] [INFO] ========================================
+[2026-05-12 20:48:51] [INFO] ========== TEST START: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 20:48:51] [INFO] Browser: chromium
+[2026-05-12 20:48:54] [INFO] Initialized LoginPage fixture
+[2026-05-12 20:48:54] [INFO] STEP 1: Login with valid credentials
+[2026-05-12 20:48:54] [INFO] Performing login with user: pavanol
+[2026-05-12 20:48:54] [INFO] Clicking Login navigation link
+[2026-05-12 20:48:54] [INFO] Waiting for element: #login2
+[2026-05-12 20:48:54] [INFO] Clicking element: #login2
+[2026-05-12 20:48:55] [INFO] Entering username: pavanol
+[2026-05-12 20:48:55] [INFO] Waiting for element: #loginusername
+[2026-05-12 20:48:55] [INFO] Entering text in: #loginusername
+[2026-05-12 20:48:55] [INFO] Entering password
+[2026-05-12 20:48:55] [INFO] Entering text in: #loginpassword
+[2026-05-12 20:48:55] [INFO] Clicking Login button
+[2026-05-12 20:48:55] [INFO] Clicking element: button[onclick='logIn1()']
+[2026-05-12 20:49:11] [ERROR] ❌ TEST FAILED: TC001 - Valid Login with correct credentials @smoke @login | Error: TimeoutError: locator.click: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for locator('button[onclick=\'logIn1()\']')[22m
+
+[2026-05-12 20:49:11] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC001___Valid_Login_with_correct_credentials__smoke__login_2026-05-12T15-19-11-537Z.png
+[2026-05-12 20:49:11] [INFO] ========== TEST END: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 20:49:11] [INFO] ========================================
+[2026-05-12 20:49:11] [INFO] TEST SUITE COMPLETED
+[2026-05-12 20:49:11] [INFO] Timestamp: 2026-05-12T15:19:11.955Z
+[2026-05-12 20:49:11] [INFO] ========================================
+[2026-05-12 20:49:35] [INFO] ========================================
+[2026-05-12 20:49:35] [INFO] TEST SUITE STARTED
+[2026-05-12 20:49:35] [INFO] Environment: qa
+[2026-05-12 20:49:35] [INFO] Timestamp: 2026-05-12T15:19:35.727Z
+[2026-05-12 20:49:35] [INFO] ========================================
+[2026-05-12 20:49:38] [INFO] ========== TEST START: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 20:49:38] [INFO] Browser: chromium
+[2026-05-12 20:49:42] [INFO] Initialized LoginPage fixture
+[2026-05-12 20:49:42] [INFO] STEP 1: Login with valid credentials
+[2026-05-12 20:49:42] [INFO] Performing login with user: pavanol
+[2026-05-12 20:49:42] [INFO] Clicking Login navigation link
+[2026-05-12 20:49:42] [INFO] Waiting for element: #login2
+[2026-05-12 20:49:42] [INFO] Clicking element: #login2
+[2026-05-12 20:49:43] [INFO] Entering username: pavanol
+[2026-05-12 20:49:43] [INFO] Waiting for element: #loginusername
+[2026-05-12 20:49:43] [INFO] Entering text in: #loginusername
+[2026-05-12 20:49:43] [INFO] Entering password
+[2026-05-12 20:49:43] [INFO] Entering text in: #loginpassword
+[2026-05-12 20:49:43] [INFO] Clicking Login button
+[2026-05-12 20:49:43] [INFO] Clicking element: button[onclick='logIn1()']
+[2026-05-12 20:49:58] [ERROR] ❌ TEST FAILED: TC001 - Valid Login with correct credentials @smoke @login | Error: TimeoutError: locator.click: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for locator('button[onclick=\'logIn1()\']')[22m
+
+[2026-05-12 20:49:58] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC001___Valid_Login_with_correct_credentials__smoke__login_2026-05-12T15-19-58-727Z.png
+[2026-05-12 20:49:58] [INFO] ========== TEST END: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 20:49:58] [INFO] ========================================
+[2026-05-12 20:49:58] [INFO] TEST SUITE COMPLETED
+[2026-05-12 20:49:58] [INFO] Timestamp: 2026-05-12T15:19:58.977Z
+[2026-05-12 20:49:58] [INFO] ========================================
+[2026-05-12 20:52:13] [INFO] ========================================
+[2026-05-12 20:52:13] [INFO] TEST SUITE STARTED
+[2026-05-12 20:52:13] [INFO] Environment: qa
+[2026-05-12 20:52:13] [INFO] Timestamp: 2026-05-12T15:22:13.181Z
+[2026-05-12 20:52:13] [INFO] ========================================
+[2026-05-12 20:52:17] [INFO] ========== TEST START: TC002 - Invalid Login with wrong credentials @regression @login ==========
+[2026-05-12 20:52:17] [INFO] Browser: chromium
+[2026-05-12 20:52:20] [INFO] Initialized LoginPage fixture
+[2026-05-12 20:52:20] [INFO] STEP 1: Login with invalid credentials
+[2026-05-12 20:52:20] [INFO] Performing login with user: invaliduser123
+[2026-05-12 20:52:20] [INFO] Clicking Login navigation link
+[2026-05-12 20:52:20] [INFO] Waiting for element: #login2
+[2026-05-12 20:52:20] [INFO] Clicking element: #login2
+[2026-05-12 20:52:21] [INFO] Entering username: invaliduser123
+[2026-05-12 20:52:21] [INFO] Waiting for element: #loginusername
+[2026-05-12 20:52:21] [INFO] Entering text in: #loginusername
+[2026-05-12 20:52:21] [INFO] Entering password
+[2026-05-12 20:52:21] [INFO] Entering text in: #loginpassword
+[2026-05-12 20:52:21] [INFO] Clicking Login button
+[2026-05-12 20:52:21] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 20:52:23] [INFO] STEP 2: Verify user is NOT logged in
+[2026-05-12 20:52:25] [INFO] Waiting for element: #nameofuser
+[2026-05-12 20:52:31] [INFO] ✅ TEST PASSED: TC002 - Invalid Login with wrong credentials @regression @login
+[2026-05-12 20:52:31] [INFO] ========== TEST END: TC002 - Invalid Login with wrong credentials @regression @login ==========
+[2026-05-12 20:52:31] [INFO] ========================================
+[2026-05-12 20:52:31] [INFO] TEST SUITE COMPLETED
+[2026-05-12 20:52:31] [INFO] Timestamp: 2026-05-12T15:22:31.055Z
+[2026-05-12 20:52:31] [INFO] ========================================
+[2026-05-12 20:52:39] [INFO] ========================================
+[2026-05-12 20:52:39] [INFO] ========================================
+[2026-05-12 20:52:39] [INFO] ========================================
+[2026-05-12 20:52:39] [INFO] TEST SUITE STARTED
+[2026-05-12 20:52:39] [INFO] Environment: qa
+[2026-05-12 20:52:39] [INFO] Timestamp: 2026-05-12T15:22:39.294Z
+[2026-05-12 20:52:39] [INFO] ========================================
+[2026-05-12 20:52:39] [INFO] TEST SUITE STARTED
+[2026-05-12 20:52:39] [INFO] Environment: qa
+[2026-05-12 20:52:39] [INFO] Timestamp: 2026-05-12T15:22:39.299Z
+[2026-05-12 20:52:39] [INFO] ========================================
+[2026-05-12 20:52:39] [INFO] TEST SUITE STARTED
+[2026-05-12 20:52:39] [INFO] Environment: qa
+[2026-05-12 20:52:39] [INFO] Timestamp: 2026-05-12T15:22:39.328Z
+[2026-05-12 20:52:39] [INFO] ========================================
+[2026-05-12 20:52:43] [INFO] ========== TEST START: TC005 - Logout after successful login @smoke @login ==========
+[2026-05-12 20:52:43] [INFO] ========== TEST START: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 20:52:43] [INFO] ========== TEST START: TC003 - Login with blank username @regression @login ==========
+[2026-05-12 20:52:43] [INFO] Browser: chromium
+[2026-05-12 20:52:43] [INFO] Browser: chromium
+[2026-05-12 20:52:43] [INFO] Browser: chromium
+[2026-05-12 20:52:47] [INFO] Initialized LoginPage fixture
+[2026-05-12 20:52:47] [INFO] Initialized LoginPage fixture
+[2026-05-12 20:52:47] [INFO] STEP 1: Login with valid credentials
+[2026-05-12 20:52:47] [INFO] Performing login with user: pavanol
+[2026-05-12 20:52:47] [INFO] Clicking Login navigation link
+[2026-05-12 20:52:47] [INFO] Waiting for element: #login2
+[2026-05-12 20:52:47] [INFO] STEP 1: Login with blank username
+[2026-05-12 20:52:47] [INFO] Performing login with user: 
+[2026-05-12 20:52:47] [INFO] Clicking Login navigation link
+[2026-05-12 20:52:47] [INFO] Waiting for element: #login2
+[2026-05-12 20:52:47] [INFO] Clicking element: #login2
+[2026-05-12 20:52:47] [INFO] Clicking element: #login2
+[2026-05-12 20:52:47] [INFO] Initialized LoginPage fixture
+[2026-05-12 20:52:47] [INFO] STEP 1: Login with valid credentials
+[2026-05-12 20:52:47] [INFO] Performing login with user: pavanol
+[2026-05-12 20:52:47] [INFO] Clicking Login navigation link
+[2026-05-12 20:52:47] [INFO] Waiting for element: #login2
+[2026-05-12 20:52:47] [INFO] Clicking element: #login2
+[2026-05-12 20:52:48] [INFO] Entering username: pavanol
+[2026-05-12 20:52:48] [INFO] Waiting for element: #loginusername
+[2026-05-12 20:52:48] [INFO] Entering text in: #loginusername
+[2026-05-12 20:52:48] [INFO] Entering password
+[2026-05-12 20:52:48] [INFO] Entering text in: #loginpassword
+[2026-05-12 20:52:48] [INFO] Clicking Login button
+[2026-05-12 20:52:48] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 20:52:48] [INFO] Entering username: 
+[2026-05-12 20:52:48] [INFO] Waiting for element: #loginusername
+[2026-05-12 20:52:48] [INFO] Entering text in: #loginusername
+[2026-05-12 20:52:49] [INFO] Entering password
+[2026-05-12 20:52:49] [INFO] Entering text in: #loginpassword
+[2026-05-12 20:52:49] [INFO] Clicking Login button
+[2026-05-12 20:52:49] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 20:52:49] [INFO] Entering username: pavanol
+[2026-05-12 20:52:49] [INFO] Waiting for element: #loginusername
+[2026-05-12 20:52:49] [INFO] Entering text in: #loginusername
+[2026-05-12 20:52:49] [INFO] Entering password
+[2026-05-12 20:52:49] [INFO] Entering text in: #loginpassword
+[2026-05-12 20:52:50] [INFO] Clicking Login button
+[2026-05-12 20:52:50] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 20:52:51] [INFO] STEP 2: Verify user is logged in
+[2026-05-12 20:52:51] [INFO] Waiting for element: #nameofuser
+[2026-05-12 20:52:51] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-12 20:52:51] [INFO] Welcome text: Welcome pavanol
+[2026-05-12 20:52:51] [INFO] STEP 3: Verify welcome text contains username
+[2026-05-12 20:52:51] [INFO] Waiting for element: #nameofuser
+[2026-05-12 20:52:51] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-12 20:52:51] [INFO] ✅ TEST PASSED: TC001 - Valid Login with correct credentials @smoke @login
+[2026-05-12 20:52:51] [INFO] ========== TEST END: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 20:52:52] [INFO] STEP 2: Verify user is logged in
+[2026-05-12 20:52:52] [INFO] Waiting for element: #nameofuser
+[2026-05-12 20:52:52] [INFO] STEP 2: Verify user is NOT logged in
+[2026-05-12 20:52:52] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-12 20:52:52] [INFO] Welcome text: Welcome pavanol
+[2026-05-12 20:52:52] [INFO] STEP 3: Perform logout
+[2026-05-12 20:52:52] [INFO] Performing logout
+[2026-05-12 20:52:52] [INFO] Waiting for element: #logout2
+[2026-05-12 20:52:52] [INFO] Clicking element: #logout2
+[2026-05-12 20:52:53] [INFO] ========== TEST START: TC002 - Invalid Login with wrong credentials @regression @login ==========
+[2026-05-12 20:52:53] [INFO] Browser: chromium
+[2026-05-12 20:52:54] [INFO] STEP 4: Verify Login nav is visible after logout
+[2026-05-12 20:52:54] [INFO] Waiting for element: #nameofuser
+[2026-05-12 20:52:55] [INFO] Element #login2 visible: true
+[2026-05-12 20:52:55] [INFO] ✅ TEST PASSED: TC005 - Logout after successful login @smoke @login
+[2026-05-12 20:52:55] [INFO] ========== TEST END: TC005 - Logout after successful login @smoke @login ==========
+[2026-05-12 20:52:55] [INFO] ========================================
+[2026-05-12 20:52:55] [INFO] TEST SUITE COMPLETED
+[2026-05-12 20:52:55] [INFO] Timestamp: 2026-05-12T15:22:55.624Z
+[2026-05-12 20:52:55] [INFO] ========================================
+[2026-05-12 20:52:57] [INFO] Initialized LoginPage fixture
+[2026-05-12 20:52:57] [INFO] STEP 1: Login with invalid credentials
+[2026-05-12 20:52:57] [INFO] Performing login with user: invaliduser123
+[2026-05-12 20:52:57] [INFO] Clicking Login navigation link
+[2026-05-12 20:52:57] [INFO] Waiting for element: #login2
+[2026-05-12 20:52:57] [INFO] Clicking element: #login2
+[2026-05-12 20:52:58] [INFO] Entering username: invaliduser123
+[2026-05-12 20:52:58] [INFO] Waiting for element: #loginusername
+[2026-05-12 20:52:58] [INFO] Entering text in: #loginusername
+[2026-05-12 20:52:58] [INFO] Entering password
+[2026-05-12 20:52:58] [INFO] Entering text in: #loginpassword
+[2026-05-12 20:52:58] [INFO] Clicking Login button
+[2026-05-12 20:52:58] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 20:53:00] [INFO] STEP 2: Verify user is NOT logged in
+[2026-05-12 20:53:00] [INFO] ✅ TEST PASSED: TC003 - Login with blank username @regression @login
+[2026-05-12 20:53:00] [INFO] ========== TEST END: TC003 - Login with blank username @regression @login ==========
+[2026-05-12 20:53:02] [INFO] Waiting for element: #nameofuser
+[2026-05-12 20:53:02] [INFO] ========== TEST START: TC004 - Login with blank password @regression @login ==========
+[2026-05-12 20:53:02] [INFO] Browser: chromium
+[2026-05-12 20:53:05] [INFO] Initialized LoginPage fixture
+[2026-05-12 20:53:05] [INFO] STEP 1: Login with blank password
+[2026-05-12 20:53:05] [INFO] Performing login with user: pavanol
+[2026-05-12 20:53:05] [INFO] Clicking Login navigation link
+[2026-05-12 20:53:05] [INFO] Waiting for element: #login2
+[2026-05-12 20:53:05] [INFO] Clicking element: #login2
+[2026-05-12 20:53:06] [INFO] Entering username: pavanol
+[2026-05-12 20:53:06] [INFO] Waiting for element: #loginusername
+[2026-05-12 20:53:06] [INFO] Entering text in: #loginusername
+[2026-05-12 20:53:06] [INFO] Entering password
+[2026-05-12 20:53:06] [INFO] Entering text in: #loginpassword
+[2026-05-12 20:53:06] [INFO] Clicking Login button
+[2026-05-12 20:53:06] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 20:53:07] [INFO] ✅ TEST PASSED: TC002 - Invalid Login with wrong credentials @regression @login
+[2026-05-12 20:53:07] [INFO] ========== TEST END: TC002 - Invalid Login with wrong credentials @regression @login ==========
+[2026-05-12 20:53:07] [INFO] ========================================
+[2026-05-12 20:53:07] [INFO] TEST SUITE COMPLETED
+[2026-05-12 20:53:07] [INFO] Timestamp: 2026-05-12T15:23:07.743Z
+[2026-05-12 20:53:07] [INFO] ========================================
+[2026-05-12 20:53:08] [INFO] STEP 2: Verify user is NOT logged in
+[2026-05-12 20:53:10] [INFO] Waiting for element: #nameofuser
+[2026-05-12 20:53:16] [INFO] ✅ TEST PASSED: TC004 - Login with blank password @regression @login
+[2026-05-12 20:53:16] [INFO] ========== TEST END: TC004 - Login with blank password @regression @login ==========
+[2026-05-12 20:53:16] [INFO] ========================================
+[2026-05-12 20:53:16] [INFO] TEST SUITE COMPLETED
+[2026-05-12 20:53:16] [INFO] Timestamp: 2026-05-12T15:23:16.328Z
+[2026-05-12 20:53:16] [INFO] ========================================
+[2026-05-12 20:53:50] [INFO] ========================================
+[2026-05-12 20:53:50] [INFO] ========================================
+[2026-05-12 20:53:50] [INFO] ========================================
+[2026-05-12 20:53:50] [INFO] TEST SUITE STARTED
+[2026-05-12 20:53:50] [INFO] Environment: qa
+[2026-05-12 20:53:50] [INFO] Timestamp: 2026-05-12T15:23:50.554Z
+[2026-05-12 20:53:50] [INFO] ========================================
+[2026-05-12 20:53:50] [INFO] TEST SUITE STARTED
+[2026-05-12 20:53:50] [INFO] Environment: qa
+[2026-05-12 20:53:50] [INFO] Timestamp: 2026-05-12T15:23:50.582Z
+[2026-05-12 20:53:50] [INFO] ========================================
+[2026-05-12 20:53:50] [INFO] TEST SUITE STARTED
+[2026-05-12 20:53:50] [INFO] Environment: qa
+[2026-05-12 20:53:50] [INFO] Timestamp: 2026-05-12T15:23:50.538Z
+[2026-05-12 20:53:50] [INFO] ========================================
+[2026-05-12 20:53:55] [INFO] ========== TEST START: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 20:53:55] [INFO] ========== TEST START: TC005 - Logout after successful login @smoke @login ==========
+[2026-05-12 20:53:56] [INFO] ========== TEST START: TC003 - Login with blank username @regression @login ==========
+[2026-05-12 20:53:55] [INFO] Browser: chromium
+[2026-05-12 20:53:55] [INFO] Browser: chromium
+[2026-05-12 20:53:56] [INFO] Browser: chromium
+[2026-05-12 20:53:59] [INFO] Initialized LoginPage fixture
+[2026-05-12 20:53:59] [INFO] STEP 1: Login with blank username
+[2026-05-12 20:53:59] [INFO] Performing login with user: 
+[2026-05-12 20:53:59] [INFO] Clicking Login navigation link
+[2026-05-12 20:53:59] [INFO] Waiting for element: #login2
+[2026-05-12 20:53:59] [INFO] Initialized LoginPage fixture
+[2026-05-12 20:53:59] [INFO] Clicking element: #login2
+[2026-05-12 20:53:59] [INFO] STEP 1: Login with valid credentials
+[2026-05-12 20:53:59] [INFO] Performing login with user: pavanol
+[2026-05-12 20:53:59] [INFO] Clicking Login navigation link
+[2026-05-12 20:53:59] [INFO] Waiting for element: #login2
+[2026-05-12 20:54:00] [INFO] Clicking element: #login2
+[2026-05-12 20:54:00] [INFO] Initialized LoginPage fixture
+[2026-05-12 20:54:00] [INFO] STEP 1: Login with valid credentials
+[2026-05-12 20:54:00] [INFO] Performing login with user: pavanol
+[2026-05-12 20:54:00] [INFO] Clicking Login navigation link
+[2026-05-12 20:54:00] [INFO] Waiting for element: #login2
+[2026-05-12 20:54:00] [INFO] Clicking element: #login2
+[2026-05-12 20:54:01] [INFO] Entering username: 
+[2026-05-12 20:54:01] [INFO] Waiting for element: #loginusername
+[2026-05-12 20:54:01] [INFO] Entering text in: #loginusername
+[2026-05-12 20:54:01] [INFO] Entering username: pavanol
+[2026-05-12 20:54:01] [INFO] Waiting for element: #loginusername
+[2026-05-12 20:54:01] [INFO] Entering text in: #loginusername
+[2026-05-12 20:54:01] [INFO] Entering password
+[2026-05-12 20:54:01] [INFO] Entering text in: #loginpassword
+[2026-05-12 20:54:01] [INFO] Clicking Login button
+[2026-05-12 20:54:01] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 20:54:02] [INFO] Entering username: pavanol
+[2026-05-12 20:54:02] [INFO] Entering password
+[2026-05-12 20:54:02] [INFO] Waiting for element: #loginusername
+[2026-05-12 20:54:02] [INFO] Entering text in: #loginpassword
+[2026-05-12 20:54:02] [INFO] Entering text in: #loginusername
+[2026-05-12 20:54:02] [INFO] Clicking Login button
+[2026-05-12 20:54:02] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 20:54:02] [ERROR] ❌ TEST FAILED: TC001 - Valid Login with correct credentials @smoke @login | Error: Unknown error
+[2026-05-12 20:54:02] [ERROR] ❌ TEST FAILED: TC005 - Logout after successful login @smoke @login | Error: Unknown error
+[2026-05-12 20:54:02] [INFO] Entering password
+[2026-05-12 20:54:02] [ERROR] ❌ TEST FAILED: TC003 - Login with blank username @regression @login | Error: Unknown error
+[2026-05-12 20:54:02] [INFO] Entering text in: #loginpassword
+[2026-05-12 20:54:02] [INFO] Clicking Login button
+[2026-05-12 20:54:02] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 20:54:03] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC003___Login_with_blank_username__regression__login_2026-05-12T15-24-02-836Z.png
+[2026-05-12 20:54:03] [INFO] ========== TEST END: TC003 - Login with blank username @regression @login ==========
+[2026-05-12 20:54:03] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC005___Logout_after_successful_login__smoke__login_2026-05-12T15-24-02-783Z.png
+[2026-05-12 20:54:03] [INFO] ========== TEST END: TC005 - Logout after successful login @smoke @login ==========
+[2026-05-12 20:54:04] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC001___Valid_Login_with_correct_credentials__smoke__login_2026-05-12T15-24-02-603Z.png
+[2026-05-12 20:54:04] [INFO] ========================================
+[2026-05-12 20:54:04] [INFO] ========== TEST END: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 20:54:04] [INFO] TEST SUITE COMPLETED
+[2026-05-12 20:54:04] [INFO] Timestamp: 2026-05-12T15:24:04.285Z
+[2026-05-12 20:54:04] [INFO] ========================================
+[2026-05-12 20:54:04] [INFO] ========================================
+[2026-05-12 20:54:04] [INFO] TEST SUITE COMPLETED
+[2026-05-12 20:54:04] [INFO] Timestamp: 2026-05-12T15:24:04.292Z
+[2026-05-12 20:54:04] [INFO] ========================================
+[2026-05-12 20:54:04] [INFO] ========================================
+[2026-05-12 20:54:04] [INFO] TEST SUITE COMPLETED
+[2026-05-12 20:54:04] [INFO] Timestamp: 2026-05-12T15:24:04.473Z
+[2026-05-12 20:54:04] [INFO] ========================================
+[2026-05-12 20:54:39] [INFO] ========================================
+[2026-05-12 20:54:39] [INFO] ========================================
+[2026-05-12 20:54:39] [INFO] ========================================
+[2026-05-12 20:54:39] [INFO] ========================================
+[2026-05-12 20:54:39] [INFO] TEST SUITE STARTED
+[2026-05-12 20:54:39] [INFO] Environment: qa
+[2026-05-12 20:54:39] [INFO] Timestamp: 2026-05-12T15:24:39.444Z
+[2026-05-12 20:54:39] [INFO] ========================================
+[2026-05-12 20:54:39] [INFO] TEST SUITE STARTED
+[2026-05-12 20:54:39] [INFO] Environment: qa
+[2026-05-12 20:54:39] [INFO] Timestamp: 2026-05-12T15:24:39.479Z
+[2026-05-12 20:54:39] [INFO] ========================================
+[2026-05-12 20:54:39] [INFO] TEST SUITE STARTED
+[2026-05-12 20:54:39] [INFO] Environment: qa
+[2026-05-12 20:54:39] [INFO] Timestamp: 2026-05-12T15:24:39.467Z
+[2026-05-12 20:54:39] [INFO] ========================================
+[2026-05-12 20:54:39] [INFO] ========================================
+[2026-05-12 20:54:39] [INFO] TEST SUITE STARTED
+[2026-05-12 20:54:39] [INFO] Environment: qa
+[2026-05-12 20:54:39] [INFO] Timestamp: 2026-05-12T15:24:39.485Z
+[2026-05-12 20:54:39] [INFO] ========================================
+[2026-05-12 20:54:39] [INFO] TEST SUITE STARTED
+[2026-05-12 20:54:39] [INFO] Environment: qa
+[2026-05-12 20:54:39] [INFO] Timestamp: 2026-05-12T15:24:39.540Z
+[2026-05-12 20:54:39] [INFO] ========================================
+[2026-05-12 20:54:46] [INFO] ========== TEST START: TC003 - Login with blank username @regression @login ==========
+[2026-05-12 20:54:46] [INFO] ========== TEST START: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 20:54:46] [INFO] ========== TEST START: TC002 - Invalid Login with wrong credentials @regression @login ==========
+[2026-05-12 20:54:46] [INFO] ========== TEST START: TC005 - Logout after successful login @smoke @login ==========
+[2026-05-12 20:54:46] [INFO] ========== TEST START: TC004 - Login with blank password @regression @login ==========
+[2026-05-12 20:54:46] [INFO] Browser: chromium
+[2026-05-12 20:54:46] [INFO] Browser: chromium
+[2026-05-12 20:54:46] [INFO] Browser: chromium
+[2026-05-12 20:54:46] [INFO] Browser: chromium
+[2026-05-12 20:54:46] [INFO] Browser: chromium
+[2026-05-12 20:54:51] [INFO] Initialized LoginPage fixture
+[2026-05-12 20:54:51] [INFO] Initialized LoginPage fixture
+[2026-05-12 20:54:51] [INFO] Initialized LoginPage fixture
+[2026-05-12 20:54:51] [INFO] Initialized LoginPage fixture
+[2026-05-12 20:54:51] [INFO] STEP 1: Login with blank username
+[2026-05-12 20:54:51] [INFO] Performing login with user: 
+[2026-05-12 20:54:51] [INFO] Clicking Login navigation link
+[2026-05-12 20:54:51] [INFO] Waiting for element: #login2
+[2026-05-12 20:54:51] [INFO] STEP 1: Login with valid credentials
+[2026-05-12 20:54:51] [INFO] Performing login with user: pavanol
+[2026-05-12 20:54:51] [INFO] Clicking Login navigation link
+[2026-05-12 20:54:51] [INFO] Waiting for element: #login2
+[2026-05-12 20:54:51] [INFO] STEP 1: Login with valid credentials
+[2026-05-12 20:54:51] [INFO] Performing login with user: pavanol
+[2026-05-12 20:54:51] [INFO] Clicking Login navigation link
+[2026-05-12 20:54:51] [INFO] Waiting for element: #login2
+[2026-05-12 20:54:51] [INFO] STEP 1: Login with invalid credentials
+[2026-05-12 20:54:51] [INFO] Performing login with user: invaliduser123
+[2026-05-12 20:54:51] [INFO] Clicking Login navigation link
+[2026-05-12 20:54:51] [INFO] Waiting for element: #login2
+[2026-05-12 20:54:52] [INFO] Clicking element: #login2
+[2026-05-12 20:54:52] [INFO] Clicking element: #login2
+[2026-05-12 20:54:52] [INFO] Clicking element: #login2
+[2026-05-12 20:54:52] [INFO] Clicking element: #login2
+[2026-05-12 20:54:54] [INFO] Entering username: pavanol
+[2026-05-12 20:54:54] [INFO] Waiting for element: #loginusername
+[2026-05-12 20:54:54] [INFO] Entering text in: #loginusername
+[2026-05-12 20:54:54] [ERROR] ❌ TEST FAILED: TC005 - Logout after successful login @smoke @login | Error: Unknown error
+[2026-05-12 20:54:54] [ERROR] ❌ TEST FAILED: TC002 - Invalid Login with wrong credentials @regression @login | Error: Unknown error
+[2026-05-12 20:54:54] [INFO] Entering username: pavanol
+[2026-05-12 20:54:54] [INFO] Entering password
+[2026-05-12 20:54:54] [INFO] Entering text in: #loginpassword
+[2026-05-12 20:54:54] [INFO] Waiting for element: #loginusername
+[2026-05-12 20:54:54] [INFO] Clicking Login button
+[2026-05-12 20:54:54] [INFO] Entering username: invaliduser123
+[2026-05-12 20:54:54] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 20:54:54] [INFO] Entering text in: #loginusername
+[2026-05-12 20:54:54] [INFO] Waiting for element: #loginusername
+[2026-05-12 20:54:54] [INFO] Entering text in: #loginusername
+[2026-05-12 20:54:54] [INFO] Entering username: 
+[2026-05-12 20:54:54] [ERROR] ❌ TEST FAILED: TC004 - Login with blank password @regression @login | Error: Unknown error
+[2026-05-12 20:54:54] [INFO] Waiting for element: #loginusername
+[2026-05-12 20:54:55] [INFO] Entering text in: #loginusername
+[2026-05-12 20:54:55] [INFO] Entering password
+[2026-05-12 20:54:55] [INFO] Entering text in: #loginpassword
+[2026-05-12 20:54:55] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC002___Invalid_Login_with_wrong_credentials__regression__login_2026-05-12T15-24-54-380Z.png
+[2026-05-12 20:54:55] [INFO] Entering password
+[2026-05-12 20:54:55] [INFO] Entering text in: #loginpassword
+[2026-05-12 20:54:55] [INFO] Entering password
+[2026-05-12 20:54:55] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC005___Logout_after_successful_login__smoke__login_2026-05-12T15-24-54-238Z.png
+[2026-05-12 20:54:55] [INFO] Entering text in: #loginpassword
+[2026-05-12 20:54:55] [INFO] ========== TEST END: TC005 - Logout after successful login @smoke @login ==========
+[2026-05-12 20:54:55] [INFO] Clicking Login button
+[2026-05-12 20:54:55] [INFO] ========== TEST END: TC002 - Invalid Login with wrong credentials @regression @login ==========
+[2026-05-12 20:54:55] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 20:54:55] [INFO] Clicking Login button
+[2026-05-12 20:54:55] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 20:54:56] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC004___Login_with_blank_password__regression__login_2026-05-12T15-24-54-872Z.png
+[2026-05-12 20:54:56] [INFO] ========== TEST END: TC004 - Login with blank password @regression @login ==========
+[2026-05-12 20:54:56] [ERROR] ❌ TEST FAILED: TC001 - Valid Login with correct credentials @smoke @login | Error: Unknown error
+[2026-05-12 20:54:56] [INFO] ========================================
+[2026-05-12 20:54:56] [INFO] TEST SUITE COMPLETED
+[2026-05-12 20:54:56] [INFO] Timestamp: 2026-05-12T15:24:56.969Z
+[2026-05-12 20:54:56] [INFO] ========================================
+[2026-05-12 20:54:57] [INFO] ========================================
+[2026-05-12 20:54:57] [INFO] TEST SUITE COMPLETED
+[2026-05-12 20:54:57] [INFO] Timestamp: 2026-05-12T15:24:57.038Z
+[2026-05-12 20:54:57] [INFO] ========================================
+[2026-05-12 20:54:58] [INFO] STEP 2: Verify user is logged in
+[2026-05-12 20:54:58] [INFO] STEP 2: Verify user is NOT logged in
+[2026-05-12 20:54:58] [INFO] ========================================
+[2026-05-12 20:54:58] [INFO] Waiting for element: #nameofuser
+[2026-05-12 20:54:58] [ERROR] ❌ TEST FAILED: TC003 - Login with blank username @regression @login | Error: Error: write EPIPE
+[2026-05-12 20:54:58] [INFO] TEST SUITE COMPLETED
+[2026-05-12 20:54:58] [INFO] Timestamp: 2026-05-12T15:24:58.929Z
+[2026-05-12 20:54:58] [INFO] ========================================
+[2026-05-12 20:54:59] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-12 20:54:59] [INFO] Welcome text: Welcome pavanol
+[2026-05-12 20:54:59] [INFO] STEP 3: Verify welcome text contains username
+[2026-05-12 20:54:59] [INFO] Waiting for element: #nameofuser
+[2026-05-12 20:55:00] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-12 20:55:00] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC003___Login_with_blank_username__regression__login_2026-05-12T15-24-58-937Z.png
+[2026-05-12 20:55:00] [INFO] ========== TEST END: TC003 - Login with blank username @regression @login ==========
+[2026-05-12 20:55:00] [INFO] ========================================
+[2026-05-12 20:55:00] [INFO] TEST SUITE COMPLETED
+[2026-05-12 20:55:00] [INFO] Timestamp: 2026-05-12T15:25:00.769Z
+[2026-05-12 20:55:00] [INFO] ========================================
+[2026-05-12 20:55:02] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC001___Valid_Login_with_correct_credentials__smoke__login_2026-05-12T15-24-56-833Z.png
+[2026-05-12 20:55:02] [INFO] ========== TEST END: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 20:55:02] [INFO] ========================================
+[2026-05-12 20:55:02] [INFO] TEST SUITE COMPLETED
+[2026-05-12 20:55:02] [INFO] Timestamp: 2026-05-12T15:25:02.429Z
+[2026-05-12 20:55:02] [INFO] ========================================
+[2026-05-12 20:55:54] [INFO] ========================================
+[2026-05-12 20:55:54] [INFO] ========================================
+[2026-05-12 20:55:54] [INFO] TEST SUITE STARTED
+[2026-05-12 20:55:54] [INFO] Environment: qa
+[2026-05-12 20:55:54] [INFO] Timestamp: 2026-05-12T15:25:54.670Z
+[2026-05-12 20:55:54] [INFO] ========================================
+[2026-05-12 20:55:54] [INFO] ========================================
+[2026-05-12 20:55:54] [INFO] ========================================
+[2026-05-12 20:55:54] [INFO] TEST SUITE STARTED
+[2026-05-12 20:55:54] [INFO] Environment: qa
+[2026-05-12 20:55:54] [INFO] Timestamp: 2026-05-12T15:25:54.779Z
+[2026-05-12 20:55:54] [INFO] ========================================
+[2026-05-12 20:55:54] [INFO] TEST SUITE STARTED
+[2026-05-12 20:55:54] [INFO] Environment: qa
+[2026-05-12 20:55:54] [INFO] Timestamp: 2026-05-12T15:25:54.586Z
+[2026-05-12 20:55:54] [INFO] ========================================
+[2026-05-12 20:55:54] [INFO] ========================================
+[2026-05-12 20:55:54] [INFO] ========================================
+[2026-05-12 20:55:54] [INFO] TEST SUITE STARTED
+[2026-05-12 20:55:54] [INFO] Environment: qa
+[2026-05-12 20:55:54] [INFO] Timestamp: 2026-05-12T15:25:54.817Z
+[2026-05-12 20:55:54] [INFO] ========================================
+[2026-05-12 20:55:54] [INFO] ========================================
+[2026-05-12 20:55:54] [INFO] ========================================
+[2026-05-12 20:55:54] [INFO] ========================================
+[2026-05-12 20:55:54] [INFO] TEST SUITE STARTED
+[2026-05-12 20:55:54] [INFO] Environment: qa
+[2026-05-12 20:55:54] [INFO] Timestamp: 2026-05-12T15:25:54.937Z
+[2026-05-12 20:55:54] [INFO] ========================================
+[2026-05-12 20:55:54] [INFO] TEST SUITE STARTED
+[2026-05-12 20:55:54] [INFO] Environment: qa
+[2026-05-12 20:55:54] [INFO] Timestamp: 2026-05-12T15:25:54.976Z
+[2026-05-12 20:55:54] [INFO] ========================================
+[2026-05-12 20:55:54] [INFO] TEST SUITE STARTED
+[2026-05-12 20:55:54] [INFO] Environment: qa
+[2026-05-12 20:55:54] [INFO] Timestamp: 2026-05-12T15:25:54.912Z
+[2026-05-12 20:55:54] [INFO] ========================================
+[2026-05-12 20:55:54] [INFO] TEST SUITE STARTED
+[2026-05-12 20:55:54] [INFO] Environment: qa
+[2026-05-12 20:55:54] [INFO] Timestamp: 2026-05-12T15:25:54.913Z
+[2026-05-12 20:55:54] [INFO] ========================================
+[2026-05-12 20:55:55] [INFO] ========================================
+[2026-05-12 20:55:54] [INFO] TEST SUITE STARTED
+[2026-05-12 20:55:54] [INFO] Environment: qa
+[2026-05-12 20:55:54] [INFO] Timestamp: 2026-05-12T15:25:54.956Z
+[2026-05-12 20:55:54] [INFO] ========================================
+[2026-05-12 20:55:55] [INFO] TEST SUITE STARTED
+[2026-05-12 20:55:55] [INFO] Environment: qa
+[2026-05-12 20:55:55] [INFO] Timestamp: 2026-05-12T15:25:55.086Z
+[2026-05-12 20:55:55] [INFO] ========================================
+[2026-05-12 20:56:05] [INFO] ========== TEST START: TC009 - Logout after successful login @smoke @login ==========
+[2026-05-12 20:56:05] [INFO] ========== TEST START: TC007 - Logout after successful login @smoke @login ==========
+[2026-05-12 20:56:05] [INFO] ========== TEST START: TC006 - Logout after successful login @smoke @login ==========
+[2026-05-12 20:56:05] [INFO] ========== TEST START: TC002 - Invalid Login with wrong credentials @regression @login ==========
+[2026-05-12 20:56:05] [INFO] ========== TEST START: TC004 - Login with blank password @regression @login ==========
+[2026-05-12 20:56:05] [INFO] ========== TEST START: TC003 - Login with blank username @regression @login ==========
+[2026-05-12 20:56:05] [INFO] ========== TEST START: TC005 - Logout after successful login @smoke @login ==========
+[2026-05-12 20:56:05] [INFO] ========== TEST START: TC0010 - Logout after successful login @smoke @login ==========
+[2026-05-12 20:56:05] [INFO] ========== TEST START: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 20:56:05] [INFO] ========== TEST START: TC0011 - Logout after successful login @smoke @login ==========
+[2026-05-12 20:56:05] [INFO] Browser: chromium
+[2026-05-12 20:56:05] [INFO] Browser: chromium
+[2026-05-12 20:56:05] [INFO] Browser: chromium
+[2026-05-12 20:56:05] [INFO] Browser: chromium
+[2026-05-12 20:56:05] [INFO] Browser: chromium
+[2026-05-12 20:56:05] [INFO] Browser: chromium
+[2026-05-12 20:56:05] [INFO] Browser: chromium
+[2026-05-12 20:56:05] [INFO] Browser: chromium
+[2026-05-12 20:56:06] [INFO] Browser: chromium
+[2026-05-12 20:56:06] [INFO] Browser: chromium
+[2026-05-12 20:56:23] [INFO] Initialized LoginPage fixture
+[2026-05-12 20:56:23] [INFO] Initialized LoginPage fixture
+[2026-05-12 20:56:23] [INFO] Initialized LoginPage fixture
+[2026-05-12 20:56:23] [INFO] STEP 1: Login with valid credentials
+[2026-05-12 20:56:23] [INFO] Performing login with user: pavanol
+[2026-05-12 20:56:23] [INFO] Clicking Login navigation link
+[2026-05-12 20:56:23] [INFO] Waiting for element: #login2
+[2026-05-12 20:56:23] [INFO] STEP 1: Login with valid credentials
+[2026-05-12 20:56:23] [INFO] Performing login with user: pavanol
+[2026-05-12 20:56:23] [INFO] Clicking Login navigation link
+[2026-05-12 20:56:23] [INFO] Waiting for element: #login2
+[2026-05-12 20:56:23] [INFO] Initialized LoginPage fixture
+[2026-05-12 20:56:23] [INFO] STEP 1: Login with valid credentials
+[2026-05-12 20:56:23] [INFO] Performing login with user: pavanol
+[2026-05-12 20:56:23] [INFO] Clicking Login navigation link
+[2026-05-12 20:56:23] [INFO] Waiting for element: #login2
+[2026-05-12 20:56:23] [INFO] Initialized LoginPage fixture
+[2026-05-12 20:56:24] [INFO] Clicking element: #login2
+[2026-05-12 20:56:24] [INFO] Clicking element: #login2
+[2026-05-12 20:56:23] [INFO] STEP 1: Login with valid credentials
+[2026-05-12 20:56:23] [INFO] Performing login with user: pavanol
+[2026-05-12 20:56:23] [INFO] Clicking Login navigation link
+[2026-05-12 20:56:23] [INFO] Waiting for element: #login2
+[2026-05-12 20:56:24] [INFO] STEP 1: Login with blank password
+[2026-05-12 20:56:24] [INFO] Performing login with user: pavanol
+[2026-05-12 20:56:24] [INFO] Clicking Login navigation link
+[2026-05-12 20:56:24] [INFO] Waiting for element: #login2
+[2026-05-12 20:56:24] [INFO] Clicking element: #login2
+[2026-05-12 20:56:24] [INFO] Clicking element: #login2
+[2026-05-12 20:56:24] [INFO] Clicking element: #login2
+[2026-05-12 20:56:25] [INFO] Initialized LoginPage fixture
+[2026-05-12 20:56:25] [INFO] STEP 1: Login with blank username
+[2026-05-12 20:56:25] [INFO] Performing login with user: 
+[2026-05-12 20:56:25] [INFO] Clicking Login navigation link
+[2026-05-12 20:56:25] [INFO] Waiting for element: #login2
+[2026-05-12 20:56:25] [INFO] Clicking element: #login2
+[2026-05-12 20:56:25] [INFO] Initialized LoginPage fixture
+[2026-05-12 20:56:25] [INFO] STEP 1: Login with valid credentials
+[2026-05-12 20:56:25] [INFO] Performing login with user: pavanol
+[2026-05-12 20:56:25] [INFO] Clicking Login navigation link
+[2026-05-12 20:56:25] [INFO] Waiting for element: #login2
+[2026-05-12 20:56:25] [INFO] Initialized LoginPage fixture
+[2026-05-12 20:56:25] [INFO] Initialized LoginPage fixture
+[2026-05-12 20:56:25] [INFO] STEP 1: Login with invalid credentials
+[2026-05-12 20:56:25] [INFO] Performing login with user: invaliduser123
+[2026-05-12 20:56:25] [INFO] Clicking Login navigation link
+[2026-05-12 20:56:25] [INFO] Waiting for element: #login2
+[2026-05-12 20:56:26] [INFO] Initialized LoginPage fixture
+[2026-05-12 20:56:25] [INFO] STEP 1: Login with valid credentials
+[2026-05-12 20:56:25] [INFO] Performing login with user: pavanol
+[2026-05-12 20:56:25] [INFO] Clicking Login navigation link
+[2026-05-12 20:56:25] [INFO] Waiting for element: #login2
+[2026-05-12 20:56:26] [INFO] Clicking element: #login2
+[2026-05-12 20:56:26] [INFO] STEP 1: Login with valid credentials
+[2026-05-12 20:56:26] [INFO] Performing login with user: pavanol
+[2026-05-12 20:56:26] [INFO] Clicking Login navigation link
+[2026-05-12 20:56:26] [INFO] Waiting for element: #login2
+[2026-05-12 20:56:26] [INFO] Clicking element: #login2
+[2026-05-12 20:56:26] [INFO] Clicking element: #login2
+[2026-05-12 20:56:26] [INFO] Entering username: pavanol
+[2026-05-12 20:56:26] [INFO] Entering username: pavanol
+[2026-05-12 20:56:26] [INFO] Entering username: pavanol
+[2026-05-12 20:56:26] [INFO] Entering username: pavanol
+[2026-05-12 20:56:26] [INFO] Entering username: pavanol
+[2026-05-12 20:56:26] [INFO] Waiting for element: #loginusername
+[2026-05-12 20:56:26] [INFO] Waiting for element: #loginusername
+[2026-05-12 20:56:26] [INFO] Waiting for element: #loginusername
+[2026-05-12 20:56:26] [INFO] Waiting for element: #loginusername
+[2026-05-12 20:56:26] [INFO] Waiting for element: #loginusername
+[2026-05-12 20:56:27] [INFO] Clicking element: #login2
+[2026-05-12 20:56:27] [INFO] Entering username: 
+[2026-05-12 20:56:27] [INFO] Entering text in: #loginusername
+[2026-05-12 20:56:27] [INFO] Waiting for element: #loginusername
+[2026-05-12 20:56:27] [INFO] Entering text in: #loginusername
+[2026-05-12 20:56:28] [INFO] Entering text in: #loginusername
+[2026-05-12 20:56:28] [INFO] Entering text in: #loginusername
+[2026-05-12 20:56:28] [INFO] Entering text in: #loginusername
+[2026-05-12 20:56:28] [INFO] Entering username: pavanol
+[2026-05-12 20:56:28] [INFO] Entering text in: #loginusername
+[2026-05-12 20:56:28] [INFO] Waiting for element: #loginusername
+[2026-05-12 20:56:29] [INFO] Entering password
+[2026-05-12 20:56:29] [INFO] Entering password
+[2026-05-12 20:56:29] [INFO] Entering password
+[2026-05-12 20:56:29] [INFO] Entering text in: #loginpassword
+[2026-05-12 20:56:29] [INFO] Entering text in: #loginpassword
+[2026-05-12 20:56:29] [INFO] Entering password
+[2026-05-12 20:56:29] [INFO] Entering password
+[2026-05-12 20:56:29] [INFO] Entering text in: #loginusername
+[2026-05-12 20:56:29] [INFO] Entering password
+[2026-05-12 20:56:29] [INFO] Entering text in: #loginpassword
+[2026-05-12 20:56:29] [INFO] Entering text in: #loginpassword
+[2026-05-12 20:56:29] [INFO] Entering text in: #loginpassword
+[2026-05-12 20:56:29] [INFO] Entering text in: #loginpassword
+[2026-05-12 20:56:29] [INFO] Clicking Login button
+[2026-05-12 20:56:29] [INFO] Clicking Login button
+[2026-05-12 20:56:29] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 20:56:29] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 20:56:30] [INFO] Clicking Login button
+[2026-05-12 20:56:30] [INFO] Clicking Login button
+[2026-05-12 20:56:30] [INFO] Clicking Login button
+[2026-05-12 20:56:30] [INFO] Entering password
+[2026-05-12 20:56:30] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 20:56:30] [INFO] Entering text in: #loginpassword
+[2026-05-12 20:56:30] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 20:56:30] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 20:56:30] [INFO] Clicking Login button
+[2026-05-12 20:56:30] [INFO] Entering username: invaliduser123
+[2026-05-12 20:56:30] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 20:56:31] [INFO] Clicking Login button
+[2026-05-12 20:56:31] [INFO] Entering username: pavanol
+[2026-05-12 20:56:31] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 20:56:32] [INFO] Entering username: pavanol
+[2026-05-12 20:56:30] [INFO] Waiting for element: #loginusername
+[2026-05-12 20:56:31] [INFO] Waiting for element: #loginusername
+[2026-05-12 20:56:32] [INFO] Waiting for element: #loginusername
+[2026-05-12 20:56:37] [INFO] STEP 2: Verify user is logged in
+[2026-05-12 20:56:35] [INFO] STEP 2: Verify user is NOT logged in
+[2026-05-12 20:56:40] [ERROR] ❌ TEST FAILED: TC0011 - Logout after successful login @smoke @login | Error: [31mTest timeout of 30000ms exceeded.[39m
+[2026-05-12 20:56:40] [INFO] Entering text in: #loginusername
+[2026-05-12 20:56:40] [ERROR] ❌ TEST FAILED: TC001 - Valid Login with correct credentials @smoke @login | Error: [31mTest timeout of 30000ms exceeded.[39m
+[2026-05-12 20:56:40] [INFO] Entering text in: #loginusername
+[2026-05-12 20:56:37] [INFO] Waiting for element: #nameofuser
+[2026-05-12 20:56:41] [ERROR] ❌ TEST FAILED: TC007 - Logout after successful login @smoke @login | Error: [31mTest timeout of 30000ms exceeded.[39m
+[2026-05-12 20:56:41] [ERROR] ❌ TEST FAILED: TC004 - Login with blank password @regression @login | Error: [31mTest timeout of 30000ms exceeded.[39m
+[2026-05-12 20:56:41] [ERROR] ❌ TEST FAILED: TC003 - Login with blank username @regression @login | Error: [31mTest timeout of 30000ms exceeded.[39m
+[2026-05-12 20:56:41] [ERROR] ❌ TEST FAILED: TC0010 - Logout after successful login @smoke @login | Error: [31mTest timeout of 30000ms exceeded.[39m
+[2026-05-12 20:56:41] [ERROR] ❌ TEST FAILED: TC006 - Logout after successful login @smoke @login | Error: [31mTest timeout of 30000ms exceeded.[39m
+[2026-05-12 20:56:42] [INFO] Entering text in: #loginusername
+[2026-05-12 20:56:41] [ERROR] ❌ TEST FAILED: TC005 - Logout after successful login @smoke @login | Error: [31mTest timeout of 30000ms exceeded.[39m
+[2026-05-12 20:56:42] [ERROR] ❌ TEST FAILED: TC002 - Invalid Login with wrong credentials @regression @login | Error: [31mTest timeout of 30000ms exceeded.[39m
+[2026-05-12 20:56:42] [INFO] Waiting for element: #nameofuser
+[2026-05-12 20:56:44] [ERROR] ❌ TEST FAILED: TC009 - Logout after successful login @smoke @login | Error: [31mTest timeout of 30000ms exceeded.[39m
+[2026-05-12 20:56:45] [INFO] STEP 2: Verify user is logged in
+[2026-05-12 20:56:45] [INFO] STEP 2: Verify user is NOT logged in
+[2026-05-12 20:56:46] [INFO] Entering password
+[2026-05-12 20:56:45] [INFO] Entering password
+[2026-05-12 20:56:45] [INFO] Waiting for element: #nameofuser
+[2026-05-12 20:56:46] [INFO] STEP 2: Verify user is logged in
+[2026-05-12 20:56:46] [INFO] Waiting for element: #nameofuser
+[2026-05-12 20:56:46] [INFO] Entering text in: #loginpassword
+[2026-05-12 20:56:46] [INFO] Entering password
+[2026-05-12 20:56:46] [INFO] Entering text in: #loginpassword
+[2026-05-12 20:56:47] [INFO] Entering text in: #loginpassword
+[2026-05-12 20:56:48] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC007___Logout_after_successful_login__smoke__login_2026-05-12T15-26-41-437Z.png
+[2026-05-12 20:56:48] [INFO] STEP 2: Verify user is logged in
+[2026-05-12 20:56:48] [INFO] ========== TEST END: TC007 - Logout after successful login @smoke @login ==========
+[2026-05-12 20:56:48] [INFO] Clicking Login button
+[2026-05-12 20:56:48] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 20:56:48] [INFO] Clicking Login button
+[2026-05-12 20:56:48] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-12 20:56:48] [INFO] Clicking Login button
+[2026-05-12 20:56:49] [INFO] STEP 2: Verify user is logged in
+[2026-05-12 20:56:49] [INFO] Waiting for element: #nameofuser
+[2026-05-12 20:56:48] [INFO] Waiting for element: #nameofuser
+[2026-05-12 20:56:48] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 20:56:49] [INFO] Waiting for element: #nameofuser
+[2026-05-12 20:56:49] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 20:56:49] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC004___Login_with_blank_password__regression__login_2026-05-12T15-26-41-451Z.png
+[2026-05-12 20:56:49] [INFO] Welcome text: Welcome pavanol
+[2026-05-12 20:56:49] [INFO] STEP 3: Perform logout
+[2026-05-12 20:56:49] [INFO] Performing logout
+[2026-05-12 20:56:49] [INFO] Waiting for element: #logout2
+[2026-05-12 20:56:51] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-12 20:56:51] [INFO] Clicking element: #logout2
+[2026-05-12 20:56:49] [INFO] ========== TEST END: TC004 - Login with blank password @regression @login ==========
+[2026-05-12 20:56:51] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC0010___Logout_after_successful_login__smoke__login_2026-05-12T15-26-41-252Z.png
+[2026-05-12 20:56:51] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC005___Logout_after_successful_login__smoke__login_2026-05-12T15-26-41-850Z.png
+[2026-05-12 20:56:51] [INFO] ========== TEST END: TC0010 - Logout after successful login @smoke @login ==========
+[2026-05-12 20:56:51] [INFO] Welcome text: Welcome pavanol
+[2026-05-12 20:56:52] [INFO] STEP 3: Verify welcome text contains username
+[2026-05-12 20:56:52] [INFO] Waiting for element: #nameofuser
+[2026-05-12 20:56:52] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC002___Invalid_Login_with_wrong_credentials__regression__login_2026-05-12T15-26-42-938Z.png
+[2026-05-12 20:56:52] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC009___Logout_after_successful_login__smoke__login_2026-05-12T15-26-44-722Z.png
+[2026-05-12 20:56:52] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC003___Login_with_blank_username__regression__login_2026-05-12T15-26-41-613Z.png
+[2026-05-12 20:56:51] [INFO] ========== TEST END: TC005 - Logout after successful login @smoke @login ==========
+[2026-05-12 20:56:53] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-12 20:56:53] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC0011___Logout_after_successful_login__smoke__login_2026-05-12T15-26-40-503Z.png
+[2026-05-12 20:56:52] [INFO] ========== TEST END: TC002 - Invalid Login with wrong credentials @regression @login ==========
+[2026-05-12 20:56:53] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-12 20:56:53] [INFO] ========== TEST END: TC0011 - Logout after successful login @smoke @login ==========
+[2026-05-12 20:56:52] [INFO] ========== TEST END: TC003 - Login with blank username @regression @login ==========
+[2026-05-12 20:56:53] [INFO] Welcome text: Welcome pavanol
+[2026-05-12 20:56:53] [INFO] STEP 3: Perform logout
+[2026-05-12 20:56:53] [INFO] Performing logout
+[2026-05-12 20:56:53] [INFO] Waiting for element: #logout2
+[2026-05-12 20:56:53] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC001___Valid_Login_with_correct_credentials__smoke__login_2026-05-12T15-26-40-593Z.png
+[2026-05-12 20:56:53] [INFO] ========== TEST END: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 20:56:54] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-12 20:56:54] [INFO] Clicking element: #logout2
+[2026-05-12 20:56:52] [INFO] ========== TEST END: TC009 - Logout after successful login @smoke @login ==========
+[2026-05-12 20:56:55] [INFO] ========================================
+[2026-05-12 20:56:55] [INFO] TEST SUITE COMPLETED
+[2026-05-12 20:56:55] [INFO] Timestamp: 2026-05-12T15:26:55.202Z
+[2026-05-12 20:56:55] [INFO] ========================================
+[2026-05-12 20:56:54] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC006___Logout_after_successful_login__smoke__login_2026-05-12T15-26-41-727Z.png
+[2026-05-12 20:56:54] [INFO] ========== TEST END: TC006 - Logout after successful login @smoke @login ==========
+[2026-05-12 20:56:54] [INFO] Welcome text: Welcome pavanol
+[2026-05-12 20:56:55] [INFO] STEP 3: Perform logout
+[2026-05-12 20:56:55] [INFO] Performing logout
+[2026-05-12 20:56:55] [INFO] Waiting for element: #logout2
+[2026-05-12 20:56:56] [INFO] Clicking element: #logout2
+[2026-05-12 20:56:58] [INFO] ========================================
+[2026-05-12 20:56:58] [INFO] TEST SUITE COMPLETED
+[2026-05-12 20:56:59] [INFO] Timestamp: 2026-05-12T15:26:59.006Z
+[2026-05-12 20:56:59] [INFO] ========================================
+[2026-05-12 20:57:00] [INFO] ========================================
+[2026-05-12 20:57:00] [INFO] TEST SUITE COMPLETED
+[2026-05-12 20:57:00] [INFO] Timestamp: 2026-05-12T15:27:00.511Z
+[2026-05-12 20:57:00] [INFO] ========================================
+[2026-05-12 20:57:01] [INFO] ========================================
+[2026-05-12 20:57:01] [INFO] ========================================
+[2026-05-12 20:57:01] [INFO] TEST SUITE COMPLETED
+[2026-05-12 20:57:01] [INFO] Timestamp: 2026-05-12T15:27:01.590Z
+[2026-05-12 20:57:01] [INFO] ========================================
+[2026-05-12 20:57:01] [INFO] ========================================
+[2026-05-12 20:57:01] [INFO] TEST SUITE COMPLETED
+[2026-05-12 20:57:01] [INFO] Timestamp: 2026-05-12T15:27:01.689Z
+[2026-05-12 20:57:01] [INFO] ========================================
+[2026-05-12 20:57:01] [INFO] TEST SUITE COMPLETED
+[2026-05-12 20:57:01] [INFO] Timestamp: 2026-05-12T15:27:01.605Z
+[2026-05-12 20:57:01] [INFO] ========================================
+[2026-05-12 20:57:01] [INFO] ========================================
+[2026-05-12 20:57:01] [INFO] ========================================
+[2026-05-12 20:57:01] [INFO] TEST SUITE COMPLETED
+[2026-05-12 20:57:01] [INFO] Timestamp: 2026-05-12T15:27:01.993Z
+[2026-05-12 20:57:01] [INFO] ========================================
+[2026-05-12 20:57:02] [INFO] ========================================
+[2026-05-12 20:57:01] [INFO] TEST SUITE COMPLETED
+[2026-05-12 20:57:01] [INFO] Timestamp: 2026-05-12T15:27:01.932Z
+[2026-05-12 20:57:01] [INFO] ========================================
+[2026-05-12 20:57:02] [INFO] TEST SUITE COMPLETED
+[2026-05-12 20:57:02] [INFO] Timestamp: 2026-05-12T15:27:02.047Z
+[2026-05-12 20:57:02] [INFO] ========================================
+[2026-05-12 20:57:02] [INFO] ========================================
+[2026-05-12 20:57:02] [INFO] TEST SUITE COMPLETED
+[2026-05-12 20:57:02] [INFO] Timestamp: 2026-05-12T15:27:02.058Z
+[2026-05-12 20:57:02] [INFO] ========================================
+[2026-05-12 20:58:44] [INFO] ========================================
+[2026-05-12 20:58:44] [INFO] ========================================
+[2026-05-12 20:58:44] [INFO] TEST SUITE STARTED
+[2026-05-12 20:58:44] [INFO] Environment: qa
+[2026-05-12 20:58:44] [INFO] Timestamp: 2026-05-12T15:28:44.359Z
+[2026-05-12 20:58:44] [INFO] ========================================
+[2026-05-12 20:58:44] [INFO] TEST SUITE STARTED
+[2026-05-12 20:58:44] [INFO] Environment: qa
+[2026-05-12 20:58:44] [INFO] Timestamp: 2026-05-12T15:28:44.359Z
+[2026-05-12 20:58:44] [INFO] ========================================
+[2026-05-12 20:58:45] [INFO] ========================================
+[2026-05-12 20:58:45] [INFO] TEST SUITE STARTED
+[2026-05-12 20:58:45] [INFO] Environment: qa
+[2026-05-12 20:58:45] [INFO] Timestamp: 2026-05-12T15:28:45.085Z
+[2026-05-12 20:58:45] [INFO] ========================================
+[2026-05-12 20:58:49] [INFO] ========== TEST START: TC006 - Logout after successful login @smoke @login ==========
+[2026-05-12 20:58:49] [INFO] ========== TEST START: TC0010 - Logout after successful login @smoke @login ==========
+[2026-05-12 20:58:49] [INFO] ========== TEST START: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 20:58:49] [INFO] Browser: chromium
+[2026-05-12 20:58:49] [INFO] Browser: chromium
+[2026-05-12 20:58:49] [INFO] Browser: chromium
+[2026-05-12 20:58:54] [INFO] Initialized LoginPage fixture
+[2026-05-12 20:58:54] [INFO] Initialized LoginPage fixture
+[2026-05-12 20:58:54] [INFO] Initialized LoginPage fixture
+[2026-05-12 20:58:54] [INFO] STEP 1: Login with valid credentials
+[2026-05-12 20:58:54] [INFO] Performing login with user: pavanol
+[2026-05-12 20:58:54] [INFO] Clicking Login navigation link
+[2026-05-12 20:58:54] [INFO] Waiting for element: #login2
+[2026-05-12 20:58:54] [INFO] STEP 1: Login with valid credentials
+[2026-05-12 20:58:54] [INFO] Performing login with user: pavanol
+[2026-05-12 20:58:54] [INFO] Clicking Login navigation link
+[2026-05-12 20:58:54] [INFO] Waiting for element: #login2
+[2026-05-12 20:58:54] [INFO] STEP 1: Login with valid credentials
+[2026-05-12 20:58:54] [INFO] Performing login with user: pavanol
+[2026-05-12 20:58:54] [INFO] Clicking Login navigation link
+[2026-05-12 20:58:54] [INFO] Waiting for element: #login2
+[2026-05-12 20:58:54] [INFO] Clicking element: #login2
+[2026-05-12 20:58:54] [INFO] Clicking element: #login2
+[2026-05-12 20:58:54] [INFO] Clicking element: #login2
+[2026-05-12 20:58:55] [INFO] Entering username: pavanol
+[2026-05-12 20:58:55] [INFO] Waiting for element: #loginusername
+[2026-05-12 20:58:55] [INFO] Entering text in: #loginusername
+[2026-05-12 20:58:55] [INFO] Entering username: pavanol
+[2026-05-12 20:58:55] [INFO] Waiting for element: #loginusername
+[2026-05-12 20:58:55] [INFO] Entering text in: #loginusername
+[2026-05-12 20:58:55] [INFO] Entering password
+[2026-05-12 20:58:55] [INFO] Entering username: pavanol
+[2026-05-12 20:58:55] [INFO] Entering text in: #loginpassword
+[2026-05-12 20:58:55] [INFO] Waiting for element: #loginusername
+[2026-05-12 20:58:55] [INFO] Clicking Login button
+[2026-05-12 20:58:55] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 20:58:55] [INFO] Entering text in: #loginusername
+[2026-05-12 20:58:55] [INFO] Entering password
+[2026-05-12 20:58:55] [INFO] Entering text in: #loginpassword
+[2026-05-12 20:58:56] [INFO] Clicking Login button
+[2026-05-12 20:58:56] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 20:58:56] [INFO] Entering password
+[2026-05-12 20:58:56] [INFO] Entering text in: #loginpassword
+[2026-05-12 20:58:56] [INFO] Clicking Login button
+[2026-05-12 20:58:56] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 20:58:58] [INFO] STEP 2: Verify user is logged in
+[2026-05-12 20:58:58] [INFO] Waiting for element: #nameofuser
+[2026-05-12 20:58:58] [ERROR] ❌ TEST FAILED: TC006 - Logout after successful login @smoke @login | Error: Unknown error
+[2026-05-12 20:58:58] [ERROR] ❌ TEST FAILED: TC001 - Valid Login with correct credentials @smoke @login | Error: Unknown error
+[2026-05-12 20:58:58] [INFO] STEP 2: Verify user is logged in
+[2026-05-12 20:58:58] [INFO] Waiting for element: #nameofuser
+[2026-05-12 20:58:58] [INFO] STEP 2: Verify user is logged in
+[2026-05-12 20:58:58] [INFO] Waiting for element: #nameofuser
+[2026-05-12 20:58:58] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-12 20:58:58] [INFO] Welcome text: Welcome pavanol
+[2026-05-12 20:58:58] [INFO] STEP 3: Perform logout
+[2026-05-12 20:58:58] [INFO] Performing logout
+[2026-05-12 20:58:58] [INFO] Waiting for element: #logout2
+[2026-05-12 20:58:58] [ERROR] ❌ TEST FAILED: TC0010 - Logout after successful login @smoke @login | Error: Unknown error
+[2026-05-12 20:58:58] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-12 20:58:58] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-12 20:58:58] [INFO] Clicking element: #logout2
+[2026-05-12 20:58:58] [INFO] Welcome text: Welcome pavanol
+[2026-05-12 20:58:58] [INFO] STEP 3: Perform logout
+[2026-05-12 20:58:58] [INFO] Performing logout
+[2026-05-12 20:58:58] [INFO] Waiting for element: #logout2
+[2026-05-12 20:58:58] [INFO] Welcome text: Welcome pavanol
+[2026-05-12 20:58:58] [INFO] STEP 3: Verify welcome text contains username
+[2026-05-12 20:58:58] [INFO] Waiting for element: #nameofuser
+[2026-05-12 20:58:58] [INFO] Clicking element: #logout2
+[2026-05-12 20:58:58] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-12 20:58:58] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC001___Valid_Login_with_correct_credentials__smoke__login_2026-05-12T15-28-58-218Z.png
+[2026-05-12 20:58:58] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC006___Logout_after_successful_login__smoke__login_2026-05-12T15-28-58-206Z.png
+[2026-05-12 20:58:58] [INFO] ========== TEST END: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-12 20:58:58] [INFO] ========== TEST END: TC006 - Logout after successful login @smoke @login ==========
+[2026-05-12 20:58:58] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Framework/screenshots/FAIL_TC0010___Logout_after_successful_login__smoke__login_2026-05-12T15-28-58-358Z.png
+[2026-05-12 20:58:58] [INFO] ========== TEST END: TC0010 - Logout after successful login @smoke @login ==========
+[2026-05-12 20:58:59] [INFO] ========================================
+[2026-05-12 20:58:59] [INFO] ========================================
+[2026-05-12 20:58:59] [INFO] TEST SUITE COMPLETED
+[2026-05-12 20:58:59] [INFO] Timestamp: 2026-05-12T15:28:59.130Z
+[2026-05-12 20:58:59] [INFO] ========================================
+[2026-05-12 20:58:59] [INFO] TEST SUITE COMPLETED
+[2026-05-12 20:58:59] [INFO] Timestamp: 2026-05-12T15:28:59.143Z
+[2026-05-12 20:58:59] [INFO] ========================================
+[2026-05-12 20:58:59] [INFO] ========================================
+[2026-05-12 20:58:59] [INFO] TEST SUITE COMPLETED
+[2026-05-12 20:58:59] [INFO] Timestamp: 2026-05-12T15:28:59.221Z
+[2026-05-12 20:58:59] [INFO] ========================================

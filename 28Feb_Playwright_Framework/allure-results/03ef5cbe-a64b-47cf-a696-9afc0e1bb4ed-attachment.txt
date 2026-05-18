@@ -1,0 +1,29 @@
+[2026-05-14 20:54:20] [INFO] ====================================
+[2026-05-14 20:54:20] [INFO] TEST SUITE STARTED
+[2026-05-14 20:54:20] [INFO] Environment: staging
+[2026-05-14 20:54:20] [INFO] Timestamp: 2026-05-14T15:24:20.272Z
+[2026-05-14 20:54:20] [INFO] ====================================
+[2026-05-14 20:54:28] [INFO] ========== TEST START: TC008 - Remove product from cart @regression @cart ==========
+[2026-05-14 20:54:28] [INFO] Browser: chromium
+[2026-05-14 20:54:31] [INFO] Initialized HomePage fixture
+[2026-05-14 20:54:31] [INFO] Initialized ProductPage fixture
+[2026-05-14 20:54:31] [INFO] Initialized CartPage fixture
+[2026-05-14 20:54:31] [INFO] STEP 1: Add a product to cart
+[2026-05-14 20:54:31] [INFO] Selecting product: Samsung galaxy s6
+[2026-05-14 20:54:34] [INFO] Adding product to cart
+[2026-05-14 20:54:37] [INFO] Alert message: Product added
+[2026-05-14 20:54:38] [INFO] STEP 2: Navigate to cart
+[2026-05-14 20:54:38] [INFO] Navigating to Cart page
+[2026-05-14 20:54:38] [INFO] Clicking element: #cartur
+[2026-05-14 20:54:41] [INFO] STEP 3: Verify product is in cart
+[2026-05-14 20:54:42] [INFO] Cart item count: 1
+[2026-05-14 20:54:42] [INFO] STEP 4: Delete product from cart
+[2026-05-14 20:54:42] [INFO] Deleting first item from cart
+[2026-05-14 20:54:45] [INFO] STEP 5: Verify product is removed
+[2026-05-14 20:54:46] [INFO] Cart item count: 0
+[2026-05-14 20:54:46] [INFO] ✅ TEST PASSED: TC008 - Remove product from cart @regression @cart
+[2026-05-14 20:54:48] [INFO] ========== TEST END: TC008 - Remove product from cart @regression @cart ==========
+[2026-05-14 20:54:49] [INFO] ====================================
+[2026-05-14 20:54:49] [INFO] TEST SUITE COMPLETED
+[2026-05-14 20:54:49] [INFO] Timestamp: 2026-05-14T15:24:49.079Z
+[2026-05-14 20:54:49] [INFO] ====================================

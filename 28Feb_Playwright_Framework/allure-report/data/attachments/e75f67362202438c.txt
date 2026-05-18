@@ -1,0 +1,26 @@
+[2026-05-12 23:33:18] [INFO] ====================================
+[2026-05-12 23:33:18] [INFO] TEST SUITE STARTED
+[2026-05-12 23:33:18] [INFO] Environment: qa
+[2026-05-12 23:33:18] [INFO] Timestamp: 2026-05-12T18:03:18.478Z
+[2026-05-12 23:33:18] [INFO] ====================================
+[2026-05-12 23:33:20] [INFO] ========== TEST START: TC014 - Verify navigation menu links @regression @e2e ==========
+[2026-05-12 23:33:20] [INFO] Browser: chromium
+[2026-05-12 23:33:21] [INFO] Initialized HomePage fixture
+[2026-05-12 23:33:21] [INFO] STEP 1: Verify navigation menu is visible
+[2026-05-12 23:33:21] [INFO] Element a.nav-link[href='index.html'] visible: true
+[2026-05-12 23:33:21] [INFO] Element a.nav-link[data-target='#exampleModal'] visible: true
+[2026-05-12 23:33:21] [INFO] Element #cartur visible: true
+[2026-05-12 23:33:21] [INFO] STEP 2: Verify home page is loaded
+[2026-05-12 23:33:21] [INFO] Waiting for element: .card-block
+[2026-05-12 23:33:22] [ERROR] ❌ TEST FAILED: TC014 - Verify navigation menu links @regression @e2e | Error: Error: expect(received).toBeTruthy()
+
+Received: false
+[2026-05-12 23:33:22] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Playwright_Framework/screenshots/FAIL_TC014___Verify_navigation_menu_links__regression__e2e_2026-05-12T18-03-22-538Z.png
+[2026-05-12 23:33:22] [INFO] Allure: Screenshot attached to report
+[2026-05-12 23:33:22] [INFO] Allure: Page source attached to report
+[2026-05-12 23:33:22] [INFO] Allure: Execution logs attached to report
+[2026-05-12 23:33:22] [INFO] ========== TEST END: TC014 - Verify navigation menu links @regression @e2e ==========
+[2026-05-12 23:33:22] [INFO] ====================================
+[2026-05-12 23:33:22] [INFO] TEST SUITE COMPLETED
+[2026-05-12 23:33:22] [INFO] Timestamp: 2026-05-12T18:03:22.801Z
+[2026-05-12 23:33:22] [INFO] ====================================

@@ -1,0 +1,11 @@
+// Swap two strings without using a third variable
+
+let s1 = "good";
+let s2 = "afternoon";
+
+s1 = s1 + s2; // "goodafternoon"
+s2 = s1.substring(0, s1.length - s2.length); // "good"
+s1 = s1.substring(s2.length); // "afternoon"
+
+console.log("String s1 after swap: " + s1);
+console.log("String s2 after swap: " + s2);

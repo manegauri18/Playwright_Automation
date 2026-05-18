@@ -1,0 +1,199 @@
+[2026-05-12 23:38:44] [INFO] Selecting product: Samsung galaxy s6
+[2026-05-12 23:38:46] [INFO] Adding product to cart
+[2026-05-12 23:38:47] [INFO] Alert message: Product added
+[2026-05-12 23:38:49] [INFO] Selecting product: Nokia lumia 1520
+[2026-05-12 23:38:51] [INFO] Adding product to cart
+[2026-05-12 23:38:52] [INFO] Alert message: Product added
+[2026-05-12 23:38:53] [INFO] STEP 2: Navigate to cart
+[2026-05-12 23:38:53] [INFO] Navigating to Cart page
+[2026-05-12 23:38:53] [INFO] Clicking element: #cartur
+[2026-05-12 23:38:55] [INFO] STEP 3: Verify total price
+[2026-05-12 23:38:55] [INFO] Waiting for element: #totalp
+[2026-05-12 23:38:56] [INFO] Got text from #totalp: 1180
+[2026-05-12 23:38:56] [INFO] Cart total: 1180
+[2026-05-12 23:38:56] [INFO] Expected total: 1180, Displayed total: 1180
+[2026-05-12 23:38:56] [INFO] ✅ TEST PASSED: TC009 - Verify cart total price @regression @cart
+[2026-05-12 23:38:56] [INFO] ========== TEST END: TC009 - Verify cart total price @regression @cart ==========
+[2026-05-12 23:38:57] [INFO] ========== TEST START: TC009a - Verify cart displays correct product names @regression @cart ==========
+[2026-05-12 23:38:57] [INFO] Browser: chromium
+[2026-05-12 23:38:58] [INFO] Initialized HomePage fixture
+[2026-05-12 23:38:58] [INFO] Initialized ProductPage fixture
+[2026-05-12 23:38:58] [INFO] Initialized CartPage fixture
+[2026-05-12 23:38:58] [INFO] STEP 1: Add product: Samsung galaxy s6
+[2026-05-12 23:38:58] [INFO] Selecting product: Samsung galaxy s6
+[2026-05-12 23:39:03] [INFO] Adding product to cart
+[2026-05-12 23:39:04] [INFO] Alert message: Product added
+[2026-05-12 23:39:05] [INFO] STEP 2: Navigate to cart
+[2026-05-12 23:39:05] [INFO] Navigating to Cart page
+[2026-05-12 23:39:05] [INFO] Clicking element: #cartur
+[2026-05-12 23:39:08] [INFO] STEP 3: Verify product name in cart
+[2026-05-12 23:39:09] [INFO] Cart products: Samsung galaxy s6
+[2026-05-12 23:39:09] [INFO] ✅ TEST PASSED: TC009a - Verify cart displays correct product names @regression @cart
+[2026-05-12 23:39:09] [INFO] ========== TEST END: TC009a - Verify cart displays correct product names @regression @cart ==========
+[2026-05-12 23:39:09] [INFO] ====================================
+[2026-05-12 23:39:09] [INFO] TEST SUITE COMPLETED
+[2026-05-12 23:39:09] [INFO] Timestamp: 2026-05-12T18:09:09.267Z
+[2026-05-12 23:39:09] [INFO] ====================================
+[2026-05-12 23:39:09] [INFO] ====================================
+[2026-05-12 23:39:09] [INFO] TEST SUITE STARTED
+[2026-05-12 23:39:09] [INFO] Environment: qa
+[2026-05-12 23:39:09] [INFO] Timestamp: 2026-05-12T18:09:09.296Z
+[2026-05-12 23:39:09] [INFO] ====================================
+[2026-05-12 23:39:09] [INFO] ========== TEST START: TC014 - Verify navigation menu links @regression @e2e ==========
+[2026-05-12 23:39:09] [INFO] Browser: chromium
+[2026-05-12 23:39:10] [INFO] Initialized HomePage fixture
+[2026-05-12 23:39:10] [INFO] STEP 1: Verify navigation menu is visible
+[2026-05-12 23:39:10] [INFO] Element a.nav-link[href='index.html'] visible: true
+[2026-05-12 23:39:10] [INFO] Element a.nav-link[data-target='#exampleModal'] visible: true
+[2026-05-12 23:39:10] [INFO] Element #cartur visible: true
+[2026-05-12 23:39:10] [INFO] STEP 2: Verify home page is loaded
+[2026-05-12 23:39:10] [INFO] Waiting for element: .card-block
+[2026-05-12 23:39:11] [ERROR] ❌ TEST FAILED: TC014 - Verify navigation menu links @regression @e2e | Error: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+[2026-05-12 23:39:11] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Playwright_Framework/screenshots/FAIL_TC014___Verify_navigation_menu_links__regression__e2e_2026-05-12T18-09-11-727Z.png
+[2026-05-12 23:39:11] [INFO] Allure: Screenshot attached to report
+[2026-05-12 23:39:11] [INFO] Allure: Page source attached to report
+[2026-05-12 23:39:11] [INFO] Allure: Execution logs attached to report
+[2026-05-12 23:39:11] [INFO] ========== TEST END: TC014 - Verify navigation menu links @regression @e2e ==========
+[2026-05-12 23:39:11] [INFO] ====================================
+[2026-05-12 23:39:11] [INFO] TEST SUITE COMPLETED
+[2026-05-12 23:39:11] [INFO] Timestamp: 2026-05-12T18:09:11.951Z
+[2026-05-12 23:39:11] [INFO] ====================================
+[2026-05-12 23:39:12] [INFO] ====================================
+[2026-05-12 23:39:12] [INFO] TEST SUITE STARTED
+[2026-05-12 23:39:12] [INFO] Environment: qa
+[2026-05-12 23:39:12] [INFO] Timestamp: 2026-05-12T18:09:12.908Z
+[2026-05-12 23:39:12] [INFO] ====================================
+[2026-05-12 23:39:15] [INFO] ========== TEST START: TC014 - Verify navigation menu links @regression @e2e ==========
+[2026-05-12 23:39:15] [INFO] Browser: chromium
+[2026-05-12 23:39:16] [INFO] Initialized HomePage fixture
+[2026-05-12 23:39:16] [INFO] STEP 1: Verify navigation menu is visible
+[2026-05-12 23:39:16] [INFO] Element a.nav-link[href='index.html'] visible: true
+[2026-05-12 23:39:16] [INFO] Element a.nav-link[data-target='#exampleModal'] visible: true
+[2026-05-12 23:39:16] [INFO] Element #cartur visible: true
+[2026-05-12 23:39:16] [INFO] STEP 2: Verify home page is loaded
+[2026-05-12 23:39:16] [INFO] Waiting for element: .card-block
+[2026-05-12 23:39:17] [ERROR] ❌ TEST FAILED: TC014 - Verify navigation menu links @regression @e2e | Error: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+[2026-05-12 23:39:17] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Playwright_Framework/screenshots/FAIL_TC014___Verify_navigation_menu_links__regression__e2e_2026-05-12T18-09-17-248Z.png
+[2026-05-12 23:39:17] [INFO] Allure: Screenshot attached to report
+[2026-05-12 23:39:17] [INFO] Allure: Page source attached to report
+[2026-05-12 23:39:17] [INFO] Allure: Execution logs attached to report
+[2026-05-12 23:39:17] [INFO] ========== TEST END: TC014 - Verify navigation menu links @regression @e2e ==========
+[2026-05-12 23:39:17] [INFO] ====================================
+[2026-05-12 23:39:17] [INFO] TEST SUITE COMPLETED
+[2026-05-12 23:39:17] [INFO] Timestamp: 2026-05-12T18:09:17.450Z
+[2026-05-12 23:39:17] [INFO] ====================================
+[2026-05-12 23:39:18] [INFO] ====================================
+[2026-05-12 23:39:18] [INFO] TEST SUITE STARTED
+[2026-05-12 23:39:18] [INFO] Environment: qa
+[2026-05-12 23:39:18] [INFO] Timestamp: 2026-05-12T18:09:18.130Z
+[2026-05-12 23:39:18] [INFO] ====================================
+[2026-05-12 23:39:19] [INFO] ========== TEST START: TC016 - Validate no broken links on homepage @regression @e2e ==========
+[2026-05-12 23:39:19] [INFO] Browser: chromium
+[2026-05-12 23:39:20] [INFO] STEP 1: Get all links on the page
+[2026-05-12 23:39:20] [INFO] Found 15 links on homepage
+[2026-05-12 23:39:20] [INFO] STEP 2: Verify key navigation links exist
+[2026-05-12 23:39:21] [ERROR] ❌ TEST FAILED: TC016 - Validate no broken links on homepage @regression @e2e | Error: Error: locator.isVisible: Error: strict mode violation: locator('a[href="index.html"]') resolved to 2 elements:
+    1) <a id="nava" href="index.html" class="navbar-brand">…</a> aka getByRole('link', { name: 'PRODUCT STORE' })
+    2) <a class="nav-link" href="index.html">…</a> aka getByRole('link', { name: 'Home (current)' })
+
+Call log:
+[2m    - checking visibility of locator('a[href="index.html"]')[22m
+
+[2026-05-12 23:39:21] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Playwright_Framework/screenshots/FAIL_TC016___Validate_no_broken_links_on_homepage__regression__e2e_2026-05-12T18-09-21-115Z.png
+[2026-05-12 23:39:21] [INFO] Allure: Screenshot attached to report
+[2026-05-12 23:39:21] [INFO] Allure: Page source attached to report
+[2026-05-12 23:39:21] [INFO] Allure: Execution logs attached to report
+[2026-05-12 23:39:21] [INFO] ========== TEST END: TC016 - Validate no broken links on homepage @regression @e2e ==========
+[2026-05-12 23:39:21] [INFO] ====================================
+[2026-05-12 23:39:21] [INFO] TEST SUITE COMPLETED
+[2026-05-12 23:39:21] [INFO] Timestamp: 2026-05-12T18:09:21.475Z
+[2026-05-12 23:39:21] [INFO] ====================================
+[2026-05-12 23:39:22] [INFO] ====================================
+[2026-05-12 23:39:22] [INFO] TEST SUITE STARTED
+[2026-05-12 23:39:22] [INFO] Environment: qa
+[2026-05-12 23:39:22] [INFO] Timestamp: 2026-05-12T18:09:22.355Z
+[2026-05-12 23:39:22] [INFO] ====================================
+[2026-05-12 23:39:23] [INFO] ========== TEST START: TC016 - Validate no broken links on homepage @regression @e2e ==========
+[2026-05-12 23:39:23] [INFO] Browser: chromium
+[2026-05-12 23:39:24] [INFO] STEP 1: Get all links on the page
+[2026-05-12 23:39:24] [INFO] Found 15 links on homepage
+[2026-05-12 23:39:24] [INFO] STEP 2: Verify key navigation links exist
+[2026-05-12 23:39:25] [ERROR] ❌ TEST FAILED: TC016 - Validate no broken links on homepage @regression @e2e | Error: Error: locator.isVisible: Error: strict mode violation: locator('a[href="index.html"]') resolved to 2 elements:
+    1) <a id="nava" href="index.html" class="navbar-brand">…</a> aka getByRole('link', { name: 'PRODUCT STORE' })
+    2) <a class="nav-link" href="index.html">…</a> aka getByRole('link', { name: 'Home (current)' })
+
+Call log:
+[2m    - checking visibility of locator('a[href="index.html"]')[22m
+
+[2026-05-12 23:39:25] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Playwright_Framework/screenshots/FAIL_TC016___Validate_no_broken_links_on_homepage__regression__e2e_2026-05-12T18-09-25-594Z.png
+[2026-05-12 23:39:25] [INFO] Allure: Screenshot attached to report
+[2026-05-12 23:39:25] [INFO] Allure: Page source attached to report
+[2026-05-12 23:39:25] [INFO] Allure: Execution logs attached to report
+[2026-05-12 23:39:25] [INFO] ========== TEST END: TC016 - Validate no broken links on homepage @regression @e2e ==========
+[2026-05-12 23:39:25] [INFO] ====================================
+[2026-05-12 23:39:25] [INFO] TEST SUITE COMPLETED
+[2026-05-12 23:39:25] [INFO] Timestamp: 2026-05-12T18:09:25.779Z
+[2026-05-12 23:39:25] [INFO] ====================================
+[2026-05-12 23:39:26] [INFO] ====================================
+[2026-05-12 23:39:26] [INFO] TEST SUITE STARTED
+[2026-05-12 23:39:26] [INFO] Environment: qa
+[2026-05-12 23:39:26] [INFO] Timestamp: 2026-05-12T18:09:26.602Z
+[2026-05-12 23:39:26] [INFO] ====================================
+[2026-05-12 23:39:28] [INFO] ========== TEST START: TC017 - Search/Browse product by category @regression @e2e ==========
+[2026-05-12 23:39:28] [INFO] Browser: chromium
+[2026-05-12 23:39:29] [INFO] Initialized HomePage fixture
+[2026-05-12 23:39:29] [INFO] STEP 1: Select Phones category
+[2026-05-12 23:39:29] [INFO] Selecting category: phones
+[2026-05-12 23:39:29] [INFO] Clicking element: a[onclick="byCat('phone')"]
+[2026-05-12 23:39:31] [INFO] Found 7 products
+[2026-05-12 23:39:31] [INFO] Phone products: Samsung galaxy s6, Nokia lumia 1520, Nexus 6, Samsung galaxy s7, Iphone 6 32gb, Sony xperia z5, HTC One M9
+[2026-05-12 23:39:31] [INFO] STEP 2: Select Laptops category
+[2026-05-12 23:39:31] [INFO] Selecting category: laptops
+[2026-05-12 23:39:31] [INFO] Clicking element: a[onclick="byCat('notebook')"]
+[2026-05-12 23:39:34] [INFO] Found 6 products
+[2026-05-12 23:39:34] [INFO] Laptop products: Sony vaio i5, Sony vaio i7
+, MacBook air, Dell i7 8gb, 2017 Dell 15.6 Inch, MacBook Pro
+[2026-05-12 23:39:34] [INFO] STEP 3: Select Monitors category
+[2026-05-12 23:39:34] [INFO] Selecting category: monitors
+[2026-05-12 23:39:34] [INFO] Clicking element: a[onclick="byCat('monitor')"]
+[2026-05-12 23:39:37] [INFO] Found 2 products
+[2026-05-12 23:39:37] [INFO] Monitor products: Apple monitor 24, ASUS Full HD
+[2026-05-12 23:39:37] [INFO] ✅ TEST PASSED: TC017 - Search/Browse product by category @regression @e2e
+[2026-05-12 23:39:37] [INFO] ========== TEST END: TC017 - Search/Browse product by category @regression @e2e ==========
+[2026-05-12 23:39:38] [INFO] ========== TEST START: TC018 - Cross browser homepage validation @smoke @e2e ==========
+[2026-05-12 23:39:38] [INFO] Browser: chromium
+[2026-05-12 23:39:39] [INFO] Initialized HomePage fixture
+[2026-05-12 23:39:39] [INFO] STEP 1: Verify homepage loads in current browser
+[2026-05-12 23:39:39] [INFO] Waiting for element: .card-block
+[2026-05-12 23:39:40] [ERROR] ❌ TEST FAILED: TC018 - Cross browser homepage validation @smoke @e2e | Error: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+[2026-05-12 23:39:40] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Playwright_Framework/screenshots/FAIL_TC018___Cross_browser_homepage_validation__smoke__e2e_2026-05-12T18-09-40-714Z.png
+[2026-05-12 23:39:40] [INFO] Allure: Screenshot attached to report
+[2026-05-12 23:39:40] [INFO] Allure: Page source attached to report
+[2026-05-12 23:39:40] [INFO] Allure: Execution logs attached to report
+[2026-05-12 23:39:40] [INFO] ========== TEST END: TC018 - Cross browser homepage validation @smoke @e2e ==========
+[2026-05-12 23:39:40] [INFO] ====================================
+[2026-05-12 23:39:40] [INFO] TEST SUITE COMPLETED
+[2026-05-12 23:39:40] [INFO] Timestamp: 2026-05-12T18:09:40.884Z
+[2026-05-12 23:39:40] [INFO] ====================================
+[2026-05-12 23:39:41] [INFO] ====================================
+[2026-05-12 23:39:41] [INFO] TEST SUITE STARTED
+[2026-05-12 23:39:41] [INFO] Environment: qa
+[2026-05-12 23:39:41] [INFO] Timestamp: 2026-05-12T18:09:41.703Z
+[2026-05-12 23:39:41] [INFO] ====================================
+[2026-05-12 23:39:43] [INFO] ========== TEST START: TC018 - Cross browser homepage validation @smoke @e2e ==========
+[2026-05-12 23:39:43] [INFO] Browser: chromium
+[2026-05-12 23:39:44] [INFO] Initialized HomePage fixture
+[2026-05-12 23:39:44] [INFO] STEP 1: Verify homepage loads in current browser
+[2026-05-12 23:39:44] [INFO] Waiting for element: .card-block
+[2026-05-12 23:39:45] [ERROR] ❌ TEST FAILED: TC018 - Cross browser homepage validation @smoke @e2e | Error: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+[2026-05-12 23:39:45] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Playwright_Framework/screenshots/FAIL_TC018___Cross_browser_homepage_validation__smoke__e2e_2026-05-12T18-09-45-604Z.png
+[2026-05-12 23:39:45] [INFO] Allure: Screenshot attached to report
+[2026-05-12 23:39:45] [INFO] Allure: Page source attached to report

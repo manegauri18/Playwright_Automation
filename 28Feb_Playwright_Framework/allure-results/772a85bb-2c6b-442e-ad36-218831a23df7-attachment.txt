@@ -1,0 +1,17 @@
+[2026-05-14 20:47:19] [INFO] ====================================
+[2026-05-14 20:47:19] [INFO] TEST SUITE STARTED
+[2026-05-14 20:47:19] [INFO] Environment: qa
+[2026-05-14 20:47:19] [INFO] Timestamp: 2026-05-14T15:17:19.616Z
+[2026-05-14 20:47:19] [INFO] ====================================
+[2026-05-14 20:47:21] [INFO] ========== TEST START: TC012a - Verify Phones category shows phone products @regression @product ==========
+[2026-05-14 20:47:21] [INFO] Browser: chromium
+[2026-05-14 20:47:23] [INFO] Initialized HomePage fixture
+[2026-05-14 20:47:23] [INFO] STEP 1: Click on Phones category
+[2026-05-14 20:47:23] [INFO] Selecting category: phones
+[2026-05-14 20:47:23] [INFO] Clicking element: a[onclick="byCat('phone')"]
+[2026-05-14 20:47:25] [INFO] STEP 2: Verify products are displayed
+[2026-05-14 20:47:26] [INFO] STEP 3: Verify product names
+[2026-05-14 20:47:27] [INFO] Found 7 products
+[2026-05-14 20:47:27] [INFO] Phones category products: Samsung galaxy s6, Nokia lumia 1520, Nexus 6, Samsung galaxy s7, Iphone 6 32gb, Sony xperia z5, HTC One M9
+[2026-05-14 20:47:27] [INFO] ✅ TEST PASSED: TC012a - Verify Phones category shows phone products @regression @product
+[2026-05-14 20:47:27] [INFO] ========== TEST END: TC012a - Verify Phones category shows phone products @regression @product ==========

@@ -1,0 +1,19 @@
+// S23_SumOfDigits.js
+
+const s1 = "welcome12to3the4worldof5java";
+
+let sum = 0;
+
+for (let i = 0; i < s1.length; i++) 
+{
+  const ch = s1.charAt(i);
+
+  if (isNaN(ch) == false )   // check if it's a digit
+    
+    {  
+    sum = sum + Number(ch);  
+               
+  }
+}
+
+console.log(sum); // Output: 15

@@ -1,0 +1,17 @@
+// Remove Duplicates from Array
+
+const numbers = [7, 5, 12, 7, 5, 8, 12, 11];
+
+// Create a Set (automatically removes duplicates)
+const set = new Set();
+
+for (let i = 0; i < numbers.length; i++) 
+{
+  set.add(numbers[i]);
+}
+
+// Print the Set directly
+console.log(set);              // Set(5) { 7, 5, 12, 8, 11 }
+
+// Convert Set to Array for cleaner output
+console.log([...set]);         // [ 7, 5, 12, 8, 11 ]

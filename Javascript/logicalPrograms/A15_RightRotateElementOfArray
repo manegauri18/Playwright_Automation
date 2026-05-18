@@ -1,0 +1,19 @@
+// Left rotate elements of an array
+const ar = [1, 2, 3, 4, 5];
+const n = 1;  // number of rotations
+
+for (let i = 0; i < n; i++) 
+{
+  const first = ar[0]; // store first element
+
+  // shift elements to the left
+  for (let j = 0; j < ar.length - 1; j++) 
+  {
+    ar[j] = ar[j + 1];
+  }
+
+  // put first element at the end
+  ar[ar.length - 1] = first;
+}
+
+console.log("Array after rotation:", ar.join(" "));

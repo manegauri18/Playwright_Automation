@@ -1,0 +1,18 @@
+// FindFourthHighestAndThirdSmallestNumFromArray.js
+
+const array = [100, 14, 46, 47, 94, 97, 52, 86, 36, 94, 89];
+
+// Sort the array once (ascending order)
+array.sort((a, b) => a - b);
+
+console.log("Sorted array:", array);
+
+const smallestNumber = array[0];
+const largestNumber = array[array.length - 1];
+const fourthLargest = array[array.length - 4];
+const thirdSmallest = array[2];
+
+console.log("smallest number: " + smallestNumber);
+console.log("largest number: " + largestNumber);
+console.log("Fourth largest number: " + fourthLargest);
+console.log("Third smallest number: " + thirdSmallest);

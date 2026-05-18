@@ -1,0 +1,21 @@
+// Program to find the first non-repeating character
+
+let strInput = "XXHello Java";
+let charMap = new Map();
+
+// Count occurrences of each character
+for (let i = 0; i < strInput.length; i++) 
+{
+  let ch = strInput[i];
+  charMap.set(ch, (charMap.get(ch) || 0) + 1);
+}
+
+// Find the first character with count = 1
+for (let [ch, count] of charMap) 
+{
+  if (count === 1) 
+{
+    console.log("First Non-repeating char is " + ch);
+    break;
+  }
+}

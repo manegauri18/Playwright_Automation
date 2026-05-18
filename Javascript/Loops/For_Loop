@@ -1,0 +1,73 @@
+// FOR LOOP
+// =======================================================
+// Syntax
+// for (initialization; condition; increment/decrement) {
+// code to be executed
+// }
+// =======================================================
+// Example 1 : Print numbers from 1 to 5
+// =======================================================
+for (let i = 1; i <= 5; i++) {
+// Iteration flow:
+// i = 1 → 1 <= 5 → true → print 1
+// i = 2 → 2 <= 5 → true → print 2
+// i = 3 → 3 <= 5 → true → print 3
+// i = 4 → 4 <= 5 → true → print 4
+// i = 5 → 5 <= 5 → true → print 5
+// i = 6 → 6 <= 5 → false → loop stops
+console.log(i);
+process.stdout.write(i + " "); //to print the value same line
+}
+console.log();
+console.log("Loop Completed");
+
+
+// =======================================================
+
+// Example 2 : Print Even Numbers (2 to 20)
+// =======================================================
+for (let i = 2; i <= 20; i += 2) {
+// i increases by 2 each time
+// Output: 2 4 6 8 10 12 14 16 18 20
+console.log(i);
+}
+console.log("Loop Completed");
+
+
+// =======================================================
+// Example 3 : Print numbers from 20 to 1 (Reverse Order)
+// =======================================================
+for (let i = 20; i >= 1; i--) {
+// Decrement loop
+// Output: 20 19 18 ... 1
+console.log(i);
+}
+// =======================================================
+// Example 4 : Print Multiplication Table of 5
+// =======================================================
+// Expected Output
+// 5 x 1 = 5
+// 5 x 2 = 10
+// 5 x 3 = 15
+// ...
+// 5 x 10 = 50
+for (let i = 1; i <= 10; i++) {
+console.log(`5 x ${i} = ${5 * i}`);
+}
+// =======================================================
+// Example 5 : Sum of Numbers from 1 to 5
+// =======================================================
+let sum = 0;
+console.log("Initial Sum:", sum);
+
+for (let i = 1; i <= 5; i++) {
+// Each iteration adds i to sum
+// Iteration
+// 1 → sum = 0 + 1 = 1
+// 2 → sum = 1 + 2 = 3
+// 3 → sum = 3 + 3 = 6
+// 4 → sum = 6 + 4 = 10
+// 5 → sum = 10 + 5 = 15
+sum = sum + i;
+}
+console.log("Final Sum:", sum);

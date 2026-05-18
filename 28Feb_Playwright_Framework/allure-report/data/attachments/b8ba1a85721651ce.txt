@@ -1,0 +1,199 @@
+[2026-05-12 23:33:18] [INFO] TEST SUITE STARTED
+[2026-05-12 23:33:18] [INFO] Environment: qa
+[2026-05-12 23:33:18] [INFO] Timestamp: 2026-05-12T18:03:18.478Z
+[2026-05-12 23:33:18] [INFO] ====================================
+[2026-05-12 23:33:20] [INFO] ========== TEST START: TC014 - Verify navigation menu links @regression @e2e ==========
+[2026-05-12 23:33:20] [INFO] Browser: chromium
+[2026-05-12 23:33:21] [INFO] Initialized HomePage fixture
+[2026-05-12 23:33:21] [INFO] STEP 1: Verify navigation menu is visible
+[2026-05-12 23:33:21] [INFO] Element a.nav-link[href='index.html'] visible: true
+[2026-05-12 23:33:21] [INFO] Element a.nav-link[data-target='#exampleModal'] visible: true
+[2026-05-12 23:33:21] [INFO] Element #cartur visible: true
+[2026-05-12 23:33:21] [INFO] STEP 2: Verify home page is loaded
+[2026-05-12 23:33:21] [INFO] Waiting for element: .card-block
+[2026-05-12 23:33:22] [ERROR] ❌ TEST FAILED: TC014 - Verify navigation menu links @regression @e2e | Error: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+[2026-05-12 23:33:22] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Playwright_Framework/screenshots/FAIL_TC014___Verify_navigation_menu_links__regression__e2e_2026-05-12T18-03-22-538Z.png
+[2026-05-12 23:33:22] [INFO] Allure: Screenshot attached to report
+[2026-05-12 23:33:22] [INFO] Allure: Page source attached to report
+[2026-05-12 23:33:22] [INFO] Allure: Execution logs attached to report
+[2026-05-12 23:33:22] [INFO] ========== TEST END: TC014 - Verify navigation menu links @regression @e2e ==========
+[2026-05-12 23:33:22] [INFO] ====================================
+[2026-05-12 23:33:22] [INFO] TEST SUITE COMPLETED
+[2026-05-12 23:33:22] [INFO] Timestamp: 2026-05-12T18:03:22.801Z
+[2026-05-12 23:33:22] [INFO] ====================================
+[2026-05-12 23:33:23] [INFO] ====================================
+[2026-05-12 23:33:23] [INFO] TEST SUITE STARTED
+[2026-05-12 23:33:23] [INFO] Environment: qa
+[2026-05-12 23:33:23] [INFO] Timestamp: 2026-05-12T18:03:23.496Z
+[2026-05-12 23:33:23] [INFO] ====================================
+[2026-05-12 23:33:25] [INFO] ========== TEST START: TC016 - Validate no broken links on homepage @regression @e2e ==========
+[2026-05-12 23:33:25] [INFO] Browser: chromium
+[2026-05-12 23:33:26] [INFO] STEP 1: Get all links on the page
+[2026-05-12 23:33:26] [INFO] Found 15 links on homepage
+[2026-05-12 23:33:26] [INFO] STEP 2: Verify key navigation links exist
+[2026-05-12 23:33:27] [ERROR] ❌ TEST FAILED: TC016 - Validate no broken links on homepage @regression @e2e | Error: Error: locator.isVisible: Error: strict mode violation: locator('a[href="index.html"]') resolved to 2 elements:
+    1) <a id="nava" href="index.html" class="navbar-brand">…</a> aka getByRole('link', { name: 'PRODUCT STORE' })
+    2) <a class="nav-link" href="index.html">…</a> aka getByRole('link', { name: 'Home (current)' })
+
+Call log:
+[2m    - checking visibility of locator('a[href="index.html"]')[22m
+
+[2026-05-12 23:33:27] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Playwright_Framework/screenshots/FAIL_TC016___Validate_no_broken_links_on_homepage__regression__e2e_2026-05-12T18-03-27-091Z.png
+[2026-05-12 23:33:27] [INFO] Allure: Screenshot attached to report
+[2026-05-12 23:33:27] [INFO] Allure: Page source attached to report
+[2026-05-12 23:33:27] [INFO] Allure: Execution logs attached to report
+[2026-05-12 23:33:27] [INFO] ========== TEST END: TC016 - Validate no broken links on homepage @regression @e2e ==========
+[2026-05-12 23:33:27] [INFO] ====================================
+[2026-05-12 23:33:27] [INFO] TEST SUITE COMPLETED
+[2026-05-12 23:33:27] [INFO] Timestamp: 2026-05-12T18:03:27.341Z
+[2026-05-12 23:33:27] [INFO] ====================================
+[2026-05-12 23:33:28] [INFO] ====================================
+[2026-05-12 23:33:28] [INFO] TEST SUITE STARTED
+[2026-05-12 23:33:28] [INFO] Environment: qa
+[2026-05-12 23:33:28] [INFO] Timestamp: 2026-05-12T18:03:28.156Z
+[2026-05-12 23:33:28] [INFO] ====================================
+[2026-05-12 23:33:30] [INFO] ========== TEST START: TC016 - Validate no broken links on homepage @regression @e2e ==========
+[2026-05-12 23:33:30] [INFO] Browser: chromium
+[2026-05-12 23:33:31] [INFO] STEP 1: Get all links on the page
+[2026-05-12 23:33:31] [INFO] Found 15 links on homepage
+[2026-05-12 23:33:31] [INFO] STEP 2: Verify key navigation links exist
+[2026-05-12 23:33:31] [ERROR] ❌ TEST FAILED: TC016 - Validate no broken links on homepage @regression @e2e | Error: Error: locator.isVisible: Error: strict mode violation: locator('a[href="index.html"]') resolved to 2 elements:
+    1) <a id="nava" href="index.html" class="navbar-brand">…</a> aka getByRole('link', { name: 'PRODUCT STORE' })
+    2) <a class="nav-link" href="index.html">…</a> aka getByRole('link', { name: 'Home (current)' })
+
+Call log:
+[2m    - checking visibility of locator('a[href="index.html"]')[22m
+
+[2026-05-12 23:33:31] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Playwright_Framework/screenshots/FAIL_TC016___Validate_no_broken_links_on_homepage__regression__e2e_2026-05-12T18-03-31-420Z.png
+[2026-05-12 23:33:31] [INFO] Allure: Screenshot attached to report
+[2026-05-12 23:33:31] [INFO] Allure: Page source attached to report
+[2026-05-12 23:33:31] [INFO] Allure: Execution logs attached to report
+[2026-05-12 23:33:31] [INFO] ========== TEST END: TC016 - Validate no broken links on homepage @regression @e2e ==========
+[2026-05-12 23:33:31] [INFO] ====================================
+[2026-05-12 23:33:31] [INFO] TEST SUITE COMPLETED
+[2026-05-12 23:33:31] [INFO] Timestamp: 2026-05-12T18:03:31.650Z
+[2026-05-12 23:33:31] [INFO] ====================================
+[2026-05-12 23:33:32] [INFO] ====================================
+[2026-05-12 23:33:32] [INFO] TEST SUITE STARTED
+[2026-05-12 23:33:32] [INFO] Environment: qa
+[2026-05-12 23:33:32] [INFO] Timestamp: 2026-05-12T18:03:32.370Z
+[2026-05-12 23:33:32] [INFO] ====================================
+[2026-05-12 23:33:34] [INFO] ========== TEST START: TC017 - Search/Browse product by category @regression @e2e ==========
+[2026-05-12 23:33:34] [INFO] Browser: chromium
+[2026-05-12 23:33:35] [INFO] Initialized HomePage fixture
+[2026-05-12 23:33:35] [INFO] STEP 1: Select Phones category
+[2026-05-12 23:33:35] [INFO] Selecting category: phones
+[2026-05-12 23:33:35] [INFO] Clicking element: a[onclick="byCat('phone')"]
+[2026-05-12 23:33:37] [INFO] Found 7 products
+[2026-05-12 23:33:37] [INFO] Phone products: Samsung galaxy s6, Nokia lumia 1520, Nexus 6, Samsung galaxy s7, Iphone 6 32gb, Sony xperia z5, HTC One M9
+[2026-05-12 23:33:37] [INFO] STEP 2: Select Laptops category
+[2026-05-12 23:33:37] [INFO] Selecting category: laptops
+[2026-05-12 23:33:37] [INFO] Clicking element: a[onclick="byCat('notebook')"]
+[2026-05-12 23:33:40] [INFO] Found 6 products
+[2026-05-12 23:33:40] [INFO] Laptop products: Sony vaio i5, Sony vaio i7
+, MacBook air, Dell i7 8gb, 2017 Dell 15.6 Inch, MacBook Pro
+[2026-05-12 23:33:40] [INFO] STEP 3: Select Monitors category
+[2026-05-12 23:33:40] [INFO] Selecting category: monitors
+[2026-05-12 23:33:40] [INFO] Clicking element: a[onclick="byCat('monitor')"]
+[2026-05-12 23:33:42] [INFO] Found 2 products
+[2026-05-12 23:33:42] [INFO] Monitor products: Apple monitor 24, ASUS Full HD
+[2026-05-12 23:33:43] [INFO] ✅ TEST PASSED: TC017 - Search/Browse product by category @regression @e2e
+[2026-05-12 23:33:43] [INFO] ========== TEST END: TC017 - Search/Browse product by category @regression @e2e ==========
+[2026-05-12 23:33:44] [INFO] ========== TEST START: TC018 - Cross browser homepage validation @smoke @e2e ==========
+[2026-05-12 23:33:44] [INFO] Browser: chromium
+[2026-05-12 23:33:45] [INFO] Initialized HomePage fixture
+[2026-05-12 23:33:45] [INFO] STEP 1: Verify homepage loads in current browser
+[2026-05-12 23:33:45] [INFO] Waiting for element: .card-block
+[2026-05-12 23:33:46] [ERROR] ❌ TEST FAILED: TC018 - Cross browser homepage validation @smoke @e2e | Error: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+[2026-05-12 23:33:46] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Playwright_Framework/screenshots/FAIL_TC018___Cross_browser_homepage_validation__smoke__e2e_2026-05-12T18-03-46-350Z.png
+[2026-05-12 23:33:46] [INFO] Allure: Screenshot attached to report
+[2026-05-12 23:33:46] [INFO] Allure: Page source attached to report
+[2026-05-12 23:33:46] [INFO] Allure: Execution logs attached to report
+[2026-05-12 23:33:46] [INFO] ========== TEST END: TC018 - Cross browser homepage validation @smoke @e2e ==========
+[2026-05-12 23:33:46] [INFO] ====================================
+[2026-05-12 23:33:46] [INFO] TEST SUITE COMPLETED
+[2026-05-12 23:33:46] [INFO] Timestamp: 2026-05-12T18:03:46.603Z
+[2026-05-12 23:33:46] [INFO] ====================================
+[2026-05-12 23:33:47] [INFO] ====================================
+[2026-05-12 23:33:47] [INFO] TEST SUITE STARTED
+[2026-05-12 23:33:47] [INFO] Environment: qa
+[2026-05-12 23:33:47] [INFO] Timestamp: 2026-05-12T18:03:47.443Z
+[2026-05-12 23:33:47] [INFO] ====================================
+[2026-05-12 23:33:49] [INFO] ========== TEST START: TC018 - Cross browser homepage validation @smoke @e2e ==========
+[2026-05-12 23:33:49] [INFO] Browser: chromium
+[2026-05-12 23:33:50] [INFO] Initialized HomePage fixture
+[2026-05-12 23:33:50] [INFO] STEP 1: Verify homepage loads in current browser
+[2026-05-12 23:33:50] [INFO] Waiting for element: .card-block
+[2026-05-12 23:33:51] [ERROR] ❌ TEST FAILED: TC018 - Cross browser homepage validation @smoke @e2e | Error: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+[2026-05-12 23:33:51] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Playwright_Framework/screenshots/FAIL_TC018___Cross_browser_homepage_validation__smoke__e2e_2026-05-12T18-03-51-588Z.png
+[2026-05-12 23:33:51] [INFO] Allure: Screenshot attached to report
+[2026-05-12 23:33:51] [INFO] Allure: Page source attached to report
+[2026-05-12 23:33:51] [INFO] Allure: Execution logs attached to report
+[2026-05-12 23:33:51] [INFO] ========== TEST END: TC018 - Cross browser homepage validation @smoke @e2e ==========
+[2026-05-12 23:33:51] [INFO] ====================================
+[2026-05-12 23:33:51] [INFO] TEST SUITE COMPLETED
+[2026-05-12 23:33:51] [INFO] Timestamp: 2026-05-12T18:03:51.834Z
+[2026-05-12 23:33:51] [INFO] ====================================
+[2026-05-12 23:33:52] [INFO] ====================================
+[2026-05-12 23:33:52] [INFO] TEST SUITE STARTED
+[2026-05-12 23:33:52] [INFO] Environment: qa
+[2026-05-12 23:33:52] [INFO] Timestamp: 2026-05-12T18:03:52.666Z
+[2026-05-12 23:33:52] [INFO] ====================================
+[2026-05-12 23:33:54] [INFO] ========== TEST START: TC019 - Parallel execution product browsing @smoke @e2e ==========
+[2026-05-12 23:33:54] [INFO] Browser: chromium
+[2026-05-12 23:33:55] [INFO] Initialized HomePage fixture
+[2026-05-12 23:33:55] [INFO] Initialized ProductPage fixture
+[2026-05-12 23:33:55] [INFO] STEP 1: Select a product
+[2026-05-12 23:33:55] [INFO] Selecting product: Samsung galaxy s6
+[2026-05-12 23:33:58] [INFO] STEP 2: Verify product details
+[2026-05-12 23:33:58] [INFO] Waiting for element: .name
+[2026-05-12 23:33:58] [INFO] Got text from .name: Samsung galaxy s6
+[2026-05-12 23:33:58] [INFO] Product title: Samsung galaxy s6
+[2026-05-12 23:33:58] [INFO] STEP 3: Verify price is displayed
+[2026-05-12 23:33:58] [INFO] Waiting for element: .price-container
+[2026-05-12 23:33:58] [INFO] Got text from .price-container: $360 *includes tax
+[2026-05-12 23:33:58] [INFO] Product price: $360 *includes tax
+[2026-05-12 23:33:58] [INFO] ✅ TEST PASSED: TC019 - Parallel execution product browsing @smoke @e2e
+[2026-05-12 23:33:58] [INFO] ========== TEST END: TC019 - Parallel execution product browsing @smoke @e2e ==========
+[2026-05-12 23:33:58] [INFO] ========== TEST START: TC020 - Complete E2E purchase flow - login, add product, checkout @smoke @e2e ==========
+[2026-05-12 23:33:58] [INFO] Browser: chromium
+[2026-05-12 23:33:59] [INFO] Initialized LoginPage fixture
+[2026-05-12 23:33:59] [INFO] Initialized HomePage fixture
+[2026-05-12 23:33:59] [INFO] Initialized ProductPage fixture
+[2026-05-12 23:33:59] [INFO] Initialized CartPage fixture
+[2026-05-12 23:33:59] [INFO] STEP 1: Login with valid credentials
+[2026-05-12 23:33:59] [INFO] Performing login with user: pavanol
+[2026-05-12 23:33:59] [INFO] Clicking Login navigation link
+[2026-05-12 23:33:59] [INFO] Waiting for element: #login2
+[2026-05-12 23:33:59] [INFO] Clicking element: #login2
+[2026-05-12 23:34:01] [INFO] Entering username: pavanol
+[2026-05-12 23:34:01] [INFO] Waiting for element: #loginusername
+[2026-05-12 23:34:01] [INFO] Entering text in: #loginusername
+[2026-05-12 23:34:01] [INFO] Entering password
+[2026-05-12 23:34:01] [INFO] Entering text in: #loginpassword
+[2026-05-12 23:34:01] [INFO] Clicking Login button
+[2026-05-12 23:34:01] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-12 23:34:03] [INFO] Waiting for element: #nameofuser
+[2026-05-12 23:34:03] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-12 23:34:03] [INFO] Welcome text: Welcome pavanol
+[2026-05-12 23:34:03] [INFO] STEP 2: Navigate to home and select product
+[2026-05-12 23:34:04] [INFO] Selecting product: Samsung galaxy s6
+[2026-05-12 23:34:06] [INFO] STEP 3: Verify product page and add to cart
+[2026-05-12 23:34:06] [INFO] Waiting for element: .name
+[2026-05-12 23:34:06] [INFO] Got text from .name: Samsung galaxy s6
+[2026-05-12 23:34:06] [INFO] Product title: Samsung galaxy s6
+[2026-05-12 23:34:06] [INFO] Adding product to cart
+[2026-05-12 23:34:06] [INFO] Clicking element: a[onclick='addToCart()']
+[2026-05-12 23:34:21] [ERROR] ❌ TEST FAILED: TC020 - Complete E2E purchase flow - login, add product, checkout @smoke @e2e | Error: TimeoutError: locator.click: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for locator('a[onclick=\'addToCart()\']')[22m
+
+[2026-05-12 23:34:21] [INFO] Screenshot captured: /Users/ranjeetkendre/Desktop/PlaywrightAutomation/28Feb_Playwright_Framework/screenshots/FAIL_TC020___Complete_E2E_purchase_flow___login__add_product__checkout__smoke__e2e_2026-05-12T18-04-21-791Z.png
+[2026-05-12 23:34:21] [INFO] Allure: Screenshot attached to report
+[2026-05-12 23:34:21] [INFO] Allure: Page source attached to report

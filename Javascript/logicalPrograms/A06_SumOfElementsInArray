@@ -1,0 +1,11 @@
+// SumOfElementsInArray.js
+
+const ar = [2, 3, 5, 4, 7];
+let sum = 0;
+
+for (let i = 0; i <= ar.length - 1; i++) 
+{
+  sum = sum + ar[i];
+}
+
+console.log("Sum of elements in array is: " + sum);

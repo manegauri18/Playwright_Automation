@@ -1,0 +1,7 @@
+// Program to count total number of words in a string
+
+let sentence = "Java is a powerful programming";
+let words = sentence.split(/\s+/);
+let Count = words.length;
+
+console.log("Total number of words: " + Count);

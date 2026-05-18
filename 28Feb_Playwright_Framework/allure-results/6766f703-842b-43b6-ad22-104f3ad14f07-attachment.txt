@@ -1,0 +1,25 @@
+[2026-05-14 20:54:20] [INFO] ====================================
+[2026-05-14 20:54:20] [INFO] TEST SUITE STARTED
+[2026-05-14 20:54:20] [INFO] Environment: staging
+[2026-05-14 20:54:20] [INFO] Timestamp: 2026-05-14T15:24:20.383Z
+[2026-05-14 20:54:20] [INFO] ====================================
+[2026-05-14 20:54:28] [INFO] ========== TEST START: TC009a - Verify cart displays correct product names @regression @cart ==========
+[2026-05-14 20:54:28] [INFO] Browser: chromium
+[2026-05-14 20:54:31] [INFO] Initialized HomePage fixture
+[2026-05-14 20:54:31] [INFO] Initialized ProductPage fixture
+[2026-05-14 20:54:31] [INFO] Initialized CartPage fixture
+[2026-05-14 20:54:31] [INFO] STEP 1: Add product: Samsung galaxy s6
+[2026-05-14 20:54:31] [INFO] Selecting product: Samsung galaxy s6
+[2026-05-14 20:54:34] [INFO] Adding product to cart
+[2026-05-14 20:54:36] [INFO] Alert message: Product added
+[2026-05-14 20:54:37] [INFO] STEP 2: Navigate to cart
+[2026-05-14 20:54:37] [INFO] Navigating to Cart page
+[2026-05-14 20:54:37] [INFO] Clicking element: #cartur
+[2026-05-14 20:54:41] [INFO] STEP 3: Verify product name in cart
+[2026-05-14 20:54:42] [INFO] Cart products: Samsung galaxy s6
+[2026-05-14 20:54:42] [INFO] ✅ TEST PASSED: TC009a - Verify cart displays correct product names @regression @cart
+[2026-05-14 20:54:44] [INFO] ========== TEST END: TC009a - Verify cart displays correct product names @regression @cart ==========
+[2026-05-14 20:54:44] [INFO] ====================================
+[2026-05-14 20:54:44] [INFO] TEST SUITE COMPLETED
+[2026-05-14 20:54:44] [INFO] Timestamp: 2026-05-14T15:24:44.696Z
+[2026-05-14 20:54:44] [INFO] ====================================

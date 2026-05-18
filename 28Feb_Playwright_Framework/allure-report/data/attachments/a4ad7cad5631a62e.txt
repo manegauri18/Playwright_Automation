@@ -1,0 +1,24 @@
+[2026-05-14 20:47:28] [INFO] ========== TEST START: TC007 - Add multiple products to cart @regression @product ==========
+[2026-05-14 20:47:28] [INFO] Browser: chromium
+[2026-05-14 20:47:29] [INFO] Initialized HomePage fixture
+[2026-05-14 20:47:29] [INFO] Initialized ProductPage fixture
+[2026-05-14 20:47:29] [INFO] STEP 1: Navigate to home and select: Samsung galaxy s6
+[2026-05-14 20:47:32] [INFO] Selecting product: Samsung galaxy s6
+[2026-05-14 20:47:34] [INFO] STEP 2: Add product to cart
+[2026-05-14 20:47:34] [INFO] Adding product to cart
+[2026-05-14 20:47:35] [INFO] Alert message: Product added
+[2026-05-14 20:47:36] [INFO] STEP 1: Navigate to home and select: Nokia lumia 1520
+[2026-05-14 20:47:38] [INFO] Selecting product: Nokia lumia 1520
+[2026-05-14 20:47:40] [INFO] STEP 2: Add product to cart
+[2026-05-14 20:47:40] [INFO] Adding product to cart
+[2026-05-14 20:47:41] [INFO] Alert message: Product added
+[2026-05-14 20:47:42] [INFO] STEP 3: Navigate to cart and verify items
+[2026-05-14 20:47:42] [INFO] Navigating to Cart page
+[2026-05-14 20:47:42] [INFO] Clicking element: #cartur
+[2026-05-14 20:47:45] [INFO] Cart item count: 2
+[2026-05-14 20:47:46] [INFO] ✅ TEST PASSED: TC007 - Add multiple products to cart @regression @product
+[2026-05-14 20:47:46] [INFO] ========== TEST END: TC007 - Add multiple products to cart @regression @product ==========
+[2026-05-14 20:47:46] [INFO] ====================================
+[2026-05-14 20:47:46] [INFO] TEST SUITE COMPLETED
+[2026-05-14 20:47:46] [INFO] Timestamp: 2026-05-14T15:17:46.542Z
+[2026-05-14 20:47:46] [INFO] ====================================

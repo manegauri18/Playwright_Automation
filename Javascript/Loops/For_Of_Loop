@@ -1,0 +1,66 @@
+
+//Example 1: Iterate over Array using For...Of Loop
+// =======================================================
+let fruits = ["Apple", "Banana", "Orange", "Mango", "Grapes"];
+for (let fruit of fruits) {
+// fruit directly gets the value (not index)
+console.log(fruit);
+}
+console.log("Loop completed");
+
+
+
+console.log("====================================");
+// =======================================================
+// Example 2: Iterate over String using For...Of Loop
+// =======================================================
+
+let name = "JavaScript";
+for (let char of name) {
+// Each character is accessed one by one
+console.log(char);
+}
+// Output: J a v a S c r i p t (each on new line)
+console.log("Loop completed");
+
+
+
+
+console.log("====================================");
+// =======================================================
+// Example 3: Sum of Array Elements using For...Of Loop
+// =======================================================
+let numbers = [10, 20, 30, 40, 50];
+let arraySum = 0;
+for (let num of numbers) {
+// num directly gets the value from array
+// Iteration 1: num = 10 → arraySum = 0 + 10 = 10
+// Iteration 2: num = 20 → arraySum = 10 + 20 = 30
+// Iteration 3: num = 30 → arraySum = 30 + 30 = 60
+// Iteration 4: num = 40 → arraySum = 60 + 40 = 100
+// Iteration 5: num = 50 → arraySum = 100 + 50 = 150
+arraySum = arraySum + num;
+}
+console.log("Sum of array elements using for...of loop:",
+arraySum);
+// Output: 150
+
+
+
+
+console.log("====================================");
+
+// =======================================================
+// Example 4: Print Array with Index using For...Of Loop
+// =======================================================
+let colors = ["Red", "Green", "Blue"];
+for (let [index, color] of colors.entries()) {
+// entries() method returns [index, value] pairs
+// Destructuring: [index, color] extracts both
+console.log(`Index ${index}: ${color}`);
+}
+// Output:
+// Index 0: Red
+// Index 1: Green
+// Index 2: Blue
+console.log("====================================");

@@ -1,0 +1,11 @@
+// CopyAllElements.js
+
+const arr1 = [1, 2, 3, 4, 5];
+const arr2 = new Array(arr1.length);
+
+for (let i = 0; i < arr1.length; i++) 
+{
+  arr2[i] = arr1[i];
+}
+
+console.log("Copied Array:", arr2);

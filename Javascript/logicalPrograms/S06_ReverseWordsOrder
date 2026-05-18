@@ -1,0 +1,14 @@
+// Program to reverse word order
+
+let inputString = "Hello Java";
+// Declare words array from the string
+let words = inputString.split(" ");
+
+let result = "";
+
+for (let i = words.length - 1; i >= 0; i--) 
+{
+  result = result + words[i] + " ";
+}
+
+console.log("Reversed Word Order: " + result.trim());

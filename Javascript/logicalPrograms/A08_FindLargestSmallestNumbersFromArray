@@ -1,0 +1,21 @@
+// FindLargestSmallestNumbersFromArray.js
+
+const arr = [5, 12, -7, 3, 8];
+let largest = arr[0];
+let smallest = arr[0];
+
+for (let i = 1; i < arr.length; i++) 
+{
+  if (arr[i] > largest) 
+  {
+    largest = arr[i];
+  } 
+  
+  else if (arr[i] < smallest)
+  {
+    smallest = arr[i];
+  }
+}
+
+console.log("largest num is: " + largest);
+console.log("smallest num is: " + smallest);

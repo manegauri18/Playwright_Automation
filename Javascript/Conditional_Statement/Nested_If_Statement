@@ -1,0 +1,71 @@
+// Nested IF statement
+// ======================================================
+console.log("------\n nested if statement-------")
+let x = 92;
+if (x >= 90) { // TRUE
+console.log("x is greater than or equal to 90");
+if (x >= 95) { // FALSE
+console.log("X is greater than or equals to 95");
+
+}
+else { // executes
+console.log("x is less than 95")
+}
+}
+else {
+console.log("x is less than 90")
+}
+console.log("-------------")
+x = 98
+if (x >= 90) { // TRUE
+console.log("x is greater than or equal to 90");
+if (x >= 95) { // TRUE
+console.log("X is greater than or equals to 95");
+}
+else {
+console.log("x is less than 95")
+}
+}
+else {
+console.log("x is less than 90")
+}
+x = 101;
+if (x >= 90) { // TRUE
+console.log("x is greater than or equal to 90");
+if (x >= 95) { // TRUE
+console.log("X is greater than or equals to 95");
+if (x >= 100) { // TRUE
+console.log("x is greater than or equal to 100")
+}
+else {
+console.log("x is less than 100")
+}
+}
+else {
+console.log("x is less than 95")
+}
+}
+else {
+console.log("x is less than 90")
+}
+console.log("")
+
+x = 101;
+if (x >= 90) { // TRUE
+console.log("x is greater than or equal to 90");
+if (x >= 95) { // TRUE
+console.log("X is greater than or equals to 95");
+if (x >= 100) { // TRUE
+console.log("x is greater than or equal to 100")
+}
+else {
+console.log("x is less than 100")
+}
+}
+else {
+console.log("x is less than 95")
+}
+}
+else {
+console.log("x is less than 90")
+}

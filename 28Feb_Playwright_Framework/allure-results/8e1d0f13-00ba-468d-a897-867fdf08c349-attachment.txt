@@ -1,0 +1,26 @@
+[2026-05-12 23:33:32] [INFO] ====================================
+[2026-05-12 23:33:32] [INFO] TEST SUITE STARTED
+[2026-05-12 23:33:32] [INFO] Environment: qa
+[2026-05-12 23:33:32] [INFO] Timestamp: 2026-05-12T18:03:32.370Z
+[2026-05-12 23:33:32] [INFO] ====================================
+[2026-05-12 23:33:34] [INFO] ========== TEST START: TC017 - Search/Browse product by category @regression @e2e ==========
+[2026-05-12 23:33:34] [INFO] Browser: chromium
+[2026-05-12 23:33:35] [INFO] Initialized HomePage fixture
+[2026-05-12 23:33:35] [INFO] STEP 1: Select Phones category
+[2026-05-12 23:33:35] [INFO] Selecting category: phones
+[2026-05-12 23:33:35] [INFO] Clicking element: a[onclick="byCat('phone')"]
+[2026-05-12 23:33:37] [INFO] Found 7 products
+[2026-05-12 23:33:37] [INFO] Phone products: Samsung galaxy s6, Nokia lumia 1520, Nexus 6, Samsung galaxy s7, Iphone 6 32gb, Sony xperia z5, HTC One M9
+[2026-05-12 23:33:37] [INFO] STEP 2: Select Laptops category
+[2026-05-12 23:33:37] [INFO] Selecting category: laptops
+[2026-05-12 23:33:37] [INFO] Clicking element: a[onclick="byCat('notebook')"]
+[2026-05-12 23:33:40] [INFO] Found 6 products
+[2026-05-12 23:33:40] [INFO] Laptop products: Sony vaio i5, Sony vaio i7
+, MacBook air, Dell i7 8gb, 2017 Dell 15.6 Inch, MacBook Pro
+[2026-05-12 23:33:40] [INFO] STEP 3: Select Monitors category
+[2026-05-12 23:33:40] [INFO] Selecting category: monitors
+[2026-05-12 23:33:40] [INFO] Clicking element: a[onclick="byCat('monitor')"]
+[2026-05-12 23:33:42] [INFO] Found 2 products
+[2026-05-12 23:33:42] [INFO] Monitor products: Apple monitor 24, ASUS Full HD
+[2026-05-12 23:33:43] [INFO] ✅ TEST PASSED: TC017 - Search/Browse product by category @regression @e2e
+[2026-05-12 23:33:43] [INFO] ========== TEST END: TC017 - Search/Browse product by category @regression @e2e ==========

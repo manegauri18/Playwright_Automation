@@ -1,0 +1,26 @@
+const array = [2, 4, 7, 2, 11, 5, 7, 14];
+
+const unique = new Set();
+const duplicates = new Set();
+
+for (let i = 0; i < array.length; i++) 
+  {
+  const num = array[i];
+
+  if (unique.has(num)) 
+  {
+    duplicates.add(num);
+  } 
+  else 
+  {
+    unique.add(num);
+  }
+}
+
+console.log("Duplicates are:", [...duplicates]);
+
+
+
+
+
+

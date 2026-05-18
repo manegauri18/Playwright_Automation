@@ -1,0 +1,52 @@
+{
+  "name": "demoblaze-playwright-framework",
+  "version": "1.0.0",
+  "description": "Enterprise Level E2E Automation Framework - Playwright + JavaScript + POM + Hybrid + Data-Driven",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:chromium": "npx playwright test --project=chromium",
+    "test:firefox": "npx playwright test --project=firefox",
+    "test:webkit": "npx playwright test --project=webkit",
+    "test:smoke": "npx playwright test --grep @smoke",
+    "test:regression": "npx playwright test --grep @regression",
+    "test:sanity": "npx playwright test --grep @sanity",
+    "test:e2e": "npx playwright test --grep @e2e",
+    "test:login": "npx playwright test tests/Login/",
+    "test:product": "npx playwright test tests/Product/",
+    "test:cart": "npx playwright test tests/Cart/",
+    "test:checkout": "npx playwright test tests/Checkout/",
+    "test:contact": "npx playwright test tests/Contact/",
+    "test:parallel": "npx playwright test --workers=4",
+    "test:serial": "npx playwright test --workers=1",
+    "test:debug": "npx playwright test --debug",
+    "test:ui": "npx playwright test --ui",
+    "report": "npx playwright show-report reports/html-report",
+    "report:allure": "npx allure generate allure-results --clean -o allure-report && npx allure open allure-report",
+    "allure:generate": "npx allure generate allure-results --clean -o allure-report",
+    "allure:open": "npx allure open allure-report",
+    "clean": "rimraf reports screenshots logs test-results allure-results allure-report",
+    "pretest": "node -e \"const fs=require('fs');['reports','screenshots','logs'].forEach(d=>{if(!fs.existsSync(d))fs.mkdirSync(d,{recursive:true})})\""
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "e2e",
+    "pom",
+    "hybrid",
+    "data-driven"
+  ],
+  "author": "QA Automation Team",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.2",
+    "allure-commandline": "^2.40.0",
+    "allure-playwright": "^3.8.0",
+    "dotenv": "^16.6.1",
+    "rimraf": "^6.0.1",
+    "winston": "^3.19.0",
+    "xlsx": "^0.18.5"
+  }
+}
