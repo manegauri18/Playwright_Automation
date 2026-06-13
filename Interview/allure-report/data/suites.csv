@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","120411","Login using various locators","chromium","2026-05-24","broken","2026-05-24","","locator\Inbuilt_Locators.spec.js","",""
+"","19488","Handle Multiple list element","chromium","2026-05-24","passed","2026-05-24","","Listbox1.spec.js","",""
+"","9211","Validate Checkbox is enabled","chromium","2026-05-24","passed","2026-05-24","","Yahoo_Login.spec.js","",""
+"","3951","TC001","chromium","2026-05-24","passed","2026-05-24","","locator\GetAllLinks.spec.js","",""
+"","7631","TC-008 - Create Account Link Exists","chromium","2026-05-24","failed","2026-05-24","","locator\XpathForYahooPage.spec.js","",""
+"","14854","CSS Selector example - facebook 2","chromium","2026-05-24","failed","2026-05-24","","locator\CSS_Selector.spec.js","",""
+"","13725","IFRAME3","chromium","2026-05-24","passed","2026-05-24","","Iframe\Iframe1.spec.js","",""

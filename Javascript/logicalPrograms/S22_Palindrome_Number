@@ -1,20 +1,18 @@
-// Program to check if a number is a palindrome
+
 
 let num = 12321;
-let numStr = String(num); // Convert number to string
-let reversedStr = "";
+let original = num;
+let reversed = 0;
 
-// Reverse using for loop
-for (let i = numStr.length - 1; i >= 0; i--) 
-{
-  reversedStr += numStr[i];
+while (num > 0) {
+    let digit = num % 10; 
+    reversed = reversed * 10 + digit; 
+    num = Math.floor(num / 10);   
 }
 
-if (numStr === reversedStr) 
-{
-  console.log(num + " is a Palindrome number");
-} 
-else 
-{
-  console.log(num + " is Not a Palindrome number");
+if (original === reversed) {
+    console.log("Palindrome");
+} else {
+    console.log("Not Palindrome");
 }
+    

@@ -1,24 +1,25 @@
-// VerifyIfStringContainsOnlyIntegers.js
+// Verify if a string contains only integers
 
 const str = "874";
 let flag = true;
 
 for (let i = 0; i < str.length; i++) 
 {
-  const ch = str.charAt(i);
+    
+    let ch = str.charAt(i);
 
-  if (isNaN(ch) == true) // explicitly check == true
-{  
-    flag = false;
-    break;
-  }
+    if (ch < '0' || ch > '9')
+    {
+        flag = false;
+        break;
+    }
 }
 
-if (flag == true) 
+if (flag) 
 {
-  console.log("Integer string");
+    console.log("Integer string");
 } 
-else if (flag == false) 
+else 
 {
-  console.log("Not an integer string");
+    console.log("Not an integer string");
 }

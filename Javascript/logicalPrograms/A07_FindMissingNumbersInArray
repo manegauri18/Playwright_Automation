@@ -1,15 +1,10 @@
-// FindMissingNumbersInArray.js
-
 const ar = [17, 12, 14, 15, 11];
 
-// Put array elements into a Set
-const set = new Set(ar);
+const min = Math.min(...ar);
+const max = Math.max(...ar);
 
-// Check range of numbers present in Set
-for (let i = 11; i <= 17; i++) 
-{
-  if (set.has(i) == false)
-  {   
-    console.log(i);
-  }
+for (let i = min; i <= max; i++) {
+    if (!ar.includes(i)) {
+        console.log(i);
+    }
 }

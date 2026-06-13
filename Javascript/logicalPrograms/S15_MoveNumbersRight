@@ -1,22 +1,18 @@
-// Program to move all numbers to the right side of the string
+let str = "prog9ramming2";
 
-let inputString = "prog9ramming2";
 let digits = "";
 let nonDigits = "";
 
-for (let i = 0; i < inputString.length; i++) 
-{
-  let ch = inputString[i];
-
-  if (isNaN(ch)) 
+for (let ch of str) 
   {
-    nonDigits = nonDigits + ch;
-
-  }
-  else 
-  {
-    digits = digits + ch;
-  }
+    if (ch >= '0' && ch <= '9') 
+    {
+        digits = digits + ch;
+    } 
+    else 
+    {
+        nonDigits = nonDigits + ch;
+    }
 }
 
-console.log("Final String: " + nonDigits + digits);
+console.log(nonDigits + digits);

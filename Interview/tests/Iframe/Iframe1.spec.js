@@ -33,7 +33,7 @@ test("IFRAME2", async({page})=>{
     await page.waitForTimeout(3000);
 })
 
-test.only("IFRAME3", async({page})=>{
+test("IFRAME3", async({page})=>{
 
     await page.goto("https://demo.automationtesting.in/Frames.html");
 

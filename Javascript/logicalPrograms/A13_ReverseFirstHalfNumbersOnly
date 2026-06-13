@@ -13,7 +13,7 @@ const secondHalf = numStr.substring(half);
 let rev = "";
 for (let i = firstHalf.length - 1; i >= 0; i--) 
 {
-  rev += firstHalf[i];
+  rev = rev + firstHalf[i];
 }
 
 // Join reversed first half with normal second half

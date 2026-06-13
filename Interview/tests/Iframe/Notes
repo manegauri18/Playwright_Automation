@@ -1,0 +1,59 @@
+IFrame: 
+
+1. An iframe (Inline Frame) is an HTML element used to embed another webpage inside the current webpage 
+        In short its webpage inside another page
+2. iframe has a separate DOM context from the main page so we can not directly access it with page.locator(#locator)
+
+IFrame Handling:
+Iframes handled with 2 ways, first is "FrameLocator" and another is frame object i.e page.frame
+
+FrameLocator: 
+frameLocator() is a Playwright method used to locate and interact with elements inside an iframe.
+
+How to handle with FrameLocator:
+1. Locate iframe using frameLocator --- const frame123 = await page.frameLocator("Locator of iframe")
+2. Then locate elements inside it   --- const text  = await frame123.locator(#locator).textContent()
+
+
+Frame Object i.e page.frame:
+It works with only frame properties like frame "name" and frame "url". 
+<iframe id="frame1" src="/rahulshetty/"></iframe>
+const frame = page.frame({ name: "frame1" });  ----get Frame by Name
+const frame = page.frame({ url: /rahulshetty/ }); ---get Frame by URL
+
+
+Difference:
+frameLocator()	                                       frame()
+Uses selectors id/class/xpath                          Uses frame properties i.e name & url            
+Locator based	                                       Frame object based
+page.frameLocator()Returns FrameLocator object         page.frame() Returns a Frame object.
+
+
+Q1: Why is frameLocator preferred over frame()?
+
+Answer:
+frameLocator() provides:
+
+automatic waiting
+cleaner chaining
+better readability
+improved stability
+It is Playwright’s modern recommended approach for iframe handling.
+
+
+==Interview Best Answer==
+
+*frameLocator() is preferred for modern Playwright UI automation because it provides automatic waiting, 
+cleaner syntax, and better stability for iframe interactions.
+*frame() is mainly used for advanced frame-level operations like iterating frames, accessing frame metadata, 
+or handling dynamically identified frames.
+
+
+Q2: What are common iframe issues?
+Timeout Error
+
+Cause:
+Wrong iframe locator
+Element not visible
+Trying from main page
+Strict Mode Violation >> Cause: Multiple matching elements

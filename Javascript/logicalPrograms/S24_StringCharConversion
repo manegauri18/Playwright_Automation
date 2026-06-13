@@ -2,10 +2,10 @@
 
 const input = "hello";
 
-// Convert String to char array
+//String to  array
 const charArray = input.split('');
 console.log("Char Array:", charArray);
 
-// Convert char array back to String
+// array to String
 const convertedBack = charArray.join('');
 console.log("Converted Back to String:", convertedBack);

@@ -1,25 +1,22 @@
-// Program to find the largest and smallest word in a string
+let str = "Java is a powerful programming language";
 
-let inputString = "Java is a powerful programming language";
-
-// Split by spaces
-let words = inputString.split(/\s+/);
+let words = str.split(" ");
 
 let smallest = words[0];
 let largest = words[0];
 
-for (let i = 1; i < words.length; i++) 
+for (let word of words) 
 {
-  if (words[i].length < smallest.length) 
-{
-    smallest = words[i];
-} 
+    if (word.length < smallest.length) 
+    {
+        smallest = word;
+    }
 
-else if (words[i].length > largest.length) 
-{
-    largest = words[i];
-}
+    if (word.length > largest.length) 
+    {
+        largest = word;
+    }
 }
 
-console.log("Smallest word: " + smallest);
-console.log("Largest word: " + largest);
+console.log("Smallest word:", smallest);
+console.log("Largest word:", largest);

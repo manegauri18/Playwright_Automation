@@ -1,0 +1,34 @@
+Total link count:  33
+Forgotten password? :  /recover/initiate/?privacy_mutation_token=eyJ0eXBlIjo1LCJjcmVhdGlvbl90aW1lIjoxNzc5NjA4MjE2fQ%3D%3D&ars=facebook_login
+Create new account :  /reg/?entry_point=login&next=
+मराठी :  #
+हिन्दी :  #
+اردو :  #
+ગુજરાતી :  #
+ಕನ್ನಡ :  #
+ਪੰਜਾਬੀ :  #
+More languages… :  #
+Sign up :  https://www.facebook.com/reg/
+Log in :  https://www.facebook.com/login/
+Messenger :  https://l.facebook.com/l.php?u=https%3A%2F%2Fmessenger.com%2F&h=AUCxGFyAmVM8I12lYvqwtErtGinh5mgcB2yToDRzCkHJQU1Nt4n1cjbUs0BgboZEAwSgW7gWXpjFRegpJIKxBsNUjm8Ylmk--OwJ5iaG0EV1zFDQpwXAID3WjxBG2TRe0XO7o5m5udLLQpTWCZr7PQ
+Facebook Lite :  https://www.facebook.com/lite/
+Video :  https://www.facebook.com/watch/
+Meta Pay :  https://l.facebook.com/l.php?u=https%3A%2F%2Fabout.meta.com%2Ftechnologies%2Fmeta-pay&h=AUCxGFyAmVM8I12lYvqwtErtGinh5mgcB2yToDRzCkHJQU1Nt4n1cjbUs0BgboZEAwSgW7gWXpjFRegpJIKxBsNUjm8Ylmk--OwJ5iaG0EV1zFDQpwXAID3WjxBG2TRe0XO7o5m5udLLQpTWCZr7PQ
+Meta Store :  https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.meta.com%2F&h=AUCxGFyAmVM8I12lYvqwtErtGinh5mgcB2yToDRzCkHJQU1Nt4n1cjbUs0BgboZEAwSgW7gWXpjFRegpJIKxBsNUjm8Ylmk--OwJ5iaG0EV1zFDQpwXAID3WjxBG2TRe0XO7o5m5udLLQpTWCZr7PQ
+Meta Quest :  https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.meta.com%2Fquest%2F&h=AUCxGFyAmVM8I12lYvqwtErtGinh5mgcB2yToDRzCkHJQU1Nt4n1cjbUs0BgboZEAwSgW7gWXpjFRegpJIKxBsNUjm8Ylmk--OwJ5iaG0EV1zFDQpwXAID3WjxBG2TRe0XO7o5m5udLLQpTWCZr7PQ
+Ray-Ban Meta :  https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.meta.com%2Fsmart-glasses%2F&h=AUCxGFyAmVM8I12lYvqwtErtGinh5mgcB2yToDRzCkHJQU1Nt4n1cjbUs0BgboZEAwSgW7gWXpjFRegpJIKxBsNUjm8Ylmk--OwJ5iaG0EV1zFDQpwXAID3WjxBG2TRe0XO7o5m5udLLQpTWCZr7PQ
+Meta AI :  https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.meta.ai%2F&h=AUCxGFyAmVM8I12lYvqwtErtGinh5mgcB2yToDRzCkHJQU1Nt4n1cjbUs0BgboZEAwSgW7gWXpjFRegpJIKxBsNUjm8Ylmk--OwJ5iaG0EV1zFDQpwXAID3WjxBG2TRe0XO7o5m5udLLQpTWCZr7PQ
+Instagram :  https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F&h=AUCxGFyAmVM8I12lYvqwtErtGinh5mgcB2yToDRzCkHJQU1Nt4n1cjbUs0BgboZEAwSgW7gWXpjFRegpJIKxBsNUjm8Ylmk--OwJ5iaG0EV1zFDQpwXAID3WjxBG2TRe0XO7o5m5udLLQpTWCZr7PQ
+Threads :  https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.threads.com%2F&h=AUCxGFyAmVM8I12lYvqwtErtGinh5mgcB2yToDRzCkHJQU1Nt4n1cjbUs0BgboZEAwSgW7gWXpjFRegpJIKxBsNUjm8Ylmk--OwJ5iaG0EV1zFDQpwXAID3WjxBG2TRe0XO7o5m5udLLQpTWCZr7PQ
+Privacy Policy :  https://www.facebook.com/privacy/policy/?entry_point=facebook_page_footer
+Privacy Centre :  https://www.facebook.com/privacy/center/?entry_point=facebook_page_footer
+About :  https://www.facebook.com/about/
+Create ad :  https://www.facebook.com/ad_campaign/landing.php?placement=pflo&campaign_id=402047449186&nav_source=unknown&extra_1=auto
+Create Page :  https://www.facebook.com/pages/create/?ref_type=site_footer
+Developers :  https://developers.facebook.com/?ref=pf
+Careers :  https://www.facebook.com/careers/?ref=pf
+Cookies :  https://www.facebook.com/policies/cookies/
+AdChoices :  https://www.facebook.com/help/568137493302217
+Terms :  https://www.facebook.com/policies?ref=pf
+Help :  https://www.facebook.com/help/?ref=pf
+Contact uploading and non-users :  https://www.facebook.com/help/637205020878504

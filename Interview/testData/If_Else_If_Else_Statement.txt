@@ -1,0 +1,41 @@
+//modified by sagar on 01
+// IF ELSE IF ELSE STATEMENT
+// ======================================================
+// Multiple conditions checked in sequence
+console.log("\n IF ELSE IF ELSE Statement");
+a = 150;
+b = 150;
+//modified by sagar on 02
+if (a > b) { // 150 > 150 → FALSE
+console.log("a is greater than b")
+}
+else if (a === b) { // TRUE
+console.log("a is equal to b")
+}
+else {
+console.log("a is less than b")
+}
+a = 150;
+b = 120;
+if (a > b) { // 150 > 120 → TRUE
+console.log("a is greater than b")
+}
+else if (a === b) {
+console.log("a is equal to b")
+}
+else {
+console.log("a is less than b")
+}
+console.log("PC");
+a = 110
+b = 120
+if (a > b) { // 110 > 120 → FALSE
+console.log("a is greater than b")
+}
+else if (a === b) { // FALSE
+console.log("a is equal to b")
+}
+else { // executes
+console.log("a is less than b")
+}
+// ======================================================

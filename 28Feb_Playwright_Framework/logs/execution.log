@@ -4822,3 +4822,120 @@ Received:   [31m0[39m
 [2026-05-16 00:08:09] [INFO] TEST SUITE COMPLETED
 [2026-05-16 00:08:09] [INFO] Timestamp: 2026-05-15T18:38:09.264Z
 [2026-05-16 00:08:09] [INFO] ====================================
+[2026-05-23 16:15:04] [INFO] ====================================
+[2026-05-23 16:15:04] [INFO] TEST SUITE STARTED
+[2026-05-23 16:15:04] [INFO] Environment: qa
+[2026-05-23 16:15:04] [INFO] Timestamp: 2026-05-23T10:45:04.396Z
+[2026-05-23 16:15:04] [INFO] ====================================
+[2026-05-23 16:15:12] [INFO] ========== TEST START: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-23 16:15:12] [INFO] Browser: 
+[2026-05-23 16:15:13] [INFO] Initialized LoginPage fixture
+[2026-05-23 16:15:13] [INFO] STEP 1: Login with valid credentials
+[2026-05-23 16:15:13] [INFO] Performing login with user: pavanol
+[2026-05-23 16:15:13] [INFO] Clicking Login navigation link
+[2026-05-23 16:15:13] [INFO] Waiting for element: #login2
+[2026-05-23 16:15:13] [INFO] Clicking element: #login2
+[2026-05-23 16:15:15] [INFO] Entering username: pavanol
+[2026-05-23 16:15:15] [INFO] Waiting for element: #loginusername
+[2026-05-23 16:15:15] [INFO] Entering text in: #loginusername
+[2026-05-23 16:15:15] [INFO] Entering password
+[2026-05-23 16:15:15] [INFO] Entering text in: #loginpassword
+[2026-05-23 16:15:15] [INFO] Clicking Login button
+[2026-05-23 16:15:15] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-23 16:15:17] [INFO] STEP 2: Verify user is logged in
+[2026-05-23 16:15:17] [INFO] Waiting for element: #nameofuser
+[2026-05-23 16:15:17] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-23 16:15:17] [INFO] Welcome text: Welcome pavanol
+[2026-05-23 16:15:17] [INFO] STEP 3: Verify welcome text contains username
+[2026-05-23 16:15:17] [INFO] Waiting for element: #nameofuser
+[2026-05-23 16:15:17] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-23 16:15:17] [INFO] ✅ TEST PASSED: TC001 - Valid Login with correct credentials @smoke @login
+[2026-05-23 16:15:17] [INFO] ========== TEST END: TC001 - Valid Login with correct credentials @smoke @login ==========
+[2026-05-23 16:15:18] [INFO] ========== TEST START: TC002 - Invalid Login with wrong credentials @regression @login ==========
+[2026-05-23 16:15:18] [INFO] Browser: 
+[2026-05-23 16:15:18] [INFO] Initialized LoginPage fixture
+[2026-05-23 16:15:18] [INFO] STEP 1: Login with invalid credentials
+[2026-05-23 16:15:18] [INFO] Performing login with user: invaliduser123
+[2026-05-23 16:15:18] [INFO] Clicking Login navigation link
+[2026-05-23 16:15:18] [INFO] Waiting for element: #login2
+[2026-05-23 16:15:18] [INFO] Clicking element: #login2
+[2026-05-23 16:15:19] [INFO] Entering username: invaliduser123
+[2026-05-23 16:15:19] [INFO] Waiting for element: #loginusername
+[2026-05-23 16:15:19] [INFO] Entering text in: #loginusername
+[2026-05-23 16:15:19] [INFO] Entering password
+[2026-05-23 16:15:19] [INFO] Entering text in: #loginpassword
+[2026-05-23 16:15:19] [INFO] Clicking Login button
+[2026-05-23 16:15:19] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-23 16:15:22] [INFO] STEP 2: Verify user is NOT logged in
+[2026-05-23 16:15:24] [INFO] Waiting for element: #nameofuser
+[2026-05-23 16:15:29] [INFO] ✅ TEST PASSED: TC002 - Invalid Login with wrong credentials @regression @login
+[2026-05-23 16:15:29] [INFO] ========== TEST END: TC002 - Invalid Login with wrong credentials @regression @login ==========
+[2026-05-23 16:15:29] [INFO] ========== TEST START: TC003 - Login with blank username @regression @login ==========
+[2026-05-23 16:15:29] [INFO] Browser: 
+[2026-05-23 16:15:30] [INFO] Initialized LoginPage fixture
+[2026-05-23 16:15:30] [INFO] STEP 1: Login with blank username
+[2026-05-23 16:15:30] [INFO] Performing login with user: 
+[2026-05-23 16:15:30] [INFO] Clicking Login navigation link
+[2026-05-23 16:15:30] [INFO] Waiting for element: #login2
+[2026-05-23 16:15:30] [INFO] Clicking element: #login2
+[2026-05-23 16:15:31] [INFO] Entering username: 
+[2026-05-23 16:15:31] [INFO] Waiting for element: #loginusername
+[2026-05-23 16:15:31] [INFO] Entering text in: #loginusername
+[2026-05-23 16:15:31] [INFO] Entering password
+[2026-05-23 16:15:31] [INFO] Entering text in: #loginpassword
+[2026-05-23 16:15:31] [INFO] Clicking Login button
+[2026-05-23 16:15:31] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-23 16:15:33] [INFO] STEP 2: Verify user is NOT logged in
+[2026-05-23 16:15:35] [INFO] Waiting for element: #nameofuser
+[2026-05-23 16:15:40] [INFO] ✅ TEST PASSED: TC003 - Login with blank username @regression @login
+[2026-05-23 16:15:41] [INFO] ========== TEST END: TC003 - Login with blank username @regression @login ==========
+[2026-05-23 16:15:41] [INFO] ========== TEST START: TC004 - Login with blank password @regression @login ==========
+[2026-05-23 16:15:41] [INFO] Browser: 
+[2026-05-23 16:15:42] [INFO] Initialized LoginPage fixture
+[2026-05-23 16:15:42] [INFO] STEP 1: Login with blank password
+[2026-05-23 16:15:42] [INFO] Performing login with user: pavanol
+[2026-05-23 16:15:42] [INFO] Clicking Login navigation link
+[2026-05-23 16:15:42] [INFO] Waiting for element: #login2
+[2026-05-23 16:15:42] [INFO] Clicking element: #login2
+[2026-05-23 16:15:43] [INFO] Entering username: pavanol
+[2026-05-23 16:15:43] [INFO] Waiting for element: #loginusername
+[2026-05-23 16:15:43] [INFO] Entering text in: #loginusername
+[2026-05-23 16:15:43] [INFO] Entering password
+[2026-05-23 16:15:43] [INFO] Entering text in: #loginpassword
+[2026-05-23 16:15:43] [INFO] Clicking Login button
+[2026-05-23 16:15:43] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-23 16:15:45] [INFO] STEP 2: Verify user is NOT logged in
+[2026-05-23 16:15:47] [INFO] Waiting for element: #nameofuser
+[2026-05-23 16:15:52] [INFO] ✅ TEST PASSED: TC004 - Login with blank password @regression @login
+[2026-05-23 16:15:53] [INFO] ========== TEST END: TC004 - Login with blank password @regression @login ==========
+[2026-05-23 16:15:53] [INFO] ========== TEST START: TC005 - Logout after successful login @smoke @login ==========
+[2026-05-23 16:15:53] [INFO] Browser: 
+[2026-05-23 16:15:54] [INFO] Initialized LoginPage fixture
+[2026-05-23 16:15:54] [INFO] STEP 1: Login with valid credentials
+[2026-05-23 16:15:54] [INFO] Performing login with user: pavanol
+[2026-05-23 16:15:54] [INFO] Clicking Login navigation link
+[2026-05-23 16:15:54] [INFO] Waiting for element: #login2
+[2026-05-23 16:15:54] [INFO] Clicking element: #login2
+[2026-05-23 16:15:55] [INFO] Entering username: pavanol
+[2026-05-23 16:15:55] [INFO] Waiting for element: #loginusername
+[2026-05-23 16:15:55] [INFO] Entering text in: #loginusername
+[2026-05-23 16:15:55] [INFO] Entering password
+[2026-05-23 16:15:55] [INFO] Entering text in: #loginpassword
+[2026-05-23 16:15:55] [INFO] Clicking Login button
+[2026-05-23 16:15:55] [INFO] Clicking element: button[onclick='logIn()']
+[2026-05-23 16:15:57] [INFO] STEP 2: Verify user is logged in
+[2026-05-23 16:15:57] [INFO] Waiting for element: #nameofuser
+[2026-05-23 16:15:57] [INFO] Got text from #nameofuser: Welcome pavanol
+[2026-05-23 16:15:57] [INFO] Welcome text: Welcome pavanol
+[2026-05-23 16:15:57] [INFO] STEP 3: Perform logout
+[2026-05-23 16:15:57] [INFO] Performing logout
+[2026-05-23 16:15:57] [INFO] Waiting for element: #logout2
+[2026-05-23 16:15:57] [INFO] Clicking element: #logout2
+[2026-05-23 16:15:58] [INFO] STEP 4: Verify Login nav is visible after logout
+[2026-05-23 16:15:59] [INFO] Element #login2 visible: true
+[2026-05-23 16:15:59] [INFO] ✅ TEST PASSED: TC005 - Logout after successful login @smoke @login
+[2026-05-23 16:15:59] [INFO] ========== TEST END: TC005 - Logout after successful login @smoke @login ==========
+[2026-05-23 16:16:00] [INFO] ====================================
+[2026-05-23 16:16:00] [INFO] TEST SUITE COMPLETED
+[2026-05-23 16:16:00] [INFO] Timestamp: 2026-05-23T10:46:00.050Z
+[2026-05-23 16:16:00] [INFO] ====================================
