@@ -9,7 +9,11 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@playwright/test": "^1.59.1",
-    "@types/node": "^25.6.0"
+    "@types/node": "^25.6.0",
+    "allure-playwright": "^3.9.0",
+    "eslint": "^10.4.1",
+    "globals": "^17.6.0"
   }
 }
