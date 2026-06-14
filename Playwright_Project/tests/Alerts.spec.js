@@ -126,7 +126,7 @@ test("Handle Permission Popup", async ({ browser }) => {
 - Use URL OR httpCredentials
 */
 
-test.only("Handle Authentication Popup", async ({ page }) => {
+test("Handle Authentication Popup", async ({ page }) => {
 
     await page.goto("https://admin:admin@the-internet.herokuapp.com/basic_auth");
 
