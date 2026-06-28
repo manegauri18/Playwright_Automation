@@ -33,6 +33,8 @@ const tab = page.locator("//input[@name='name']").nth(0);
 
 await tab.fill("sagar");
 
+await page.waitForTimeout(2000);
+
 await page.locator("//input[@name='name']").nth(0).press('Control+A');
 
 await page.locator("//input[@name='name']").nth(0).press('Control+C');

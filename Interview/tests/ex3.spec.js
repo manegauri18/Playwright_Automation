@@ -1,19 +1,20 @@
 
-import { test, expect } from "@playwright/test";
+import {test, chromium} from "@playwright/test";
 
-test("Validate tab header", async ({ page }) => {
 
-    await page.goto("https://www.google.com/");
-    await page.waitForTimeout(2000);
+test('Launching browser', async()=>{
 
-    let Title = await page.title();
-    console.log("Tab header name is: ", Title);
-      await page.waitForTimeout(2000);
+    const browser= await chromium.launch({headless: false});
 
-    await page.goto("https://omayo.blogspot.com/");
-    await page.goBack();
-    await page.waitForTimeout(2000);
+    // const context = await browser.newContext();
 
-    await page.reload();
-});
+    // const page= await context.newPage();
 
+
+    // await page.goto("https://www.google.com/");
+
+   
+
+    await browser.close();
+    
+})

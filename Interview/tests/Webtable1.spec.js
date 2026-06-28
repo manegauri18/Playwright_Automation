@@ -30,6 +30,7 @@ test('Count Rows and columns', async ({ page }) => {
     await selectProduct(rows, page, 'Laptop');
 
     await page.waitForTimeout(5000);
+    
 
     //5. Print all data in table from page1 using loop
 

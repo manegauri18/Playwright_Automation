@@ -5,6 +5,8 @@ test("Alert Hnadling", async ({ page }) => {
 
     await page.goto("https://the-internet.herokuapp.com/javascript_alerts");
 
+    await page.pause()
+
     page.on("dialog", async dialog => {
 
         const dialogtext = dialog.message();
@@ -62,6 +64,8 @@ test("Handle JavaScript Prompt", async ({ page }) => {
 
     await expect(page.locator("#result"))
         .toContainText("Playwright Testing");
+
+       console.log(`Timestamp: ${new Date().toISOString()}`);
 });
 
 
